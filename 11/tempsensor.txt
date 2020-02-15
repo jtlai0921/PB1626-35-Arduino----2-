@@ -1,0 +1,92 @@
+#include "U8glib.h";
+
+U8GLIB_ST7920_128X64 u8g(3, 9, 8, U8G_PIN_NONE);                  // SPI Com: SCK = en =3, MOSI = rw = 9, CS = di = 8
+int potPin = 5;
+int j=0;
+int now;
+int now1;
+int dx=100;
+int dy=6;
+int num=0;
+float temperature = 0;
+long val=0;
+long myIntsY[100];
+char displayStr[5];
+
+void setup(void) {
+  // flip screen, if required
+  //u8g.setRot180();
+  // assign default color value
+  Serial.begin(9600);
+  u8g.setColorIndex(1);         // pixel on
+  for(int i=0;i<100;i++){
+    myIntsY[i]=99; //blank to display
+  }
+}
+void loop(void) {
+  now=int(millis()/1000.0);
+  if(now!=now1){
+    // picture loop
+   // u8g.setContrast(contrast);
+    u8g.firstPage();  
+    do {
+      draw();
+    } 
+    while( u8g.nextPage() );
+    // rebuild the picture after some delay
+  }
+  now1=now;
+  delay(150);
+  // contrast manipulation
+//  contrast+=8;
+}
+void draw(void) {
+  u8g.setFont(u8g_font_04b_03b);
+  //building X Y map start
+  u8g.drawStr(30,6,"Temperature");
+  u8g.drawPixel(118,1);//dot front C  
+  u8g.drawStr(120,6,"C");//display C
+  u8g.drawStr(0,10,"50"); 
+  u8g.drawStr(0,35,"25");
+  u8g.drawStr(0,60,"0");
+  u8g.drawVLine(12,1,63); //Y line
+  u8g.drawVLine(23,62,2); //X cale
+  u8g.drawVLine(33,62,2);
+  u8g.drawVLine(43,62,2);
+  u8g.drawVLine(53,62,2);
+  u8g.drawVLine(63,62,2);
+  u8g.drawVLine(73,62,2);
+  u8g.drawVLine(83,62,2);
+  u8g.drawVLine(93,62,2);
+  u8g.drawVLine(103,62,2);
+  u8g.drawVLine(113,62,2);
+  u8g.drawHLine(10,61,115);//X line
+  u8g.drawHLine(10,36,2);//Y cale
+  u8g.drawHLine(10,11,2);
+  u8g.drawHLine(11,2,3); //Y arrow
+  u8g.drawHLine(10,3,5);
+  u8g.drawVLine(122,59,5);//X arrow 
+  u8g.drawVLine(123,60,3);
+  //building X Y map end
+  //temperature test
+  val=analogRead(potPin);//read the temperature form the pin
+  temperature = val*0.0009765625*1000/2; //math the number
+  dtostrf(temperature, 4, 2, displayStr);
+  //u8g.setFont(u8g_font_04b_03);
+  u8g.drawStr(95,6,displayStr);
+  if(j>=99){
+    j=99;  //if full data then display to the last line
+  }
+  myIntsY[j]=temperature;
+  for(int i=0;i<j;i++){
+    myIntsY[i]= myIntsY[i+1];//data catch
+  }
+  for(int k=0;k<j;k++){
+    int x=k+14;
+    int y=61-myIntsY[k];
+    u8g.drawPixel(x,y);//display data,the number are X Y adjuest number
+  }
+  j++;
+  //  u8g.drawPixel(14,59);//adjust min
+  //  u8g.drawPixel(114,9);//adjust max  
+}

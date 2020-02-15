@@ -1,0 +1,344 @@
+
+
+// 標頭檔:
+#include <MsTimer2.h>        //timer2
+#include <LiquidCrystal.h>   //lcd1602
+#include <OneWire.h>         //ds18b20
+
+OneWire ds(8);               //18b20資料腳DQ連線到pin8
+
+byte ledPin =  13;           //  LED 接pin
+byte S2_key =12;             //S2按鍵 pin12
+byte S1_key =10;             //S1按鍵 pin10
+byte SW2=7;                  //SW2    pin7
+// 變數:
+byte ledState = LOW;         //  LED
+byte key_state=0;            // 按鍵狀態
+byte S2_counter=0;           //S2按鍵計數
+
+byte h_data=0;               //時
+byte m_data=0;               //分
+byte s_data=0;               //秒
+
+byte mode=0;                 //mode :0 走時 1:調校
+int timer_int_mark=0;        //timer2 中斷標示
+
+byte addr[3][8];             //陣列儲存3個18b20的序號
+byte t_test=0;               //測溫計時
+LiquidCrystal Lcd(11, 9, 5, 4, 3, 2);//lcd接腳連線
+
+// 起始設定
+void setup() {
+    
+  pinMode(ledPin, OUTPUT); //  pin13輸出:
+  pinMode(S2_key,INPUT);   //  pin12輸入
+  pinMode(S1_key,INPUT);   //  pin10輸入
+  pinMode(SW2,INPUT);  
+  
+  Lcd.begin(16, 2);         // LCD16列2行:
+  
+  Lcd.print("k:       m:     ");// LCD顯示
+  Lcd.setCursor(2,1);           //LCD顯示定位
+  Lcd.print(":  '   n:");       //LCD顯示
+  ds.search(addr[0]);           //搜尋18B20
+  ds.search(addr[1]);           //搜尋下一個
+  ds.search(addr[2]);           //搜尋下一個    MsTimer2::set(1000, Counter_sec); //timer2  1000ms 中斷週期，中斷呼叫函數Counter_sec
+  MsTimer2::start();                //timer2 啟動                 
+}
+
+void loop() 
+{
+
+   if(!mode)                         //模式0，走時
+     {
+        if(timer_int_mark)           //1秒中斷
+          {
+             timer_int_mark=0;       //清中斷標示
+             if(!s_data)             //0 秒 
+               {
+                  Lcd.setCursor(7,1); //消除LCD的秒十位元顯示
+                  Lcd.print(' ');
+                  if(!m_data)         //0分
+                    {
+                       Lcd.setCursor(4,1);//消除LCD的分十位元顯示
+                       Lcd.print(' '); 
+                       if(!h_data)        //0時
+                         {
+                            Lcd.setCursor(1,1);//消除LCD的時十位元顯示
+                            Lcd.print(' '); 
+                         } 
+                       Lcd.setCursor(0,1);
+                       Lcd.print(h_data,DEC);   //顯示小時
+                    }
+                  Lcd.setCursor(3,1);
+                  Lcd.print(m_data,DEC);        //顯示分
+               }
+             Lcd.setCursor(6,1);
+             Lcd.print(s_data,DEC);             //顯示秒
+             ledState=!ledState;                //LED反相
+             digitalWrite(ledPin, ledState);  
+          } 
+        if(LOW==digitalRead(S2_key))            //S2有按下
+          {
+ 
+                mode=1;                         //轉為調校模式
+                MsTimer2::stop();                //停止計時
+                Lcd.setCursor(0,1);              //LCD顯示游標
+                Lcd.cursor(); 
+     
+           }
+     }
+    else                                         //調校模式
+    {
+    switch(key_state)                            //按鍵狀態
+          {
+            case 0:                              //無鍵為狀態0
+            if((LOW==digitalRead(S2_key))||(LOW==digitalRead(S1_key)))
+               key_state=1;                      //有鍵轉為狀態1
+            break;
+            case 1:                              //狀態1
+            if((LOW==digitalRead(S2_key))||(LOW==digitalRead(S1_key)))//確認有鍵
+               {           
+                if(LOW==digitalRead(S2_key))     //狀態1按S2鍵
+                {
+                S2_counter++;                    //S2按鍵計數增
+                switch(S2_counter)               //由S2按鍵計數控制游標位置
+                      {
+                        case 0:
+                        break;
+                        case 1:
+                        Lcd.setCursor(0,1);
+			Lcd.cursor();
+                        break;
+                        case 2:
+                        Lcd.setCursor(3,1);
+			Lcd.cursor();
+                        break;
+                        case 3:
+                        Lcd.setCursor(6,1);
+			Lcd.cursor();
+                        break;
+                        default:
+                        break;
+                       } 
+                 }
+               if(LOW==digitalRead(S1_key))        //狀態1按S1鍵
+               {
+                 switch(S2_counter)                //由S2按鍵計數決定調校目的
+                 {
+                   case 0:
+                   break;
+                   case 1:                         //S2已按1次S1遞增調時 
+                   h_data++;
+                   if(h_data>23)
+			h_data=0;
+			Lcd.setCursor(1,1);       //lcd對應顯示
+			Lcd.print(' ');
+			Lcd.setCursor(0,1);
+			Lcd.print(h_data,DEC);
+                   break;
+                   case 2:                         //S2已按二次S1遞增調分
+                   m_data++;
+                   if(m_data>59)
+			m_data=0;
+			Lcd.setCursor(4,1);        //lcd對應顯示
+			Lcd.print(' ');
+			Lcd.setCursor(3,1);
+			Lcd.print(m_data,DEC);
+                   break;
+                   case 3:                         //S2已按3次S1遞增調秒
+                   s_data++;
+                   if(s_data>59)
+			s_data=0;
+			Lcd.setCursor(7,1);        //lcd對應顯示
+			Lcd.print(' ');
+			Lcd.setCursor(6,1);
+			Lcd.print(s_data,DEC);
+                   break;
+                   default:
+                   break;
+                   }
+                }
+             key_state=2;                           //轉入狀態2
+            }  
+            else                                    //無鍵回到狀態0
+            key_state=0; 
+            break;
+            case 2:                                 //狀態2
+            if( (HIGH==digitalRead(S2_key))&&(HIGH==digitalRead(S1_key)))//S1S2均釋放
+              {
+              
+              if(S2_counter>3)                       //S2已按4次回到走時模式                                          
+                { 
+		  S2_counter=0;                      //S2按鍵計數回0
+		  mode=0;                            //模式切換
+		  MsTimer2::start();                 //timer2啟動
+                  Lcd.noCursor();                    //游標熄滅
+                }
+               key_state=0;                          //按鍵狀態傳回0：無鍵
+               }
+            break;
+          }
+ 
+  }
+}
+void Counter_sec()                                  //秒中斷處理
+{   
+//以下變數用於測溫結果：由高位元群組HighByte和低位元群組LowByte群組合為字temp
+ byte LowByte1;                                    
+ byte HighByte1;
+ byte LowByte0;
+ byte HighByte0; 
+ byte LowByte2;
+ byte HighByte2; 
+ int temp=0;
+ 
+ 
+      timer_int_mark=1;        //1秒中斷標示用於計時    
+      s_data++;                //中斷導致秒自動增加
+      if(s_data>59)            //60秒，秒為0，分自動增加
+        {s_data=0;
+         m_data++;
+         if(m_data>59)         //60分，分為0，時自動增加
+           {
+             m_data=0;
+             h_data++;
+             if(h_data>23)      //24時為0時
+             h_data=0;
+           }
+        }
+  //以下為測溫      
+  if(LOW==digitalRead(SW2))      //SW2低是3線模式
+  {  
+   
+    if(t_test>3)                 //3秒測溫一次
+    t_test=0;
+      t_test++;
+      if(t_test==2)              //第2秒
+      {
+      ds.reset();                 //18b20重設
+        ds.select(addr[0]);       //選第一個元件
+        ds.write(0x44);           //發轉換指令：測溫
+        ds.reset();               //18b20重設
+        ds.select(addr[1]);       //選第二個元件
+        ds.write(0x44);           //發轉換指令
+        ds.reset();               //18b20重設
+        ds.select(addr[2]);       //選第三個元件
+        ds.write(0x44,1);         //發轉換指令
+ 
+      }
+      if( t_test==3)              //第3秒
+      {
+       t_test=0;
+
+       ds.reset();                 //18b20重設
+       //ds.skip();                //only 118b20
+       ds.select(addr[0]);         //選第一個元件
+       ds.write(0xbe);             //讀轉換結果
+       LowByte0 =ds.read();        //先讀低位元群組
+       HighByte0=ds.read();        //再讀高位元群組
+
+       ds.reset();                 //18b20重設              
+       ds.select(addr[1]);         //選第二個元件
+       ds.write(0xbe);             //讀轉換結果
+       LowByte1 =ds.read();        //先讀低位元群組
+       HighByte1=ds.read();        //再讀高位元群組
+
+       ds.reset();                 //18b20重設              
+       ds.select(addr[2]);         //選第三個元件
+       ds.write(0xbe);             //讀轉換結果
+       LowByte1 =ds.read();        //先讀低位元群組
+       HighByte1=ds.read();        //再讀高位元群組
+
+        temp=tempConv(HighByte0,LowByte0);  //用函數轉換測溫的補數結果
+        lcdDisptemp(temp,10,0 );            //LCD顯示結果
+        temp2=tempConv(HighByte1,LowByte1);  //第二個同上
+        lcdDisptemp(temp,10,1 );
+        temp=tempConv(HighByte2,LowByte2);   //第三個同上 
+        lcdDisptemp(temp,1,0 );
+      }
+    
+  }
+ 
+ else                                     //2線模式
+   {   
+    t_test++;
+    switch(t_test)                        //測溫週期，按秒
+      {
+      case 0:
+      break;
+      case 1:                               //週期1
+     
+      ds.reset();                           //18b20重設  
+      ds.select(addr[0]);                   //選第一個元件
+      ds.write(0xbe);                       //讀轉換結果
+       LowByte0 =ds.read();                 //先讀低位元群組
+       HighByte0=ds.read();                 //再讀高位元群組
+
+      ds.reset();                           //18b20重設
+      ds.select(addr[1]);//3wires 1st       //選第二個元件
+      ds.write(0x44,1);                     //啟動測溫轉換
+
+      temp=tempConv(HighByte0,LowByte0);    //用函數轉換測溫的補數結果，元件1
+      lcdDisptemp(temp,10,1 );              //LCD顯示結果
+      break;
+
+      case 2:                               //週期2
+      ds.reset();                           //同上
+      ds.select(addr[1]);
+      ds.write(0xbe); 
+      LowByte1 =ds.read();
+      HighByte1=ds.read();
+
+      ds.reset();
+      ds.select(addr[2]);//3wires 2nd
+      ds.write(0x44,1);
+
+      temp=tempConv(HighByte1,LowByte1);
+      lcdDisptemp(temp,10,1 );
+      break;
+
+      case 3:                                //週期3
+      ds.reset();                            //同上
+      ds.select(addr[2]);
+      ds.write(0xbe); 
+      LowByte2 =ds.read();
+      HighByte2=ds.read();
+
+      ds.reset();
+      ds.select(addr[0]);//3wires 1st
+      ds.write(0x44,1);
+
+      temp=tempConv(HighByte2,LowByte2);
+      lcdDisptemp(temp,1,0 );
+ 
+      t_test=0;     
+      break;
+      }
+   }
+ }
+ int tempConv(byte hi,byte lo){           //測溫結果轉換參數為高位元群組和低位元群組
+   int temp=0;
+   temp=(int)hi<<8|lo;
+   if(temp&0x8000)
+   {temp=~temp+1;temp+=0x8000;}           //取補數後若原為負值最高位設1
+   return temp;
+  }
+ /* lcd顯示最後測溫結果，參數是溫度，lcd列x lcd行y */
+
+ void lcdDisptemp(int temp,byte x,byte y ){
+       Lcd.setCursor(x,y); 
+       if(!(temp&0x8000))                   //最高位元為0是正溫度值
+        Lcd.print( ':');                    //lcd顯示：
+        else                                //最高位元是1為負溫度值
+        {temp&=0x7fff;                      //去除最高位
+	Lcd.print( '-');}                   //lcd顯示-
+        temp*=6.25;                         //結果乘6.25
+        if(temp/100<100)                    //10度以下lcd顯示位置
+        Lcd.setCursor(x+1,y);               //10度以上lcd顯示位置
+        else
+        Lcd.setCursor(x,y);                 //temp>100
+        Lcd.print( temp/100,DEC);           //整數部分此顯示
+        Lcd.print('.');                     //小數點
+        Lcd.print( temp%100,DEC);           //小數部分顯示
+ }

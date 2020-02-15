@@ -1,0 +1,141 @@
+/*
+  Web  Server
+ 
+ A simple web server that shows the value of the analog input pins.
+ using an Arduino Wiznet Ethernet shield. 
+ 
+ Circuit:
+ * Ethernet shield attached to pins 10, 11, 12, 13
+ * Analog inputs attached to pins A0 through A5 (optional)
+ 
+ created 18 Dec 2009
+ by David A. Mellis
+ modified 4 Sep 2010
+ by Tom Igoe
+ 
+ */
+///////////////////////////////netServer.pde//////////////////////////
+#include <SPI.h>             //必要的包括檔案
+#include <Ethernet.h>        //
+#include <OneWire.h>         //用於DS18B20
+#include <MsTimer2.h>        //計時器TC2
+OneWire ds(7);               //DS18B20資料接腳接pin7
+byte ledPin = 6;             //pin6接一個LED
+byte ledState = LOW;         //LED滅
+// Enter a MAC address and IP address for your controller below.
+// The IP address will be dependent on your local network:
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED }; //mac位址
+
+byte ip[] = { 192,168,0, 177 };                      //本機IP位址
+//byte gatewey[]={192.168.0.1};                      //閘道，可不用	
+byte subnet[]={ 255, 255, 255, 0 };                  //子網路隱藏
+// Initialize the Ethernet server library
+// with the IP address and port you want to use 
+// (port 80 is default for HTTP):
+Server server(80);                                  //伺服器通信埠
+int timer_int_mark=0;                               //timer 中斷標示
+byte t_test=0;                                      //測溫時間
+byte dsLowByte=0;                                   //測溫低位元群組
+byte dsHighByte=0;                                  //測溫高位元群組
+int t;
+
+void Counter_sec(){                                 //定時中斷服務程式：計秒0-2，改變LED狀態
+ t_test++;
+ if(t_test>2) 
+ t_test=0; 
+ ledState=!ledState;
+ digitalWrite(ledPin, ledState);
+ timer_int_mark=1;
+}  
+void setup()                                       //setup段
+{
+  pinMode(ledPin, OUTPUT);                         //led設定
+  // start the Ethernet connection and the server:
+ // pinMode(ledPin, OUTPUT);
+  Ethernet.begin(mac, ip,gateway,subnet);          //啟動網路連線
+  server.begin();                                  //啟動服務
+  MsTimer2::set(1000, Counter_sec);                //1000ms 定時
+  MsTimer2::start();                               //啟動計時器
+}
+ int tempConv(byte hi,byte lo){                    //測溫轉換最高位若為1是負值，要計算補數
+   int temp=0;
+   temp=(int)hi<<8|lo;
+   if(temp&0x8000)
+   {temp=~temp+1;temp+=0x8000;}
+   return temp;
+   
+ }
+
+void loop()                                         //主循環
+{
+  
+  if((t_test==1)&&(timer_int_mark))                //計時器中斷規定測溫時間到
+  {
+    timer_int_mark=0;                              //清中斷標示
+    ds.reset();                                    //18B20重設
+    ds.skip();                                     //略過搜尋
+    ds.write(0x44);                                //啟動測溫
+   }
+  if((t_test==2)&&(timer_int_mark))                //到達讀取時間
+  {timer_int_mark=0;
+    ds.reset();                                    //18b20重設
+    ds.skip();                                     //略過搜尋
+    ds.write(0xbe);                                //讀測溫結果
+    dsLowByte =ds.read();                          //低位元群組
+    dsHighByte=ds.read();                          //高位元群組
+    ds.reset();                                    //重設
+  t=tempConv(dsHighByte,dsLowByte);                //計算溫度
+  t=t*6.25;
+    }  
+  // listen for incoming clients                   //監聽使用者端
+  Client client = server.available();
+  if (client) {                                    //若果使用者端請求 ：傳送字元後確認新行
+    // an http request ends with a blank line
+    boolean currentLineIsBlank = true;
+    while (client.connected()) {
+      if (client.available()) {
+        char c = client.read();
+        // if you've gotten to the end of the line (received a newline
+        // character) and the line is blank, the http request has ended,
+        // so you can send a reply
+        if (c == '\n' && currentLineIsBlank) {
+          // send a standard http response header
+         server.println("HTTP/1.1200 OK");            //伺服器列出對應，（這些字元不顯示）
+         server.println("Content-Type: text/html");
+         server.println();
+
+          // 以下由伺服器在web頁顯示，使用部分HTML標示
+  
+          server.print("<b>-------------H e l l o !-------------  ");
+          server.print("<br />");
+          server.print("===ATMEGA8==ARDUINO===");
+          server.print("<br />");
+          server.print("---TEMPERATURE--miniSERVER---");
+          server.print("<br />");
+          server.print("---Temprature is :");
+          server.print(t/100,DEC);
+          server.print(".");
+          server.print(t%100,DEC);
+          server.print(" C---");
+          server.println("<br />");
+           server.print("---LED input A0 is  "); //以上顯示文字和溫度，以下顯示環境光線關聯值
+            server.print(analogRead(A0));
+            server.println("<br /></b>");         
+          break;
+        }
+        if (c == '\n') {
+          // you're starting a new line
+          currentLineIsBlank = true;
+        } 
+        else if (c != '\r') {
+          // you've gotten a character on the current line
+          currentLineIsBlank = false;
+        }
+      }
+    }
+    // give the web browser time to receive the data
+    delay(1);
+    // close the connection:
+    client.stop();
+  }
+}

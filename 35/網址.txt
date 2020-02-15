@@ -1,0 +1,3 @@
+http://wiki.microduino.net/wiki/Room-Microduino
+http://www.geek-workshop.com/forum.php?mod=viewthread&tid=4873
+https://github.com/wasdpkj/Roomduino

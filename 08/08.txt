@@ -1,0 +1,232 @@
+// DS1302_LCD (C)2010 Henning Karlsen
+// web: http://www.henningkarlsen.com/electronics
+//
+// 
+//
+// DS1302和LCD1602 接腳對應I/O板pin：
+// DS1302:  CE pin    -> Arduino Digital 8
+//          I/O pin   -> Arduino Digital 7
+//          SCLK pin  -> Arduino Digital 6
+// LCD:     DB7       -> Arduino Digital 2
+//          DB6       -> Arduino Digital 3
+//          DB5       -> Arduino Digital 4
+//          DB4       -> Arduino Digital 5
+//          E         -> Arduino Digital 9
+//          RS        -> Arduino Digital 11
+
+#include <LiquidCrystal.h>
+#include <DS1302.h>  DS1302 rtc(8, 7, 6);// Init the DS1302
+LiquidCrystal lcd(11, 9, 5, 4, 3, 2);// Init the LCD
+
+int led_pin = 13;    //LED接腳pin13
+int ledState = LOW;  
+int S2_key = 10;     //S2 接腳pin10
+int S1_key = 12;     //S1 接腳pin12
+int key_state=0;     //按鍵狀態：0未按
+int mode=0;          //時脈狀態mode :0 查鍵顯示 1:調校
+int S2_key_counter=0;//S2按鍵計數，大於7回到查鍵顯示狀態
+
+byte tmp=0;
+Time setval;         //時間日期設定值，Time型態
+
+void setup()         //設定
+{
+  pinMode(S2_key,INPUT);//S2 S1對應接腳為輸入
+  pinMode(S1_key,INPUT); 
+  pinMode(led_pin,OUTPUT);//LED接腳13為輸出
+  
+  lcd.begin(16, 2);       //  LCD 為16字2行
+ 
+  rtc.halt(false);        //啟動DS1392
+  rtc.writeProtect(true); //DS1302防止寫
+  rtc.setTCR(TCR_D1R2K);  //DS1302後備電池充電設定
+  lcd.setCursor(0, 0);    //狀態顯示
+  lcd.print("NOW");
+}
+
+void loop()                //主循環
+{
+  
+  if(!mode)                //mode為0是查鍵顯示循環
+  {
+    delay(100);            //每0.1秒查S2鍵
+    if(LOW==digitalRead(S2_key)) //如S2鍵按下
+    {
+      delay(50);                  //延遲時間50毫秒再查
+      if(LOW==digitalRead(S2_key)) //確認S2按下
+      {
+        mode=1;                   //下次循環進入調校模式
+        rtc.writeProtect(false);  //解除1392防寫
+        lcd.setCursor(0,0);       //LCD顯示進入調校狀態
+        lcd.print("Set" );
+        lcd.setCursor(0,1);
+        lcd.print("D  ");                	      
+      }
+    }
+    tmp++;                       //循環計數遞增
+    if(tmp>=10)                  //S2無鍵循環計數10次：每秒更新時間日期顯示
+    { 
+      lcd.setCursor(4, 0);       //LCD上行顯示時間字串
+      lcd.print(rtc.getTimeStr());
+      lcd.setCursor(12, 0);
+      lcd.print("    ");
+      lcd.setCursor(0, 1);
+      lcd.print(rtc.getDOWStr(FORMAT_SHORT));//LCD下行顯示周日簡寫
+      lcd.setCursor(4, 1);
+      lcd.print(rtc.getDateStr(FORMAT_LONG,FORMAT_MIDDLEENDIAN,'/'));//顯示日期字串，格式
+      lcd.noCursor();                                                //取消游標（調校時加入的）
+	//setval=rtc.getTime();                                       //目前值指定設定值，注意M8空間小不可用，M168可用
+      ledState=!ledState;                                             //LED閃
+      digitalWrite(led_pin, ledState);           
+      tmp=0;         //計數回0
+    }
+
+  }
+  else
+  {                   //調校狀態
+  
+	switch(key_state)   //按鍵處理
+	{
+	case 0:
+      	if((LOW==digitalRead(S2_key))||(LOW==digitalRead(S1_key)))
+        	key_state=1;     
+	break;
+	case 1:
+      	if((LOW==digitalRead(S2_key))||(LOW==digitalRead(S1_key)))
+		{
+        	if(LOW==digitalRead(S2_key))  //S2鍵低
+			{
+			S2_key_counter++;      //按鍵計數遞增
+			switch (S2_key_counter)//以下由按鍵次數確定游標位置
+			{case 0:
+			break;
+			case 1:
+			lcd.setCursor(1,1);
+			lcd.cursor();
+			break;
+			case 2:
+			lcd.setCursor(4,1);
+			lcd.cursor();
+			break;
+			case 3:
+			lcd.setCursor(7,1);
+			lcd.cursor();
+			break;
+			case 4:
+			lcd.setCursor(12,1);
+			lcd.cursor();
+			break;
+			case 5:
+			lcd.setCursor(4,0);
+			lcd.cursor();
+			break;
+			case 6:
+			lcd.setCursor(7,0);
+			lcd.cursor();
+			break;
+			case 7:
+			lcd.setCursor(10,0);
+			lcd.cursor();
+			break;
+			default:
+                     break;
+			 }
+			}
+		if(LOW==digitalRead(S1_key))  //S1鍵低
+			{
+			switch(S2_key_counter) //按照S2鍵計數來確定S1鍵的設定值：設定值
+			{case 0:
+			break;                 //
+			case 1:                //周日設定值：1-7
+			setval.dow++;
+			if(setval.dow>7)
+			setval.dow=1;
+			lcd.setCursor(1,1);
+			lcd.print("  ");
+			lcd.setCursor(1,1);    //LCD顯示設定值
+			lcd.print(setval.dow,DEC);
+			break;
+			case 2:                //月份設定
+		        setval.mon++;
+                	if (setval.mon>12)
+                  	setval.mon=1;
+                	lcd.setCursor(4,1);
+                	lcd.print("  ");
+                	lcd.setCursor(4,1);
+                	lcd.print(setval.mon,DEC);
+			break;
+			case 3:                  //日期設定
+      			setval.date++;
+                	if(setval.date>31)
+                  	setval.date=1;
+                	lcd.setCursor(7,1);
+                	lcd.print("  ");
+                	lcd.setCursor(7,1);
+                	lcd.print(setval.date,DEC);
+			break;
+			case 4:                   //年份設定
+                	setval.year++;
+                	if(setval.year>2021)
+                  	setval.year=2011;
+                	lcd.setCursor(10,1);
+                	lcd.print(setval.year,DEC);
+			break;
+			case 5:                    //時
+	              setval.hour++;
+                	if (setval.hour>23)
+                  	setval.hour=0;
+                	lcd.setCursor(4,0);
+                	lcd.print("  ");
+                	lcd.setCursor(4,0);
+                	lcd.print(setval.hour,DEC);
+			break;
+			case 6:                     //分
+               	setval.min++;
+                	if(setval.min>59)
+                  	setval.min=0;
+                	lcd.setCursor(7,0);
+                	lcd.print("  ");
+                	lcd.setCursor(7,0);
+                	lcd.print(setval.min,DEC);
+			break;
+			case 7:                      //秒
+                    setval.sec++;
+               	if(setval.sec>59)
+                  	setval.sec=0;
+                	lcd.setCursor(10,0);
+                	lcd.print("  ");
+                	lcd.setCursor(10,0);
+                	lcd.print(setval.sec,DEC);
+			break;
+			default:
+                     break;
+			 }
+                        }
+               key_state=2;                     //按鍵狀態傳輸
+		}
+	else
+		key_state=0;                      //未確認退回
+	break;
+	case 2:
+      	if( (HIGH==digitalRead(S2_key))&&(HIGH==digitalRead(S2_key)))//按鍵釋放
+		{
+		if(S2_key_counter>7)                                  //S2鍵按7次以上，調校完成
+			{
+          		rtc.setDate(setval.date,setval.mon,setval.year); //各設定值加入1302：日期
+          		rtc.setTime(setval.hour,setval.min,setval.sec);  //時間
+          		rtc.setDOW(setval.dow);                          //周日
+          		mode=0;                                          //清除調校標示，準備回到查鍵顯示循環
+               	rtc.writeProtect(true);                          //1302防寫
+                     S2_key_counter=0;                                //S2鍵計數回0
+  			lcd.setCursor(0, 0);                             //取消游標
+  			lcd.print("NOW");                                
+			}
+	        key_state=0;               //按鍵狀態還原初值
+		}
+
+	break;
+	}
+ delay(100);                              //0.1秒調校循環
+  }
+}
+

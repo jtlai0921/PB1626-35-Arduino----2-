@@ -1,0 +1,96 @@
+
+測試程式：
+void setup() 
+{ 
+  Serial.begin(9600); //啟動串列通信，串列傳輸速率為9600bit/s
+}
+void loop() 
+{
+      int x,y,z;
+      x=analogRead(0); //擷取重力加速度X軸分量的轉換值，輸入到類比通信埠0
+      y=analogRead(1);//擷取重力加速度Y軸分量的轉換值，輸入到類比通信埠1
+      z=analogRead(2);//擷取重力加速度Z軸分量的轉換值，輸入到類比通信埠2
+      //把重力加速度X、Y和Z軸分量的轉換值，上傳到上位機序列埠監視器
+      Serial.print("x= ");
+      Serial.print(x ,DEC);
+      Serial.print(',');
+      Serial.print("y= ");
+      Serial.print(y ,DEC);
+      Serial.print(',');
+      Serial.print("z= ");
+      Serial.println(z ,DEC);
+      delay(800);//延遲時間0.8s，以便有足夠時間觀測各加速度分量值的變化
+}
+
+Arduino主電腦程式：
+void setup()  //起始化
+{ 
+  Serial.begin(9600);//啟動序列埠通信，串列傳輸速率為9600bit/s
+} 
+void loop()  //主程式
+{ 
+  //把MMA7361加速度感應器的重力加速度X、Y、Z軸分量輸出，分別連線
+  //Arduino控制器的類比量端子0、1、2。
+  int xValue = analogRead(0); 
+  int yValue = analogRead(1);
+  int zValue = analogRead(2);  
+  //把繞Y軸旋轉180°的兩個特定位置的xValue值500~175反比轉為角度值0~180
+  //反比換算的目的是要使浮動迷宮繞Y軸轉動方向與體感搖桿傾角姿態協調一致。
+  int yRotate=map(xValue,500,175,0,180);
+  //把繞X軸旋轉180°的兩個特定位置的yValue值190~520轉為角度值0~180
+  int xRotate=map(yValue,190,520,0,180);
+  if(yRotate<=0) yRotate=0;//若果繞Y軸旋轉的角度值出現負數，則強制為0
+  if(xRotate<=0) xRotate=0;//若果繞X軸旋轉的角度值出現負數，則強制為0
+  if(yRotate>=180) yRotate=180;//若果繞Y軸旋轉的角度值大於180，則強制為180
+  if(xRotate>=180) xRotate=180;//若果繞X軸旋轉的角度值大於180，則強制為180
+   //傳送“標示”位元群組，以標誌將開始傳送一次體感搖桿的兩個姿態角度位元群組
+  Serial.print(255,BYTE);
+  Serial.print(yRotate,BYTE);//以位元群組形式，傳送體感搖桿繞Y軸旋轉的角度值
+  Serial.print(xRotate,BYTE);//以位元群組形式，傳送體感搖桿繞X軸旋轉的角度值
+  delay(100);             // 延遲時間0.1s，等待傳送完成 
+}  
+
+Arduino從機程式：
+#include <Servo.h>//參考舵機函數庫檔案 
+Servo myservo1;  //宣告舵機物件 
+Servo myservo2;  
+int yRotate;    //定義變數，儲存主電腦傳送的體感搖桿繞Y軸旋轉角度
+int xRotate;   //定義變數，儲存主電腦傳送的體感搖桿繞X軸旋轉角度
+int  Y_motor; //定義變數，儲存迷宮舵機底座中Y軸舵機的旋轉角度
+int  X_motor; //定義變數，儲存迷宮舵機底座中X軸舵機的旋轉角度
+void setup()  //起始化
+{ 
+  Serial.begin(9600);//啟動序列埠通信，串列傳輸速率為9600bit/s
+  myservo1.attach(9);  //把Y軸舵機輸出線連線到Arduino數位通信埠9
+  myservo2.attach(10); //把X軸舵機輸出線連線到Arduino數位通信埠10 
+  myservo1.write(88);  //起始化Y軸和X軸舵機的轉角位置，以使迷宮平台水平          
+  myservo2.write(98);
+  delay(100); //延遲時間
+} 
+void loop()   //主程式
+{ 
+   if (Serial.available()>2) //若果Arduino讀緩衝區的位元群組大於2個位元群組
+  {
+    //若果從緩衝區讀到了“開始傳送搖桿角度資訊”的標示位群組“255”
+    if(255==Serial.read()) 
+    {
+    yRotate = Serial.read();//讀體感搖桿繞Y軸旋轉的角度值
+    xRotate = Serial.read();//讀體感搖桿繞X軸旋轉的角度值
+    }       
+   //繞Y軸方向上，體感搖桿與“浮動迷宮”舵機的隨動演算法
+   if(yRotate<=65) Y_motor=88-5;
+   if(yRotate>65 && yRotate<=75) Y_motor=Y_motor;
+   if(yRotate>=115) Y_motor=88+5;
+   if(yRotate>105 && yRotate<115) Y_motor=Y_motor;
+   if(yRotate>75 && yRotate<=105) Y_motor=88;
+   //繞X軸方向上，體感搖桿與“浮動迷宮”舵機的隨動演算法
+   if(xRotate<=65) X_motor=98-5;
+   if(xRotate>65 && xRotate<=75) X_motor=X_motor;
+   if(xRotate>=115) X_motor=98+5;  
+   if(xRotate>105 && xRotate<115) X_motor=X_motor; 
+   if(xRotate>75 && xRotate<=105) X_motor=98;
+   myservo1.write(Y_motor);    // 驅動舵機轉動
+   myservo2.write(X_motor);    
+   }   
+   delay(20);         
+}

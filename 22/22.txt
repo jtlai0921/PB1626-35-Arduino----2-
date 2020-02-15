@@ -1,0 +1,59 @@
+
+Arduino程式
+void setup() 
+{
+  pinMode(8, INPUT); //通信埠設定 8號為輸入
+  pinMode(13, OUTPUT);
+  pinMode(0, OUTPUT);  
+  pinMode(1, OUTPUT);
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);  
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);  
+}
+void loop()
+{
+  byte val[2];
+  byte tempa, tempb;
+  val[0] = 0x00; //起始化2變數讓其為反碼
+  val[1] = 0xFF;
+  if (digitalRead(8) == HIGH) //為高時進入擷取循環
+    {
+      for (tempa=0; tempa<2; tempa++) //2位元群組擷取
+        {
+          delay(25);
+          if (digitalRead(8) == HIGH) //起始位確認
+            {
+              for (tempb=0; tempb<8; tempb++) //D0-D7位
+                {
+                  val[tempa] = val[tempa]>>1;                  
+                  delay(50);
+                  if (digitalRead(8) == HIGH)
+                    val[tempa] = val[tempa] | 0x80;
+                  else
+                    val[tempa] = val[tempa] & 0x7F; 
+                }
+                delay(25);
+            }
+          else
+            {
+              val[0] = 0x00; //起始位元不確認時起始變數
+              val[1] = 0xFF;
+            }
+        }
+      delay(50);     
+      if (val[0] == val[1]) //判斷2次資料變數是否相同，相同則在0-7號通信埠輸出
+        {
+          for (tempb=0; tempb<8; tempb++)
+            {
+              if (val[0]&0x01)
+                digitalWrite(tempb, LOW);
+              else
+                digitalWrite(tempb, HIGH);
+              val[0] = val[0] >> 1;
+            }
+        }     
+    }
+}

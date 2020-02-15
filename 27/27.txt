@@ -1,0 +1,62 @@
+溫控風扇Arduino程式
+#include <Servo.h> //宣告伺服舵機函數程式庫
+Servo myservo;  // 定義伺服舵機物件
+//起始化
+void setup()
+{
+   myservo.attach(9);  //起始化9號數位量通信埠來控制舵機
+   myservo.write(93);//舵機停轉
+}
+//主程式
+void loop()
+{ 
+    int val;
+    int dat;
+    val=analogRead(0);//擷取連線在0號類比量通信埠上溫度感應器的資料；
+    dat=0.488*val;//把從感應器擷取的資料正比轉為溫度值
+    //Serial.println(dat);
+    if(dat>32)//若果溫度值大於32℃
+    {
+      myservo.write(180);//舵機全速旋轉
+    }
+    else//否則
+    {
+      myservo.write(93);//舵機停轉
+    }
+    delay(500);//延遲時間0.5s
+}
+
+光感應晾衣架Arduino程式 
+#include  <Servo.h> //宣告伺服舵機函數程式庫
+Servo myservo;  // 定義伺服舵機物件
+int sensorPin =0;//宣告光敏電阻感應器連在類比量通信埠0
+int flag=0; //宣告變數，儲存衣架伸出或收起的標示
+int light_val;//宣告變數，儲存光敏電阻類比量資料
+//起始化
+void setup()
+{
+  myservo.attach(9);  //起始化9號數位通信埠來控制舵機                     
+}
+//循環執行主程式中的指令
+void loop()
+{
+  //光敏電阻，天色光線越弱，擷取獲得的光敏電阻資料愈大
+  light_val=analogRead(sensorPin); //讀取光敏電阻的資料  
+  //若果陽光出來了，並且衣架處於收起狀態
+  if(light_val<=100 && flag==0)
+  //變數light_val的參數值應根據當天的光線，透過測試來確定。
+  {
+    myservo.write(0);     // 啟動舵機正轉
+    delay(2000);             // 等待2s，讓衣架伸出合格
+    flag=1; //標示衣架處於伸出狀態
+     myservo.write(93);  //舵機停止
+  }
+  //若果陰天，沒有陽光，並且欄桿處於伸出狀態
+  if(light_val>100 && flag==1)
+  {
+    myservo.write(180);     // 啟動舵機反轉
+    delay(2000);             // 等待2s，讓衣架收回合格
+    flag=0; //標示衣架處於收起狀態
+    myservo.write(93);  // 舵機停止
+  }    
+}

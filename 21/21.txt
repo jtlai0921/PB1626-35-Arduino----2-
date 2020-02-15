@@ -1,0 +1,213 @@
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+#include <Wire.h>
+#include <DS1307.h>
+#include <SD.h>
+
+int rtc[7];//設定一個七位元陣列用於記錄時間，預設第一位是秒，
+           //第二位是分，第三位是小時，第四位是星期，第五
+           //位是日，第六位是月，第七位是年。
+const int chipSelect = 10;//預設值，不用變更
+
+/*以下LCD螢幕設定，不用變更*/
+#if defined(ARDUINO) && ARDUINO >= 100
+#define printByte(args) write(args);
+#else
+#define printByte(args) print(args,BYTE);
+#endif
+
+/*以下是一些起始設定，根據自己需要進行變更*/
+float H2_air_ratio = 70;//這個是氫氣在空氣中的感應器的電阻與Ro的比值，透過查表所得。
+float CO_air_ratio = 9.83;//同上
+float RL_H2 = 9.52;//負載電阻，即連線電路的可調電阻的阻值，實驗前用電阻表測得。
+float RL_CO = 9.86;//同上
+int H2_pin = 0;//H2感應器的連介面，根據自己的連線變更。
+int CO_pin = 1;//同上
+int buzzer = 4;//同上
+float RO_H2 = 10;//起始化Ro的值
+float RO_CO = 10;//同上
+float result_H2;//定義最後結果的值
+float result_CO;//同上
+float H2Curve[3] = {2.3,0.93,-1.44};//匯入函數關聯的數值，頭兩位是點的座標，第三位是斜率
+float COCurve[3] = {2.3,0.72,-0.34};//同上
+
+LiquidCrystal_I2C lcd(0x20,16,2);//LCD設定，不用變更  void setup()
+{
+  DDRC|=_BV(2) |_BV(3);//時脈模群組設定。
+  PORTC |=_BV(3);//同上
+  RTC.get(rtc,true);//將現在的時間記錄到rtc這個陣列中
+  
+  /*先起始化SD卡，並用LCD螢幕顯示結果*/
+  lcd.init();//起始化LCD螢幕
+  lcd.backlight();
+  lcd.setCursor(0,0);
+  lcd.print("Initializing SD card");
+  delay(3000);
+  if (!SD.begin(chipSelect))
+  {
+    lcd.setCursor(0,0);
+    lcd.print("Card failed, or not present.");
+    return;
+  }
+  lcd.clear();
+  
+  /*SD卡起始化結束，顯示歡迎介面，並預熱感應器。總共需要15分鐘。*/
+  lcd.setCursor(0,0);
+  lcd.print("Card initialized.");
+  delay(2000);
+  for(int i=0;i<100;i++)
+  {
+    lcd.setCursor(0,0);
+    lcd.print("Welcome to DFRobot! ");
+    lcd.setCursor(0,1);
+    lcd.print("  Air Quality Test");
+    lcd.setCursor(0,2);
+    lcd.print("    Please wait.");
+    lcd.setCursor(20,1);
+    lcd.print("    Warming: ");
+    lcd.print(i);
+    lcd.print("%");
+    delay(9000);
+  }
+  lcd.clear();
+  
+  /*校準Ro，並顯示*/
+  lcd.setCursor(0,0);
+  lcd.print("   Calibrating..");
+  int i;
+  float val1 = 0;
+  float val2 = 0;
+  for (i=0;i<50;i++)
+  {
+    int a = analogRead(H2_pin);
+    int b = analogRead(CO_pin);
+    val1 += RL_H2*(1023-a)/a;//把讀到的類比量轉換成感應器的阻值
+    val2 += RL_CO*(1023-b)/b;
+    delay(500);
+  }//校準50次，每隔半秒一次。
+  val1 = val1/50;
+  val1 = val1/H2_air_ratio;
+  val2 = val2/50;
+  val2 = val2/CO_air_ratio;
+  RO_H2 = val1;
+  RO_CO = val2;
+  lcd.clear();
+  lcd.setCursor(0,0);
+  lcd.print("Calibration is done.");
+  lcd.setCursor(0,2);
+  lcd.print("H2_RO:");
+  lcd.setCursor(7,2);
+  lcd.print(RO_H2);
+  lcd.setCursor(15,2);
+  lcd.print("Kohm");
+  lcd.setCursor(20,1);
+  lcd.print("CO_RO:");
+  lcd.setCursor(27,1);
+  lcd.print(RO_CO);
+  lcd.setCursor(35,1);
+  lcd.print("Kohm");
+  delay(5000);
+  lcd.clear();
+  RTC.SetOutput(DS1307_SQW32KHZ);
+}
+
+void loop()
+{
+  RTC.get(rtc,true);//讀取時間
+  
+  /*讀取類比量，轉換成氣體水準*/
+  int i;
+  float val1 = 0;
+  float val2 = 0;
+  for (i=0;i<5;i++)
+  {
+    int c = analogRead(H2_pin);
+    int d = analogRead(CO_pin);
+    val1 += RL_H2*(1023-c)/c;
+    val2 += RL_CO*(1023-d)/d;
+    delay(200);
+  }//每200毫秒讀一個值，每五個取一個平均值
+  val1 = val1/5;
+  val2 = val2/5;
+  float Rs_H2 = val1;
+  float Rs_CO = val2;
+  result_H2 = pow(10,(((log(Rs_H2/RO_H2)-H2Curve[1])/H2Curve[2]) + H2Curve[0]));
+  result_CO = pow(10,(((log(Rs_CO/RO_CO)-COCurve[1])/COCurve[2]) + COCurve[0]));
+  
+  /*將結果與對應時間顯示在LCD螢幕上*/
+  lcd.setCursor(6,0);
+  lcd.print("Result:");
+  lcd.setCursor(0,1);
+  lcd.print(rtc[6]);
+  lcd.print("  ");
+  lcd.setCursor(5,1);
+  lcd.print(rtc[5]);
+  lcd.print("  ");
+  lcd.setCursor(8,1);
+  lcd.print(rtc[4]);
+  lcd.print("  ");
+  lcd.setCursor(11,1);
+  lcd.print(rtc[2]);
+  lcd.print("  ");
+  lcd.setCursor(14,1);
+  lcd.print(rtc[1]);
+  lcd.print("  ");
+  lcd.setCursor(17,1);
+  lcd.print(rtc[0]);
+  lcd.print("  ");
+  lcd.setCursor(0,2);
+  lcd.print("H2:");
+  lcd.setCursor(5,2);
+  lcd.print(result_H2);
+  lcd.print("     ");
+  lcd.setCursor(11,2);
+  lcd.print("ppm");
+  lcd.setCursor(20,1);
+  lcd.print("CO:");
+  lcd.setCursor(25,1);
+  lcd.print(result_CO);
+  lcd.print("      ");
+  lcd.setCursor(31,1);
+  lcd.print("ppm");
+  
+  /*氣體超出一個值時蜂鳴器警示*/
+  if ((result_H2>2) || (result_CO>2))
+  {
+    digitalWrite(buzzer,HIGH);
+    delay(300);
+    digitalWrite(buzzer,LOW);
+    delay(300);
+  }
+  else
+  {
+    digitalWrite(buzzer,LOW);
+  }
+  
+  /*將結果與對應時間記錄到SD卡裡*/
+  File dataFile = SD.open("Results.txt", FILE_WRITE);
+  if (dataFile)
+  {
+    int i;
+    for(i=6;i>0;i--)
+    {
+      dataFile.print(rtc[i]);
+      dataFile.print(" ");
+    }
+    dataFile.println(rtc[0]);
+    dataFile.print("H2:  ");
+    dataFile.print(result_H2);
+    dataFile.println("  ppm");
+    dataFile.print("CO:  ");
+    dataFile.print(result_CO);
+    dataFile.println("  ppm");
+    dataFile.close();
+  }
+  else
+  {
+    lcd.clear();
+    lcd.setCursor(0,0);
+    lcd.print("Error Opening Results.txt");//無法儲存資訊時顯示錯誤訊息
+    delay(1000);
+    lcd.clear();
+  }
+}  

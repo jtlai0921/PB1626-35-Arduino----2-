@@ -1,0 +1,289 @@
+#include "Voice.h" 				//申明語音辨識函數庫檔案
+#include"Servo.h"
+Servo servo1;    				//舵機1
+Servo servo2;    				//舵機2
+Servo servo3;    				//舵機3
+#define SUM 28 					//定義待識別的單字數量
+uint8 nAsrStatus=0; 				//申明語音模群組工作狀態
+int ledPin=3;
+int power1=20;
+int power2=20;
+int a=70,b=70,c=100;
+char sRecog[SUM][80] =    			//定義識別單字“拼音”內容的陣列，加入一些口頭語可以增加準確度，減少誤動作
+{"qian","hou","zuo","you","shang","xia","kai","kaideng","fuwei","guan","guandeng","jiangnan","sidaier","jiannan"};    
+char flag;					//定義向上位機傳送字元指令的變數
+						//根據單字陣列的元素號，執行對應指令
+void finally (unsigned char n)
+{
+switch(n) 
+{
+case 0:
+b=b+power1;
+c=c+power1;
+if(b<145)
+servo2.write(b);				//前進
+else
+servo2.write(b=b-power1);
+if(c>50)
+servo3.write(c);
+else
+servo3.write(c=c-power1);
+break;
+case 1:
+b=b-power1;
+c=c-power1;
+if(b>20)
+servo2.write(b); 				//後退
+else
+servo2.write(b=b+power1);
+if(c<160)
+servo3.write(c);
+else
+servo3.write(c=c+power1);
+break;
+case 2:
+a=a-power2;
+if(a>0)
+servo1.write(a=a); 				//左轉
+else
+servo1.write(a=a+power2);
+break;
+case 3:
+a=a+power2;
+if(a<150)
+servo1.write(a);				 //右轉
+else
+servo1.write(a=a-power2);
+break;
+case 4:
+c=c+power1;
+if(c<160)
+servo3.write(c);				//起
+else
+servo3.write(c=c-power1);
+break;
+case 5:
+c=c-power1;
+if(c>50)
+servo3.write(c);				//下
+else
+servo3.write(c=c+power1);
+break;
+case 6:
+servo1.write(a=70);				//開始時預設位置
+servo2.write(b=70);
+servo3.write(c=100);
+digitalWrite(ledPin, HIGH);  			// sets the LED on
+break;
+case 7:
+servo1.write(a=70);//Begin
+servo2.write(b=70);
+servo3.write(c=100);
+digitalWrite(ledPin, HIGH);   			// sets the LED on
+break;
+case 8:
+servo1.write(a=70);//Begin
+servo2.write(b=70);
+servo3.write(c=100);
+digitalWrite(ledPin, HIGH);   			// sets the LED on
+break;
+case 9:
+servo1.write(a=70); //停止
+servo2.write(b=30);
+servo3.write(c=50);
+digitalWrite(ledPin, LOW);    			// sets the LED off
+break;
+case 10:
+servo1.write(a=70); //停止
+servo2.write(b=30);
+servo3.write(c=50);
+digitalWrite(ledPin, LOW);    			// sets the LED off
+break;
+case 11:     //jiangnanSTYLE
+servo1.write(a=70);
+servo2.write(b=70);
+servo3.write(c=100);
+for(int j=0;j<5;j++)
+{
+  digitalWrite(ledPin, HIGH);   		// sets the LED on
+  delay(1000);
+  digitalWrite(ledPin,LOW);   			// sets the LED off
+  delay(1000);
+}
+digitalWrite(ledPin, HIGH);   			// sets the LED on
+for(a;a>=30;a=a-5)
+{
+  servo1.write(a);
+  delay(100);
+}
+delay(1000);
+for(int i=0;i<3;i++)
+{
+  for(c;c<115;c=c+5)
+  {
+    servo3.write(c);
+    delay(100);
+  }
+  for(c;c>85;c=c-5)
+  {
+    servo3.write(c);
+    delay(100);
+  }
+}
+delay(500);
+for(a;a<=120;a=a+5)
+{
+  servo1.write(a);
+  delay(100);
+}
+delay(1000);
+for(int i=0;i<3;i++)
+{
+  for(c;c<115;c=c+5)
+  {
+    servo3.write(c);
+    delay(100);
+  }
+  for(c;c>85;c=c-5)
+  {
+    servo3.write(c);
+    delay(100);
+  }
+}
+servo1.write(a=70);
+servo2.write(b=70);
+servo3.write(c=100);
+for(int i=0;i<5;i++)
+{
+  for(b,c;b<105;b=b+5,c=c+7)
+  {
+    servo2.write(b);
+    servo3.write(c);
+    digitalWrite(ledPin, HIGH);   
+    delay(50);
+    digitalWrite(ledPin, LOW);    
+    delay(50);
+  }
+  for(b,c;b>55;b=b-5,c=c-7)
+  {
+    servo2.write(b);
+    servo3.write(c);
+    digitalWrite(ledPin, HIGH);   
+    delay(50);
+    digitalWrite(ledPin, LOW);    
+    delay(50);
+  }
+}
+servo1.write(a=70);
+servo2.write(b=70);
+servo3.write(c=100);
+digitalWrite(ledPin, HIGH);   
+break;
+case 12:     //yaotou
+servo1.write(a=70);
+for(int i=0;i<5;i++)
+{
+  for(a;a>35;a=a-5)
+  {
+    servo1.write(a);
+    delay(100);
+  }
+  for(a;a<105;a=a+5)
+  {
+    servo1.write(a);
+    delay(100);
+  }
+}
+servo1.write(a=70);
+break;
+case 13:    //diantou
+servo3.write(c=100);
+for(int i=0;i<3;i++)
+{
+  for(c;c<115;c=c+5)
+  {
+    servo3.write(c);
+    delay(100);
+  }
+  for(c;c>85;c=c-5)
+  {
+    servo3.write(c);
+    delay(100);
+  }
+}
+servo3.write(c=100);
+break;
+default: 
+break; 
+}
+}
+						//識別到音效，產生一個觸發中斷
+void ExtInt0Handler ()
+{
+Voice.ProcessInt0();				//執行中斷服務副程式
+}	
+						//起始化
+void setup()
+{
+  servo1.attach(8);
+  servo1.write(70);
+  servo2.attach(10);
+  servo2.write(70);
+  servo3.attach(13);
+  servo3.write(100);
+  pinMode(ledPin, OUTPUT);      		// sets the digital pin as output
+  digitalWrite(ledPin, HIGH);   		// sets the LED on
+  Voice.Initialise(MIC);			//起始化語音模群組
+  attachInterrupt(0,ExtInt0Handler,LOW); 
+}
+						//主循環
+void loop()
+{ 
+uint8 nAsrRes;
+nAsrStatus = LD_ASR_NONE;
+while(1)
+{
+						//當語音模群組處於各狀態，執行對應工作
+switch(nAsrStatus)
+{
+case LD_ASR_RUNING:
+case LD_ASR_ERROR:
+break;
+case LD_ASR_NONE:
+{
+nAsrStatus=LD_ASR_RUNING;
+if (Voice.RunASR(SUM,80,sRecog)==0) 
+{ 
+nAsrStatus= LD_ASR_ERROR;
+						// Serial.println( "ASR_ERROR"); 
+}
+						//Serial.println( "ASR_RUNING.....");
+break;
+}
+						//識別到單字是設定單字
+case LD_ASR_FOUNDOK:
+{
+						//Serial.print( "ASR_FOUN ONE: ");
+						//分析所識別到的單字是陣列的第幾個元素
+nAsrRes =Voice. LD_GetResult();
+						//根據陣列元素號，執行對應指令
+finally(nAsrRes); 
+nAsrStatus = LD_ASR_NONE;
+break;
+}
+						//識別到單字“不是”設定單字
+case LD_ASR_FOUNDZERO:
+{
+						//Serial.println( "ASR_FOUND ZERO");
+nAsrStatus = LD_ASR_NONE;
+break;
+}
+default:
+{
+nAsrStatus = LD_ASR_NONE;
+break;
+}
+}// switch
+delay(100);    					//延遲時間0.1s
+}// while
+}

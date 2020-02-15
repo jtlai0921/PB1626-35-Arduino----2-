@@ -1,0 +1,257 @@
+#include "U8glib.h"
+#include <stdio.h>
+#include <string.h>
+//////////////////////////Touchscreen setup/////////////////////
+#define xLow  17
+#define xHigh 15
+#define yLow  16
+#define yHigh 14
+///////////////////////12864 Setup///////////////////////////////
+U8GLIB_ST7920_128X64 u8g(3, 9, 8, U8G_PIN_NONE);                  // SPI Com: SCK = en =3, MOSI = rw = 9, CS = di = 8
+int timeout=0;//keypress timeout
+int kpMin=20; //keypress time min;
+int mp=0; //Menu Page
+int ms=0;//Menu select;
+int md=0;//Menu selected;
+int mbl=0;//Menu base level
+int msub=0;//Menu sub level;
+char** dmc; //Display Menu Cache
+int dmcMax=0;  //Display Menu Cache Max
+int tx=4;  //title adjust X
+int ty=10;  //title adjust Y
+boolean menuShow=true;
+//////////////////////////Timer setup////////////////////////////
+uint8_t CE_PIN   = 4;
+uint8_t IO_PIN   = 5;
+uint8_t SCLK_PIN = 6;
+
+char buf[50];
+char day[10];
+String comdata = "";
+int numdata[7] ={0}, j = 0, mark = 0;
+DS1302 rtc(CE_PIN, IO_PIN, SCLK_PIN);
+
+///////////////////////////////////////  menu configure 1/2 ///////////////////////////////////////
+//menu setup start
+char* Menu00[]={
+  "DesignDNA Tank system", 
+  "Lamp Control",
+  "Temperature Control",
+  "Foods Supply",
+  "CO2 Control",
+  "Filter Status",
+  "Water Change Control",
+  "Liquid manure Supply",
+  "UV System",
+  "Analysis Display",
+  "Demo Model",
+  "System Config",
+  "Game Model"
+};
+int Menu00Max=sizeof(Menu00)/2-1;
+
+char* Menu10[]={
+  "Lamp Control",
+  "CH1 setup", 
+  "CH2 setup",
+  "CH3 setup",
+  "CH4 setup",
+  "CH5 setup", 
+  "CH6 setup",
+  "CH7 setup",
+  "CH8 setup",
+  "CH9 setup", 
+  "CH10 setup",
+  "CH11 setup",
+  "CH12 setup"
+};
+int Menu10Max=sizeof(Menu10)/2-1;
+
+char* Menu101[]={
+  "Lamp Control",
+  "sub1 setup", 
+  "sub2 setup"
+};
+int Menu101Max=sizeof(Menu101)/2-1;
+
+char* Menu20[]={
+  "Temperature Control",
+  "Heater Max", 
+  "Heater Min",
+  "Cooler  Max",
+  "Cooler  Min"
+};
+int Menu20Max=sizeof(Menu20)/2-1;
+
+//menu setup end
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+void setup(void) {
+  //Serial.begin(9600);
+  u8g.setColorIndex(1);         // pixel on
+}
+
+void loop(void) {
+  // picture loop
+  u8g.firstPage();  
+  do {
+    draw();
+    keyPress();
+  } 
+  while( u8g.nextPage() );
+  delay(10); // rebuild the picture after some delay
+}
+
+
+void draw(void) {  //menu founction
+  switch (md) {      //get Menu selected number
+    ////////////////////////////////////////  menu configure 2/2 ////////////////////////////////////
+  case 1:
+    dmc = &Menu10[0]; //Display Menu Cache
+    dmc=&Menu10[0]; //Display Menu Cache Max
+    mbl=100;
+    break;
+  case 2:
+    dmc = &Menu20[0]; //Display Menu Cache
+    dmcMax=Menu20Max; //Display Menu Cache Max
+    mbl=200;
+    break;
+  case 101:
+    dmc = &Menu101[0]; //Display Menu Cache
+    dmcMax=Menu101Max; //Display Menu Cache Max
+    mbl=1000;
+    break;
+  case 1001:
+    u8g.drawStr(10,20,"*** The time is ***"); //Display time now
+    mbl=1000;
+    menuShow=false;
+    break;
+  case 1002:
+    u8g.drawStr(10,20,"*** Bitmap draw ***"); //Display bitmap
+    mbl=1000;
+    menuShow=false;
+    break;
+
+  default: 
+    dmc = &Menu00[0]; //Display Menu Cache
+    dmcMax=Menu00Max; //Display Menu Cache Max
+    mbl=0;
+  }
+
+  if(menuShow==true){
+    /////////////////////////////////////////////////////////////////////////////////////////////////////
+    //title style start
+    for(int il=1;il<=mp;il++){
+      u8g.drawCircle(tx*il+1, ty-5, 5, U8G_DRAW_UPPER_LEFT); //draw folder Left
+      u8g.drawVLine(tx*il-4, ty-4, 6);
+    }
+    for(int ir=mp+1;ir<=dmcMax/5;ir++){
+      u8g.drawCircle(tx*ir+105, ty-5, 5, U8G_DRAW_UPPER_RIGHT);  //draw folder Right
+      u8g.drawVLine(tx*ir+110, ty-4,6 );
+    }
+    u8g.drawDisc(tx*mp+5, ty-5, 5, U8G_DRAW_UPPER_LEFT);  // symbol "/"
+    u8g.drawBox(tx*mp,ty-4,6,6);  //symbol "-"
+    u8g.drawDisc(tx*mp+105, ty-5, 5, U8G_DRAW_UPPER_RIGHT);  //symbol "\"
+    u8g.drawBox(tx*mp+105,ty-4,6,6);  //symbol "-"
+    u8g.drawBox(tx*mp+6,ty-10,99,12); //title background
+    //title style end
+
+    u8g.setFont(u8g_font_04b_03);
+    u8g.setColorIndex(0);
+    u8g.drawStr(tx*mp+5,ty-2,dmc[0]);
+    u8g.setColorIndex(1);  
+
+    //display menu start
+
+    for(int im=mp*5+1;im<=(mp+1)*5;im++){
+      if(im<=dmcMax){   //only display the valid menu
+        u8g.drawFrame(0,ty*(im-mp*5)+3,128,11);
+        if(ms==im){  //Highlight selected menu
+          u8g.drawBox(2,ty*(im-mp*5)+5,124,7);
+          u8g.setColorIndex(0);
+          u8g.drawStr(5,ty*(im-mp*5)+10,dmc[im]);
+          u8g.setColorIndex(1);
+        }
+        else{
+          u8g.drawStr(5,ty*(im-mp*5)+10,dmc[im]);
+        }
+      }
+    }
+    //display menu end
+  }
+}
+
+void keyPress(){  // Touch screen founction
+  pinMode(xLow,OUTPUT);
+  pinMode(xHigh,OUTPUT);
+  digitalWrite(xLow,LOW);
+  digitalWrite(xHigh,HIGH);
+  digitalWrite(yLow,LOW);
+  digitalWrite(yHigh,LOW);
+  pinMode(yLow,INPUT);
+  pinMode(yHigh,INPUT);
+  int dx=analogRead(yLow -14);  //xLow has analog port -14 !!
+  pinMode(yLow,OUTPUT);
+  pinMode(yHigh,OUTPUT);
+  digitalWrite(yLow,LOW);
+  digitalWrite(yHigh,HIGH);
+  digitalWrite(xLow,LOW);
+  digitalWrite(xHigh,LOW);
+  pinMode(xLow,INPUT);
+  pinMode(xHigh,INPUT);
+  int dy=analogRead(xLow - 14);  //yLow has analog port -14 !!
+
+  if(dy>145&&dy<234){
+    if(dx>103&&dx<220){    //KEY Esc
+      if(timeout>kpMin){
+        timeout=0;
+        mp=0;
+        ms=0;
+        md=0;
+        menuShow=true;
+      }
+      else{
+        timeout++;
+      }
+    }
+    else if(dx>300&&dx<423){   //KEY up
+      if(timeout>kpMin){
+        timeout=0;
+        if(ms<=1){
+          ms=1;
+        }
+        else{
+          ms--;
+        }
+        mp=(ms-1)/5;
+      }
+      else{
+        timeout++;
+      }
+    }
+    else if(dx>505&&dx<625){   //KEY down
+      if(timeout>kpMin){
+        timeout=0;
+        if(ms<dmcMax){
+          ms++;
+        }
+        else{
+          ms=dmcMax;
+        }
+        mp=(ms-1)/5;
+      }
+      else{
+        timeout++;
+      }
+    }
+    else if(dx>702&&dx<833){   //KEY Enter
+      if(timeout>kpMin){
+        timeout=0;
+        md=ms+mbl; //output now selected
+        ms=1; //select initialize
+      }
+      else{
+        timeout++;
+      }
+    }
+  }  
+}

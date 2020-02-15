@@ -1,0 +1,64 @@
+                                           
+Arduino程式
+//工作：透過按鈕控制馬達啟停和正反轉，透過電位計調節馬達轉速
+int K1=5;  //把K1（正轉）按鈕連在數位通信埠5
+int K2=6;  //把K2（反轉）按鈕連在數位通信埠6
+int K3=7;  //把K3（停止）按鈕連在數位通信埠7
+int potpin = 3; //把電位計連在類比通信埠3
+int A=2;   //數位通信埠2、3控制馬達啟停和轉向
+int B=3;  
+int PWMpin = 9; //數位通信埠9輸出PWM訊號，控制馬達轉速
+void setup( ) //起始化
+{
+   pinMode(K1,INPUT);//把數位通信埠5、6、7設定為輸入模式
+   pinMode(K2,INPUT);
+   pinMode(K2,INPUT);
+   pinMode(A,OUTPUT);//把數位通信埠2、3設定為輸入模式
+   pinMode(B,OUTPUT);
+}
+void loop( ) //主程式
+{   
+  if(digitalRead(K1)==LOW) //若果按下K1（正轉）按鈕
+  {   
+    digitalWrite(A,HIGH);
+    digitalWrite(B,LOW); //馬達正轉
+  } 
+  if(digitalRead(K2)==LOW) //若果按下K2（反轉）按鈕
+  {
+    digitalWrite(A,LOW);
+    digitalWrite(B,HIGH); //馬達反轉
+  } 
+  if(digitalRead(K3)==LOW) //若果按下K3(停止)按鈕
+  {   
+    digitalWrite(A,LOW);
+    digitalWrite(B,LOW); //馬達停止
+  }
+  int sensorValue = analogRead(potpin); //讀取電位計採樣值     
+  sensorValue = sensorValue/4; //採樣值0~1024轉為0~255 
+ analogWrite(PWMpin, sensorValue); //把處理後的轉換值以PWM訊號形式輸出，以調節馬達轉速
+  delay(20);//延遲時間
+}  Arduino程式
+#include <LiquidCrystal.h> //宣告1602液晶的函數程式庫
+int potpin = 0;  //宣告電位計連在類比通信埠0
+int PWMpin = 9; // 宣告LED連在數位通信埠9
+//宣告1602液晶的11個接腳所連線的Arduino數位通信埠
+LiquidCrystal lcd(11,12,13,2,3,4,5,6,7,8,10);      
+void setup( )  //起始化
+{
+  lcd.begin(16,2);      //起始化1602液晶屏，定義顯示範圍為2行16列字元
+  lcd.setCursor(0,0);   //把游標定位在第0行、第0列
+  lcd.print("Voltage ="); //顯示“Voltage =”
+  lcd.setCursor(15,0);   //把游標定位在第0行、第15列
+  lcd.print("V");       //顯示“V”
+}
+void loop( ) //主程式
+{  
+  float sensorValue = analogRead(potpin); //把電位計的電壓值擷取為10位數字量，並設定值給變數sensorValue，數值範圍為0~1023
+  float voltage=sensorValue/1023*5; //把數字量正比轉為實測電壓值
+  lcd.setCursor(10,0);  //把游標定位在第0行、第10列
+  lcd.print(voltage);//顯示實測電壓值，數值範圍為0~1023
+  sensorValue = (int)sensorValue/4; //把數字量正比轉為PWM訊號的脈寬等距值0~255
+    analogWrite(PWMpin, sensorValue); //輸出PWM訊號，驅動LED，調節亮度
+  delay(20);//延遲時間
+}
+       

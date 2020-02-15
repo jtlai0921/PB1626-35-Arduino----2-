@@ -1,0 +1,755 @@
+ISIS SCHEMATIC FILEà€€à€€y Designà€€plateà€€DS  kjh\ kjdg\à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€bà€€à€€à€€JSà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€07/17/12à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€12/11/12à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Â‚î‚€à€€âŠ†PDá”à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Í›à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Ø‚à€€à€€DESIGN CONFIGURATION DATAà€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à¦„à€€à€€
+à€€à€€à€€à€€pÆ€à€€ã Mã Mà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï€€à€€à€€à€€à€€à€€à€€à€€à€€ à€€à€€à à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ï€€à€€à€€à€€ à€€à€€à€€à€€à€€à€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ï€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï€€à€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€à€€ï€€ï€€à€€à€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€ï€€à€€à€€à€€ï€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€à€€à€€ï€¿ï€€à€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€ï¿€à€€ï€¿à€€à€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€ï€¿à€€à€€ï¿€à€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€à€€ï¿€à€€à€€à€€à€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿€à€€ï¿¿à€€à à€€ï€€à€€ï€¿à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿€à€€ï€€à€€`à €à€€à€€ï€¿@@à€€@@ï€€à€€ï¿€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï€€à€€à€€à€€à€€à€€à€€à€€à€€à€€	COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€à€€PINà€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€à€€PORTà€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€ï¿¿à€€à€€MARKERà€€à€€à€€à€€`Oà€€à€€à€€à€€@à€€ï¿¿à€€ï¿¿à€€à€€ACTUATORà€€à€€à€€à€€`Oà€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€à€€à€€	INDICATORà€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€à€€VPROBEà€€à€€à€€à€€`Oà€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€à€€IPROBEà€€à€€à€€à€€`Oà€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€à€€TAPEà€€à€€à€€à€€`Oà€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€à€€	GENERATORà€€à€€à€€à€€`Oà€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€à€€TERMINALà€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€ï¿¿à€€à€€
+SUBCIRCUITà€€à€€à€€à€€à½à€€à€€à€€à€€Èˆê€ˆÈªà€€à€€
+2D GRAPHICà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€à€€WIRE DOTà€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€à€€@à€€à€€à€€@à€€à€€à€€WIREà€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€ï¿¿à€€à€€BUS WIREà€€à€€à€€à€€PSà€€à€€à€€à€€ï¿¿à€€ï¿¿à€€à€€BORDERà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€à€€TEMPLATEà€€à€€à€€à€€à€€è²€à€€à€€à€€ï¿¿à€€ï¿¿à€€à€€à€€COMPONENT ID&à€€à€€à€€HÐ…à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€COMPONENT VALUE&à€€à€€à€€à³†à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€
+PROPERTIES&à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€TERMINAL LABEL&à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€
+WIRE LABEL&à€€à€€à€€à³†à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€	SUBCKT ID&à€€à€€à€€HÐ…à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€SUBCKT NAME&à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€SCRIPT&à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€PIN NAME&à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€
+PIN NUMBER&à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€VPROBE LABEL&à€€à€€à€€0Aà€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€IPROBE LABEL&à€€à€€à€€0Aà€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€GENERATOR LABEL&à€€à€€à€€0Aà€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€
+TAPE LABEL&à€€à€€à€€0Aà€€à€€à€€à€€ ï„efault Fontà€€à€€à€€à€€à€€à€€ACTIVE READOUTÞ³à€€à€€à€€0A@à€€ï€€à€€ïrialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€PWRRAILSà€€*RAILS
+*BINDINGS
+à€€î¿‹$MKRBUSNODEï¿¿å³‰à€€à€€à€€à€€à€€à€€à€€à€€à€€=à€€à€€à€€8à€€à€€à€€ï¿¿à€€à€€à€€à€€`Oà€€à€€à€€à€€@à€€à¹¿à€€ï°†à€€MARKERà€€ÌÞ³à€€à€€à€€à€€à€€à€€ï¿¿à€€ sî¿‰$MKRLABELï¿¿äº¤à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€kà€€à€€à€€fà€€à€€à€€Þ³à€€à€€à€€à€€`Oà€€à€€à€€à€€@à€€ï¿¿à€€ï¿¿à€€MARKERà€€à€€à€€à€€à€€è¾ï€€à€€à€€à€€à€€à€€0Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€LABELà€€$MKRNODEà¹¿åž½à€€à€€à€€à€€à€€à€€à€€à€€à€€9à€€à€€à€€4à€€à€€à€€à€€ï°†à€€à€€à€€à€€`Oà€€à€€à€€à€€@à€€Æ€à€€à¹¿à€€MARKERà€€ï¿¿ï¿¿à€€à€€pà¹¿à€€ï¿°ï¹€à€€à€€4à€€à€€à€€à€€Æ€à€€à€€à€€à€€`Oà€€à€€à€€à€€@à€€Æ€à€€ë€€à€€MARKERà€€ï¿¿ï¹ï¿¿à¹¿à€€pï°†à€€
+$MKRORIGIN{éŽ³Ìà€€à€€à€€à€€à€€à€€à€€=à€€à€€à€€8à€€à€€à€€ï¿¿à€€à€€à€€à€€`Oà€€à€€à€€à€€@à€€ï¿¿à€€Ìà€€MARKERà€€ï¿¿ï¿¿à€€à€€à€€à€€à€€à€€Ìà€€ sî¿¹à€€à€€à€€4à€€à€€à€€à€€Þ³à€€à€€à€€à€€`Oà€€à€€à€€à€€@à€€ï¿¿à€€ï¿¿à€€MARKERà€€ sî¿€à€€à€€à€€Þ³à€€à€€à€€à€€à€€9à€€à€€à€€4à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€`Oà€€à€€à€€à€€@à€€ï¿¿à€€Þ³à€€MARKERà€€à€€à€€à€€à€€à¿¸à€€à€€à€€à€€à€€ sî¿‹$MKRPINNAMEÞ³å·’à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€jà€€à€€à€€eà€€à€€à€€å³²à€€à€€à€€à€€`Oà€€à€€à€€à€€@à€€ï¿¿à€€ï¿¿à€€MARKERà€€à€€à€€à€€à€€è¾ï€€à€€à€€à€€à€€à€€0Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€NAMEà€€
+$MKRPINNUMà¿¸å¶ à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€hà€€à€€à€€cà€€à€€à€€à¿¸à€€à€€à€€à€€`Oà€€à€€à€€à€€@à€€ÐŸà€€ì¿€à€€MARKERà€€è«¾ï€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€99à€€$PINBUSÞ³æ³•à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ï€€à€€à€€à€€à€€à€€à€€$MKRBUSNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€à€€à€€à€€à€€à€€$MKRPINNAMEà€€à€€à€€à€€à€€à€€à€€à€€à€€$PINDEFAULTï¿¿Ö¾à€€à€€à€€à€€à€€à€€à€€à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à¿¸ï€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à¬½ï€€à€€à€€à€€à€€à€€à€€$MKRNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ÐŸì¿€à€€à€€à€€à€€à€€à€€à€€$MKRPINNUMà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€à€€à€€à€€à€€à€€$MKRPINNAMEà€€à€€à€€à€€à€€à€€à€€à€€à€€
+$PININVERTà¿¸å¶ à€€à€€à€€à€€à€€à€€à€€à€€2à€€à€€à€€0à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Þ³à€€ï¿¿à€€PINà€€Xï¿¿ï€€à€€à€€è©à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Ö¾à€€ï¨©à€€PINà€€Ö¾ï€€à€€à€€ï¿¿ï€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à¿¸à€€à€€à€€à€€à€€à€€à€€$MKRPINNUMà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ÐŸï€€à€€à€€à€€à€€à€€à€€$MKRNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€à€€à€€à€€à€€à€€$MKRPINNAMEà€€à€€à€€à€€à€€à€€à€€à€€à€€
+$PINPOSCLKì¿€å³–à€€à€€à€€à€€à€€à€€à€€à€€dà€€à€€à€€`à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à¿¸à€€Þ³à€€PINà€€à€€à€€à€€à€€à€€à€€à€€Xï¿¿ï¿¿à€€è©à€€à€€à€€à€€à€€à€€à€€è©à€€è©à€€à€€à€€à€€à€€à€€à€€à€€à€€XÐŸï€€à€€à€€è©à€€à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿€à€€ÐŸà€€PINà€€ì¿€ï€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ÐŸì¿€à€€à€€à€€à€€à€€à€€à€€$MKRPINNUMà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ß³ï€€à€€à€€à€€à€€à€€à€€$MKRNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€à€€à€€à€€à€€à€€$MKRPINNAMEà€€à€€à€€à€€à€€à€€à€€à€€à€€	$PINSHORTï¿¿å†¬à€€à€€à€€à€€à€€à€€à€€à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€Ìà€€PINà€€ÌÌà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ï¿¿à€€à€€à€€à€€à€€à€€à€€$MKRPINNUMà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ÌÐŸà€€à€€à€€à€€à€€à€€à€€$MKRNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€	$TERBIDIRì¿€å³»à€€à€€à€€à€€à€€à€€à€€à€€ià€€à€€à€€`à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€ï¿¿à€€TERMINALà€€à€€à€€à€€à€€à€€à€€à€€ sî¿°Aì¿€à€€à€€à€€à€€à€€à€€à€€ÐŸà€€à€€à€€à€€à€€ sî¿°Aà€€à€€à€€à€€à€€à€€à€€à€€ì¿€à€€à€€;à€€à€€à€€4à€€à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€Ð…à€€ß³à€€TERMINALà€€à€€à€€à€€à€€å³…à€€ï¿¿ï¿¿à€€à€€à€€;à€€à€€à€€4à€€à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¨à€€ÐŸà€€TERMINALà€€à€€à€€à€€à€€ sî¿ì¿€ß³à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ï¿¿à€€à€€à€€à€€à€€à€€à€€$MKRNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€Hà¬½à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRLABELà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$TERBUSÌï¿¿à€€à€€à€€à€€à€€à€€à€€à€€ià€€à€€à€€`à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€à¹¿à€€TERMINALà€€à€€à€€à€€è¾ß³î¿€à€€à€€à€€@à€€à€€à€€à€€à€€à€€è¾ï€€à€€à€€@è¾ï€€à€€à€€à€€à€€à€€à€€è¾ï€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€0Aà€€à€€à€€à€€à€€à€€à€€à€€$MKRBUSNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ï¿¿à€€à€€à€€à€€à€€à€€$MKRLABELà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$TERDEFAULTï¿¿å³Žà€€à€€à€€à€€à€€à€€à€€à€€7à€€à€€à€€0à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€ÐŸà€€TERMINALà€€ì¿€ï€€à€€à€€ï¿¿à€€;à€€à€€à€€4à€€à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€ï¨à€€TERMINALà€€ï»€ï€€à€€à€€0Aà€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€0Aà€€à€€à€€à€€à€€à€€à€€à€€$MKRNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€è«¾ï€€à€€à€€à€€à€€à€€$MKRLABELà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€
+$TERGROUNDï¿¿å³ˆà€€à€€à€€à€€à€€à€€à€€à€€;à€€à€€à€€4à€€à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€Èœà€€TERMINALà€€à€€à€€à€€à€€0Aà€€à€€à€€à€€à€€à€€à€€à€€;à€€à€€à€€4à€€à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿à€€ì¿¸à€€TERMINALà€€ÐŸì¿°à€€à€€à€€0Aà€€à€€à€€à€€;à€€à€€à€€4à€€à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ÐŸà€€ì¿ à€€TERMINALà€€è¾è¿€î¿˜@è¾ß³à€€à€€4à€€à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€ï¿¿à€€TERMINALà€€ÐŸì¿ ÌÐŸcà€€à€€ì¿ ì€à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0Aà€€à€€à€€à€€$MKRNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ÐŸì¿ ?ÐŸà€€à€€à€€$MKRLABELà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€	$TERINPUTì¿ å²«à€€à€€à€€à€€à€€à€€à€€à€€ià€€à€€à€€`à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ì€à€€ï¿¿à€€TERMINALà€€à€€à€€à€€ï¿¿ß³sî¿€à€€à€€à€€ï¿¿à€€à€€à€€ï¿¿ÌÌÌï¿¿sî¿€à€€à€€à€€à€€à€€à€€à€€ï¿¿ÐŸì¿€à€€;à€€à€€à€€4à€€à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€Ð…à€€ÐŸà€€TERMINALà€€à€€à€€à€€à€€à€€à€€à€€à€€0Aà€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€tå€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€0Aà€€à€€à€€à€€tå€€$MKRNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€è«¾ï€€à€€à€€à€€à€€à€€$MKRLABELà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€
+$TEROUTPUTì¿€å²«à€€à€€à€€à€€à€€à€€à€€à€€ià€€à€€à€€`à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ß³à€€ï¿¿à€€TERMINALà€€à€€à€€à€€à€€à€€à€€à€€ sî¿°Aï¿¿à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€ sî¿°Aà€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à€€;à€€à€€à€€4à€€à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ÐŸà€€ì¿€à€€TERMINALà€€à€€à€€à€€à€€à€€à€€à€€à€€ÐŸì¿€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€HÐŸà€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRLABELà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿ Ñ•à€€à€€à€€à€€à€€à€€à€€$MKRNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€	$TERPOWERã†³å²«à€€à€€à€€à€€à€€à€€à€€à€€ià€€à€€à€€`à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€Ðˆà€€Èˆà€€TERMINALà€€à€€à€€à€€è¾ï€€à€€à€€@0Aà€€à€€è¾ï€€à€€à€€à€€à€€à€€à€€0A@à€€à€€à€€à€€è¾ï€€à€€à€€à€€;à€€à€€à€€4à€€à€€à€€à€€!à€€à€€à€€à€€à€€à€€à€€@à€€à€€ê€ˆà€€Èªà€€TERMINALà€€à€€à€€à€€à€€Èˆê€ˆà€€à€€à€€0A0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èªã¼¿à€€à€€à€€$MKRNODEà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿€ì±€à€€à€€à€€à€€à€€$MKRLABELà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€î¿Œ$IAC AMMETERÈˆê€ˆ
+à€€à€€Èªà€€à€€à€€à€€à€€à€€và€€à€€	à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì±€Èˆê€ˆà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€pà€€à€€à€€hà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èªì±€Èˆà€€COMPONENTà€€à€€à€€à€€à€€ê€ˆà€€à€€à€€
+à€€Èªà€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€AC Ampsà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€É€à€€à€€à€€à€€Òºï¿€ÚŠà€€}COMPONENTà€€é¤šïˆ¶à€€è¶ïˆ¶à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à¿¸à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€éµ¿è¼ƒà€€éµ¿@<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ì±€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€xì±€PSà€€X=à€€PSà€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€Èˆï¹ê€ˆà€€à€€à€€ Èªà€€0A0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€nà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€@à€€à€€à€€@à€€à€€{INDICATORà€€à€€à€€à€€à€€è©à€€à€€à€€à€€à€€
+à€€î¿°Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€+88.8à€€à€€à€€à€€ì±€ï€€à€€à€€à€€à€€à€€à€€$PINSHORTà€€+à€€à€€à€€
+à€€à€€`à€€à€€à€€à€€à€€è¸‚à€€$PINSHORTà€€-à€€à€€IMETER_Cà€€à€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€É€à€€à€€à€€à€€Òºï¿€ÚŠà€€}COMPONENTà€€é¤šïˆ¶à€€è¶ïˆ¶à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Èˆà€€à€€à€€à€€ê€ˆÈªì±€à€€}COMPONENTà€€éµ¿è¼ƒà€€éµ¿@<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Èˆà€€à€€à€€à€€ê€ˆÈªì±€à€€}COMPONENTà€€xÈˆPSà€€X=à€€PSà€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€ê€ˆï¹Èªà€€à€€à€€ ì±€à€€0A0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€nà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€@à€€à€€à€€@à€€à€€{INDICATORà€€à€€à€€à€€à€€è©à€€à€€à€€à€€à€€
+à€€î¿°Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€+88.8à€€IMETER_0à€€Xà€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€É€à€€à€€à€€à€€à¹¿ÚŠì€€à€€}COMPONENTà€€é¤šïˆ¶à€€è¶ïˆ¶à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Èˆà€€à€€à€€à€€ê€ˆÈªã¼¿à€€}COMPONENTà€€éµ¿è¼ƒà€€éµ¿@<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ï¿€à€€à€€à€€à€€ê€€Èˆê€ˆà€€}COMPONENTà€€xÈªPSà€€X=à€€PSà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€IMETER_1à€€|à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€mà€€ã¼¿ï€€à€€ ï¿€à€€0A0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€IMETER_2à€€ê€€à€€à€€à€€à€€à€€à€€à€€pà€€à€€à€€hà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€à€€à€€à€€à€€ã¼¿à€€à€€à€€
+à€€ï¿€à€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€AC Ampsà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€IMETER_3à€€Ñ•à€€à€€à€€à€€à€€à€€à€€nà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ã†·âˆ€Èˆà€€COMPONENTà€€à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€
+à€€Èªà€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€AC mAà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€IMETER_4à€€Èˆà€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€nà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªã¼¿à€€COMPONENTà€€à€€à€€à€€à€€ï¿€à€€à€€à€€à€€
+à€€ì±€à€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€AC å€_à€€à€€{*DEVICE}
+{ACTIVE=IMETER,5,DLL}
+{HELP=INSTRUMENTS>POPUP,507}
+{*PROPDEFS}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODFILE="LISA Model File",HIDDEN STRING}
+{STATE="Display Range",KWDLIST,3,2="Amps",3="Milliamps",4="Microamps"}
+{TC="Time Constant",FLOAT,PNZ}
+{*INDEX}
+{*COMPONENT}
+{MODDLL=READOUT}
+{MODFILE=ACIMETER}
+{STATE=2}
+{TC=100ms}
+{PACKAGE=NULL}
+à€€$IAC VOLTMETERÈˆê€ˆ
+à€€à€€Èªà€€à€€à€€à€€à€€Gà€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì±€Èˆê€ˆà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€qà€€à€€à€€ià€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èªà¬½à¬½à€€COMPONENTà€€à€€à€€à€€à€€ì±€à€€à€€à€€
+à€€Èˆà€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€AC Voltsà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€ÈªÒºï¿€à€€}COMPONENTà€€ sî¿¨v
+à€€@æ¼¿è¶Šà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ÚŠà€€à€€à€€à€€à¿¸ÖÈˆà€€}COMPONENTà€€ê€ˆï˜½à€€Èªï¸°	à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ì±€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€ sî¿˜éµ¿@æ¼¿éµ¿@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€ì±€ï¹Èˆà€€à€€à€€ ê€ˆà€€0Anà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€@à€€à€€à€€@à€€à€€{INDICATORà€€à€€à€€à€€à€€è©à€€à€€à€€à€€à€€
+à€€î¿°Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€+88.8à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€
+à€€à€€à€€à€€à€€à€€ÈªïŒŠà€€$PINSHORTà€€-à€€à€€à€€
+à€€à€€à€€à€€à€€à€€`à€€tå€$PINSHORTà€€+à€€à€€VMETER_Cà€€à¬½à€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à¬½ì±€Èˆà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€ÈªÒºï¿€à€€}COMPONENTà€€ sî¿¨v
+à€€@æ¼¿è¶Šà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ÚŠà€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€ì±€ï˜½à€€Èˆï¸°	à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€Èªì±€Èˆà€€}COMPONENTà€€ sî¿˜éµ¿@æ¼¿éµ¿@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€ê€ˆï¹Èªà€€à€€à€€ à¬½à€€0Anà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€@à€€à€€à€€@à€€à€€{INDICATORà€€à€€à€€à€€à€€è©à€€à€€à€€à€€à€€
+à€€î¿°Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€+88.8à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€VMETER_0à€€(à€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à¬½ì±€Èˆà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€Èªà¹¿ÚŠà€€}COMPONENTà€€ sî¿¨v
+à€€@æ¼¿è¶Šà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€í€€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€ã¼¿ï˜½à€€ï¿€ï¸°	à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Ú€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€ sî¿˜éµ¿@æ¼¿éµ¿0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€VMETER_1à€€|à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€mà€€ã¼¿ï€€à€€ ï¿€à€€0A0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€VMETER_2à€€Ú€à€€à€€à€€à€€à€€à€€à€€qà€€à€€à€€ià€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€à€€à€€à€€à€€ã¼¿à€€à€€à€€
+à€€ï¿€à€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€AC Voltsà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€VMETER_3à€€á€à€€à€€à€€à€€à€€à€€à€€à€€nà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ñ•ÜÈˆà€€COMPONENTà€€à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€
+à€€Èªà€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€AC mVà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€VMETER_4à€€à¿€à€€à€€à€€à€€à€€à€€à€€à€€nà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€í¿Èˆê€‚à€€COMPONENTà€€à€€à€€à€€à€€ÚŠà€€à€€à€€à€€
+à€€â¿€à€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€AC å–€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ì±€à€€{*DEVICE}
+{ACTIVE=VMETER,5,DLL}
+{HELP=INSTRUMENTS>POPUP,507}
+{*PROPDEFS}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODFILE="LISA Model File",HIDDEN STRING}
+{STATE="Display Range",KWDLIST,3,2="Volts",3="Millivolts",4="Microvolts"}
+{LOAD="Load Resistance",FLOAT,PNZ}
+{TC="Time Constant",FLOAT,PNZ}
+{*INDEX}
+{*COMPONENT}
+{LOAD=100M}
+{MODDLL=READOUT}
+{MODFILE=ACVMETER}
+{STATE=2}
+{TC=100ms}
+{PACKAGE=NULL}
+à€€$ICOUNTER TIMERà ‹ä¸‰$à€€à€€k"à€€à€€à€€à€€à€€à€€Èˆà€€à€€;à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªã¼¿à€€COMPONENTà€€à€€à€€à€€à€€@Ø°à€€à€€à€€ã¼¿à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆ`COMPONENTà€€ Èªà€€XoÐŸà€€à€€à€€à€€ì¿¸ÊŒà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ø¢Èˆê€ˆà€€xCOMPONENTà€€èà€€Èªà¿¸à€€à¿¸<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€p-à€€ÈªÔ‘ÐŸà€€ì¿˜è¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ø¢Èˆê€ˆà€€xCOMPONENTà€€p-à€€Èªï à€€ÊŒÜ·à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Ø°à€€Ü·Èˆpà€€ê€ˆè¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÊŒì³¿à€€xCOMPONENTà€€8ê€à€€hì³¿ï€§à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€à “à€€hã¼¿ï à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ã¼¿Èˆê€ˆà€€xCOMPONENTà€€8Èªà€€8ÐŸhì¿€8ê’€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ø¢Èˆê€ˆà€€xCOMPONENTà€€Èªà€€à¿¸ Aà€€à¿¸<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€è½’à€€Èªä—€ÐŸì¿ è¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ø¢Èˆê€ˆà€€xCOMPONENTà€€è½’à€€Èªç²¾à€€Ú’Ü·à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€XÜ·Èˆê€ˆAà€€Èªè¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ú’ì³¿àº–à€€xCOMPONENTà€€ì³¿à€€hÈˆïˆ·à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªã¼¿à€€xCOMPONENTà€€ Aà€€hã¼¿ç²¾à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€ÐŸà€€8ì¿ˆØ¢à€€8Èˆ<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªà¿¸à€€xCOMPONENTà€€81à€€ï°®hà€€à¿¸<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€à€€Î˜à€€Èªà´jà€€ÐŸè¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿¨Ø¢Èˆà€€xCOMPONENTà€€à€€Î˜à€€ê€ˆÈªà€€ÈªÜ·à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Ü·à€€ï°®Èˆà€€ê€ˆè¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÈªì³¿à€€xCOMPONENTà€€ì³¿à€€hÈˆï‡à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªã¼¿à€€xCOMPONENTà€€hà€€hà¡¢ã¼¿à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€ÐŸà€€8ì¿è•ªà€€8Ø¢<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€_à€€à¿¸à¿¸à€€ï¼€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Hîž€ÐŸì¿°;à€€á¢€è¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ø¢Èˆê€ˆà€€xCOMPONENTà€€Hîž€Èªï¸¾"à€€Ü·Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªà¡¢à€€xCOMPONENTà€€è„£à€€Ü·Èˆê€ˆÈªè¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì³¿ì³¿Èˆà€€xCOMPONENTà€€;à€€hê€ˆï˜—à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÈ‘ã¼¿à€€xCOMPONENTà€€ã¼¿à€€hÈˆï¸¾"à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªà®¤à€€xCOMPONENTà€€;à€€8ÐŸ@"à€€8ì¿˜<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ø¢Èˆê€ˆà€€xCOMPONENTà€€Èª$à€€à®¤è±¨à€€à¿¸<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à¿¸ï¼€Èˆà€€xCOMPONENTà€€ê€ˆà€€ÈªÐŸ$à€€ì¿¸è¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€á¨€Ø¢Èˆà€€xCOMPONENTà€€ê€ˆà€€Èªï€Ž(à€€Ü·Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÜ·à€€xCOMPONENTà€€0)à€€Èˆê€ˆÈªì³¿è¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì³¿Èˆê€ˆà€€xCOMPONENTà€€X$à€€hÈªï ¨#à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€âª€ã¼¿â®€à€€xCOMPONENTà€€è±¨à€€hã¼¿ï€Ž(à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€X$à€€8Ø¾è«§à€€8ÐŸ<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿ Û©Ø¢à€€xCOMPONENTà€€Èˆê€ˆ@ÈªØ¾<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à¿¸à¿¸ï¼€à€€xCOMPONENTà€€Èˆ*à€€ê€ˆÈªå®€à€€ÐŸè¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿€â®€Ø¢à€€xCOMPONENTà€€Èˆ*à€€ê€ˆïˆŸ.à€€ÈªÛ©à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ü·ï¨¸Èˆà€€xCOMPONENTà€€xê€ˆÈªâ®€Ü·Èˆè¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÛ©à€€xCOMPONENTà€€ì³¿à€€hÐ»ì³¿)à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€@ã¼¿hã¼¿ïˆŸ.à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€ÐŸà€€8ì¿¨ë¯€-à€€8Ø¢<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Xr0à€€à¿¸è’´à€€à¿¸<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€ 0à€€ÈªÐŸì¿ˆØ¢è¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€ 0à€€Ü·ï¯3à€€ï°ˆÈˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÜ·à€€xCOMPONENTà€€54à€€Èˆê€ˆR4à€€Èªè¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì³¿ì³€ì³¿à€€xCOMPONENTà€€è«¯à€€hÈˆê€ˆ/à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÂ¶ã¼¿à€€xCOMPONENTà€€è’´à€€hÐ¢ï¯3à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ã¼¿Èˆê€ˆà€€xCOMPONENTà€€è«¯à€€8Èªßµ8ÐŸ<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿°Ø¢Èˆà€€xCOMPONENTà€€ê€ˆà€€Èªßµ:à€€à¿¸<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à¿¸ï¼€Èˆà€€xCOMPONENTà€€hê€ˆà€€ÈªÐŸ|5à€€ì¿è¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ø¢Èˆê€ˆà€€xCOMPONENTà€€hÈªà€€Ü·ï˜¿9à€€ï¸˜Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÐ¢à€€xCOMPONENTà€€æ»¿Ü·Èˆ":à€€ê€ˆè¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èªì³¿ì³¿à€€xCOMPONENTà€€0|5à€€hÐŸì¿€5à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à¿¸Èˆê€ˆà€€xCOMPONENTà€€Èª:à€€hÌï˜¿9à€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€0|5à€€8Èª`\9à€€8Ì¹à€€à€€à€€à€€à€€à€€p_ä¿€à€€à€€à€€$PINDEFAULTà€€RSTà€€à€€à€€à€€à€€à€€à€€à€€ï°†ï°€à€€à€€à€€$PINPOSCLKà€€CLKà€€à€€à€€à€€à€€à€€à€€à€€Èˆï€€à€€à€€$PINDEFAULTà€€CEà€€à€€CTIMER_0à€€@à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ê€ˆÈªìµ¿à€€xCOMPONENTà€€Ø‰à€€è«¾ï­à€€è«¾ìµ¿à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è©à€€Ìï¨©à€€à€€è¶Òºà€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€è©à€€PÈªà³†à€€PÒº<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€Èªà€€è¾Ð…à€€Ì¹ï¼€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Ð…à€€è¾ïˆà€€Èˆê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ÈªÌï¨©à€€xCOMPONENTà€€HÒºà€€ï¼€ï­à€€è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ê€ˆÈªÌ¹à€€xCOMPONENTà€€@ sî¿ˆï°†à€€ sî¿ƒTIMER_1à€€@à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€Èªà€€è¾ìµ¿à€€Ø‰ìµ¿à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è©à€€Ìï¼€à€€à€€è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ê€ˆÈªÐ…à€€xCOMPONENTà€€è©à€€PÈˆê€ˆà€€PÈª<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€à³†Òºï¼€à€€xCOMPONENTà€€Èˆà€€è«¾ï­à€€è«¾ê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ÈªÐ…Ì¹à€€xCOMPONENTà€€@ sî¿ˆï°€à€€ sî¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Ð…à€€è¾ïˆà€€Ì¹ï¼€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€HÌà€€ï¨©ï­à€€è¶Òºà€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€CTIMER_2à€€@à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€HÈªà€€Ì¹ï­à€€è¶ï°†à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€Èªà€€è¾ìµ¿à€€Ø‰ìµ¿à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è©à€€Ìï¼€à€€à€€è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ê€ˆÈªÐ…à€€xCOMPONENTà€€è©à€€PÈˆê€ˆà€€PÈª<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€à³†Òºï°€à€€xCOMPONENTà€€Èˆà€€è«¾ï­à€€è«¾ê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ÈªÐ…Ì¹à€€xCOMPONENTà€€@ sî¿ˆï¼€à€€ sî¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Ìà€€è¾ïˆà€€ï¨©Òºà€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€CTIMER_3à€€@à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€HÈªà€€Ì¹ï­à€€è¶ï°†à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€Èªà€€è¾ìµ¿à€€Ø‰ìµ¿à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è©à€€Ìï¼€à€€à€€è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ê€ˆÈªÐ…à€€xCOMPONENTà€€è©à€€PÈˆê€ˆà€€PÈª<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€à³†Òºï°€à€€xCOMPONENTà€€Èˆà€€è«¾ï­à€€è«¾ê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ÈªÌ¹ï°†à€€xCOMPONENTà€€@ sî¿ˆï¼€à€€ sî¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€ìµ¿à€€è¾ïˆà€€Ø‰ìµ¿à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€CTIMER_4à€€@à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è©à€€Ìï¼€à€€à€€è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ê€ˆÈªÐ…à€€xCOMPONENTà€€è©à€€PÈˆê€ˆà€€PÈª<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€à³†Òºï°€à€€xCOMPONENTà€€Èˆà€€è«¾ï­à€€è«¾ê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ÈªÌï¨©à€€xCOMPONENTà€€@ sî¿ˆÒºà€€ sî¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€Èªà€€è¾ïˆà€€Ð…Ì¹à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Ì¹à€€è¾ï°†à€€ï¼€Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ê€ˆÈªà³†à€€xCOMPONENTà€€HÒºà€€ï°€ï­à€€è¶ïƒ”IMER_5à€€@à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è©à€€Ð…Ì¹à€€à€€è¶ï¼€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€ìµ¿à€€è¾ïˆà€€Ø‰ìµ¿à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€HÌà€€ï¼€ï­à€€è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ê€ˆÈªÐ…à€€xCOMPONENTà€€è©à€€PÈˆê€ˆà€€PÈª<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Ìï¨©Òºà€€xCOMPONENTà€€Èˆà€€è«¾ï­à€€è«¾ê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ÈªÌ¹ï°†à€€xCOMPONENTà€€@ sî¿ˆï¼€à€€ sî¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€à³†à€€è¾Òºà€€ï°€ïƒ”IMER_6à€€@à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è©à€€Ð…Ì¹à€€à€€è¶ï¼€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€ìµ¿à€€è¾ïˆà€€Ø‰ìµ¿à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€HÌà€€ï¼€ï­à€€è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ê€ˆÈªÐ…à€€xCOMPONENTà€€è©à€€PÈˆê€ˆà€€PÈª<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Ìï¨©Òºà€€xCOMPONENTà€€Èˆà€€è«¾ï­à€€è«¾ê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ÈªÌ¹ï°†à€€xCOMPONENTà€€@ sî¿ˆï°€à€€ sî¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€ìµ¿à€€è¾Ø‰à€€ìµ¿ïƒ”IMER_7à€€@à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è©à€€Ìï¼€à€€à€€è¶Èˆà€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ê€ˆÈªÌà€€xCOMPONENTà€€è©à€€Pï¨©Òºà€€Pï¼€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€à³†à€€è«¾ï­à€€è«¾Òºà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€Èªà€€è¾Ð…à€€Ì¹ï¼€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Ð…à€€è¾ïˆà€€Èˆê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ÈªÌï¼€à€€xCOMPONENTà€€HÈˆà€€ê€ˆï­à€€è¶Èªà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Ì¹ï°†ï°€à€€xCOMPONENTà€€@ sî¿ˆÈˆà€€ sî¿ƒTIMER_8à€€@à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ê€ˆÈªìµ¿à€€xCOMPONENTà€€Ø‰à€€è«¾ï­à€€è«¾ìµ¿à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è©à€€Ìï¨©à€€à€€è¶Òºà€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€è©à€€PÈªà³†à€€PÒº<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€Èªà€€è¾Ð…à€€Ì¹ï¼€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Ð…à€€è¾ïˆà€€Èˆê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ÈªÌ¹ï°†à€€xCOMPONENTà€€Hï°€à€€Èˆï­à€€è¶ê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èªìµ¿Ø‰à€€xCOMPONENTà€€@ sî¿ˆìµ¿à€€ sî¿ƒTIMER_9à€€@à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è©à€€Ìï¼€à€€à€€è¶Èˆà€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ê€ˆÈªÌà€€xCOMPONENTà€€è©à€€Pï¨©Òºà€€Pï¼€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€à³†à€€è«¾ï­à€€è«¾Òºà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€Èªà€€è¾Ð…à€€Ì¹ï¼€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€Ð…à€€è¾ïˆà€€Èˆê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€Èªà³†à³†à€€xCOMPONENTà€€HÈˆà€€ê€ˆï­à€€è¶Èªà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€à³†à³†Ñ•à€€xCOMPONENTà€€@ sî¿ˆã†½à€€ sî¿ƒTIMER_10à€€xà€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€Fà€€à€€à€€à€€ÄˆÈˆê€ˆà€€xCOMPONENTà€€Èªà€€éµ¿Èˆà€€éµ¿CTIMER_11à€€xà€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€è€€ï€€à€€à€€ê€ˆÈªã¼¿à€€xCOMPONENTà€€ï¿”à€€éµ¿ì±€à€€éµ¿å€à€€{*DEVICE}
+{ACTIVE=CTIMER,12,DLL}
+{HELP=INSTRUMENTS>POPUP,505}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODE="Operating Mode",KWDLIST,4,0="Time (secs)",1="Time (hms)",2="Frequency",3="Count"}
+{GATEPOL="Count Enable Polarity",KWDLIST,2,0="High",1="Low"}
+{RSTEDGE="Reset Edge Polarity",KWDLIST,2,0="Low-High",1="High-Low"}
+{*INDEX}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDLL=CTIMER.DLL}
+{RSTEDGE=0}
+{GATEPOL=0}
+{MODE=0}
+{PACKAGE=NULL}
+à€€$IDC AMMETERÈˆê€ˆ	à€€à€€Èªà€€à€€à€€à€€à€€à€€sà€€à€€	à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì±€Èˆê€ˆà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€mà€€à€€à€€eà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èªì±€Èˆà€€COMPONENTà€€à€€à€€à€€à€€ê€ˆà€€à€€à€€
+à€€Èªîƒ€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Ampsà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€É€à€€à€€à€€à€€Òºï¿€ÚŠà€€}COMPONENTà€€é¤šïˆ¶à€€è¶ïˆ¶à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à¿¸à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€éµ¿è¼ƒà€€éµ¿@<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ì±€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€xì±€PSà€€X=à€€PSà€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€Èˆï¹ê€ˆà€€à€€à€€ Èªà€€0A0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€nà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€@à€€à€€à€€@à€€à€€{INDICATORà€€à€€à€€à€€à€€è©à€€à€€à€€à€€à€€
+à€€î¿°Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€+88.8à€€à€€à€€à€€ì±€ï€€à€€à€€à€€à€€à€€à€€$PINSHORTà€€+à€€à€€à€€
+à€€à€€`à€€à€€à€€à€€à€€è¸‚à€€$PINSHORTà€€-à€€à€€IMETER_Cà€€à€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€É€à€€à€€à€€à€€Òºï¿€ÚŠà€€}COMPONENTà€€é¤šïˆ¶à€€è¶ïˆ¶à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Èˆà€€à€€à€€à€€ê€ˆÈªì±€à€€}COMPONENTà€€éµ¿è¼ƒà€€éµ¿@<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Èˆà€€à€€à€€à€€ê€ˆÈªì±€à€€}COMPONENTà€€xÈˆPSà€€X=à€€PSà€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€ê€ˆï¹Èªà€€à€€à€€ ì±€à€€0A0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€nà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€@à€€à€€à€€@à€€à€€{INDICATORà€€à€€à€€à€€à€€è©à€€à€€à€€à€€à€€
+à€€î¿°Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€+88.8à€€IMETER_0à€€Xà€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€É€à€€à€€à€€à€€à¹¿ÚŠÈˆà€€}COMPONENTà€€é¤šïˆ¶à€€è¶ïˆ¶à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€Èªã¼¿ï¿”à€€}COMPONENTà€€éµ¿è¼ƒà€€éµ¿@<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Èˆà€€à€€à€€à€€ê€ˆÈªã¼¿à€€}COMPONENTà€€xï¿”PSà€€X=à€€PSà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€IMETER_1à€€|à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€mà€€Èˆï€€à€€ ê€ˆà€€0A0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€IMETER_2à€€é€€à€€à€€à€€à€€à€€à€€à€€mà€€à€€à€€eà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èªã¼¿ï¿”à€€COMPONENTà€€à€€à€€à€€à€€Ñ•à€€à€€à€€
+à€€ã†îƒ€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Ampsà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€IMETER_3à€€ç€€à€€à€€à€€à€€à€€à€€à€€kà€€à€€à€€cà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€à€€à€€à€€à€€Èˆà€€à€€à€€à€€
+à€€ê€ˆîƒ€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€mAà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€IMETER_4à€€ç€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€kà€€à€€à€€cà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èªã¼¿ï¿”à€€COMPONENTà€€à€€à€€à€€à€€ì±€à€€à€€à€€à€€
+à€€Èˆîƒ€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€å€5à€€à€€{*DEVICE}
+{ACTIVE=IMETER,5,DLL}
+{HELP=INSTRUMENTS>POPUP,507}
+{*PROPDEFS}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODFILE="LISA Model File",HIDDEN STRING}
+{STATE="Display Range",KWDLIST,3,2="Amps",3="Milliamps",4="Microamps"}
+{*INDEX}
+{*COMPONENT}
+{MODDLL=READOUT}
+{MODFILE=DCIMETER}
+{STATE=2}
+{PACKAGE=NULL}
+à€€$IDC VOLTMETERê€ˆÈª
+à€€à€€æˆ€à€€à€€à€€à€€à€€Dà€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì±€Èˆê€ˆà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€nà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èªà¬½à¬½à€€COMPONENTà€€à€€à€€à€€à€€ì±€à€€à€€à€€
+à€€Èˆîƒ€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Voltsà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€ÈªÒºï¿€à€€}COMPONENTà€€ sî¿¨v
+à€€@æ¼¿è¶Šà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ÚŠà€€à€€à€€à€€à¿¸ÖÈˆà€€}COMPONENTà€€ê€ˆï˜½à€€Èªï¸°	à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ì±€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€ sî¿˜éµ¿@æ¼¿éµ¿@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€ì±€ï¹Èˆà€€à€€à€€ ê€ˆà€€0Anà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€@à€€à€€à€€@à€€à€€{INDICATORà€€à€€à€€à€€à€€è©à€€à€€à€€à€€à€€
+à€€î¿°Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€+88.8à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€
+à€€à€€à€€à€€à€€à€€ÈªïŒŠà€€$PINSHORTà€€-à€€à€€à€€
+à€€à€€à€€à€€à€€à€€`à€€tå€$PINSHORTà€€+à€€à€€VMETER_Cà€€à¬½à€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à¬½ì±€Èˆà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€ÈªÒºï¿€à€€}COMPONENTà€€ sî¿¨v
+à€€@æ¼¿è¶Šà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ÚŠà€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€ì±€ï˜½à€€Èˆï¸°	à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€Èªì±€Èˆà€€}COMPONENTà€€ sî¿˜éµ¿@æ¼¿éµ¿@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€ê€ˆï¹Èªà€€à€€à€€ à¬½à€€0Anà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€@à€€à€€à€€@à€€à€€{INDICATORà€€à€€à€€à€€à€€è©à€€à€€à€€à€€à€€
+à€€î¿°Aà€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€+88.8à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€VMETER_0à€€(à€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à¬½ì±€Èˆà€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€`à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€Èªà¹¿ÚŠà€€}COMPONENTà€€ sî¿¨v
+à€€@æ¼¿è¶Šà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€ã¼¿ï˜½à€€ï¿”ï¸°	à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€×€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€ sî¿˜éµ¿@æ¼¿éµ¿0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€VMETER_1à€€|à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€ï€€à€€à€€@à€€à€€à€€@à€€à€€INDICATORà€€mà€€ã¼¿ï€€à€€ ï¿”à€€0A0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€VMETER_2à€€×€à€€à€€à€€à€€à€€à€€à€€nà€€à€€à€€fà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€à€€à€€à€€à€€ã¼¿à€€à€€à€€
+à€€ï¿”îƒ€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Voltsà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€VMETER_3à€€Ñ•à€€à€€à€€à€€à€€à€€à€€à€€kà€€à€€à€€cà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì€Èˆê€ˆà€€COMPONENTà€€à€€à€€à€€à€€Èªà€€à€€à€€à€€
+à€€ï¬¿îƒ€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€mVà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€VMETER_4à€€ï¿¿à€€à€€à€€à€€à€€à€€à€€à€€kà€€à€€à€€cà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€‚è¿€à€€COMPONENTà€€à€€à€€à€€à€€Èˆà€€à€€à€€à€€
+à€€ê€ˆîƒ€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€å–€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€gà€€à€€{*DEVICE}
+{ACTIVE=VMETER,5,DLL}
+{HELP=INSTRUMENTS>POPUP,507}
+{*PROPDEFS}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODFILE="LISA Model File",HIDDEN STRING}
+{STATE="Display Range",KWDLIST,3,2="Volts",3="Millivolts",4="Microvolts"}
+{LOAD="Load Resistance",FLOAT,PNZ}
+{*INDEX}
+{*COMPONENT}
+{LOAD=100M}
+{MODDLL=READOUT}
+{MODFILE=DCVMETER}
+{STATE=2}
+{PACKAGE=NULL}
+à€€$II2C DEBUGGERÈªäººà€€à€€à¬½à€€à€€à€€à€€à€€à€€(à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì€¨Í€ï¬¿à€€COMPONENTà€€ï¬¿p_ä¿€à€€à€€à€€fà€€ Aà€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¬¿à€€à¿¸Ñ•bCOMPONENTà€€è«¾ï ¿ã†³à€€à€€à€€è–à€€è£à€€là€€à€€à€€dà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€æ‡€Èˆê€ˆà€€{COMPONENTà€€Èªç²¾à€€à€€à€€à€€à€€à€€à¿ Ù¿à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Fà€€I2Cà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€âª€`à€€à€€à€€à€€à€€$PINDEFAULTà€€SDAà€€à€€à€€à€€Èˆà€€à€€à€€à€€à€€à€€à€€à€€$PINDEFAULTà€€SCLà€€à€€à€€à€€ê€‚Èœï€€à€€à€€$PINDEFAULTà€€TRIGà€€à€€ï‚€à€€{*DEVICE}
+{ACTIVE=I2C_DEBUG,0,DLL}
+{HELP=INSTRUMENTS>POPUP,510}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{CLOCKFREQ="Clock frequency in Hz",INT,PNZ}
+{ADDRESS1="Address byte 1",INT,0,255}
+{ADDRESS2="Address byte 2",INT,0,255}
+{STOPONEMPTY="Stop on buffer empty",BOOL}
+{TIMEPREC="Time display precision",ADVANCED INT,1,12}
+{WRAPLENGTH="New line after",ADVANCED INT,1,64}
+{AUTOLOAD="Queue stored sequences at startup",ADVANCED YESNO}
+{SEQUENCE_FILE="Sequence file",ADVANCED FILENAME,FALSE,,Text file/*.txt}
+{*INDEX}
+{CAT=Miscellaneous}
+{SUBCAT=}
+{MFR=}
+{DESC=I2C Protocol Debugger}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDLL=i2cdebug.dll}
+{AUTOLOAD=0}
+{CLOCKFREQ=100000}
+{STOPONEMPTY=1}
+{WRAPLENGTH=64}
+{PACKAGE=NULL}
+à€€$ILOGIC ANALYSERï¿Ý¿à€€à€€ì‰€à€€à€€à€€à€€à€€à€€è„€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€@ÐŸ>ì¿ à€€à€€à€€à€€`Aà€€ÐŸ0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€8cà€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿¼ì‰€dCOMPONENTà€€Èˆê€ˆÈªà€€à€€à€€à€€Pè§€è„£à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à¿¸à€€à€€à€€à€€à¿¸ï¼€ì‰€à€€xCOMPONENTà€€à€€à€€à€€à€€Èˆê€ˆfà€€Èªì‰€à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Èˆà€€à€€à€€à€€ê€ˆÈªà¿ à€€xCOMPONENTà€€à€€à€€à€€à€€à¿¼ï &à€€ì‰€Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€Èªï¬¿ï¬¿à€€xCOMPONENTà€€à€€à€€à€€à€€p_ä¿ fà€€p_é¬»à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ì‰€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€à€€à€€à€€à€€@à¾¨fà€€@à¾¨à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ï¼€à€€à€€à€€à€€ì‰€Èˆê€ˆà€€xCOMPONENTà€€à€€à€€à€€à€€Èªfà€€Þ¤<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Þ¤à€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€à€€à€€à€€à€€Èªï &à€€Ý¿ì‰€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Èˆà€€à€€à€€à€€ê€ˆÈªà¾ à€€xCOMPONENTà€€à€€à€€à€€à€€à¾ ï &à€€ï¼€Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÝ¿à€€xCOMPONENTà€€0Aà€€à€€à€€à€€0APÈˆ<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€ˆà€€à€€à€€à€€Èªà ‹à ‹à€€xCOMPONENTà€€à€€à€€à€€à€€Ý¿ï &à€€Èˆê€ˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÝ¿Èˆà€€xCOMPONENTà€€`à€€à€€à€€à€€à€€`à€€Pê€ˆ<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èªà “à “à€€xCOMPONENTà€€Ý¿à€€à€€à€€à€€à€€Èˆà€€Pê€ˆ<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÝ¿Èˆà€€xCOMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€Pê€ˆ<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÝ¿Èˆà€€xCOMPONENTà€€ê€ˆà€€à€€à€€à€€à€€Èªà€€PÝ¿<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€ Aà€€à€€à€€à€€à€€ Aà€€Pà¡¢<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à¡¢Ý¿à¿€à€€xCOMPONENTà€€P!à€€à€€à€€à€€à€€P!à€€Pà¿<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿€à¿ è¿€à€€xCOMPONENTà€€_à€€à€€à€€à€€à€€_à€€Pà¿°<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à¿€à¿€à¿à€€xCOMPONENTà€€ï¬¿à€€à€€à€€à€€à€€à¿ à€€Pà¿°à€€à€€@Þ¤à€€à€€à€€à€€à€€à€€à€€$PINDEFAULTà€€A0à€€à€€à€€à€€@Â¶Â¶ÐŸà€€à€€à€€$PINDEFAULTà€€A1à€€à€€à€€à€€@ì¿€?Â¶à€€à€€à€€$PINDEFAULTà€€A2à€€à€€à€€à€€@à¿¸_ä¿€à€€à€€à€€$PINDEFAULTà€€A3à€€à€€à€€à€€@Â¶Â¶à€€à€€à€€$PINDEFAULTà€€A4à€€à€€à€€à€€@à¿€Â¶à€€à€€à€€à€€$PINDEFAULTà€€A5à€€à€€à€€à€€@ï¬¿î¨¿à€€à€€à€€à€€$PINDEFAULTà€€A6à€€à€€à€€à€€@Â¶à¾¨ï€€à€€à€€$PINDEFAULTà€€A7à€€à€€à€€à€€Â¶à€€à€€à€€à€€à€€à€€à€€à€€$PINDEFAULTà€€A8à€€à€€à€€à€€Þ¤à€€à¿€à¿à€€à€€$PINDEFAULTà€€A9à€€à€€à€€à€€Ý¿à€€Â¶ï€€à€€$PINDEFAULTà€€A10à€€à€€à€€à€€à¾ à€€p_ä¿€à€€à€€$PINDEFAULTà€€A11à€€à€€à€€à€€Â¶à€€@Ý¿à€€à€€$PINDEFAULTà€€A12à€€à€€à€€à€€Ñ•à€€ã†°à€€à€€à€€$PINDEFAULTà€€A13à€€à€€à€€à€€í›€à€€Èˆï€€à€€$PINDEFAULTà€€A14à€€à€€à€€à€€ê€ˆà€€Èªï€€à€€$PINDEFAULTà€€A15à€€à€€à€€à€€à€€@ï¬¿è†žà€€à€€à€€à€€$PINBUSà€€B0[0..7]à€€à€€à€€à€€à€€@à¿€à¡¢à€€à€€à€€à€€$PINBUSà€€B1[0..7]à€€à€€à€€à€€à€€Èˆà€€ê€‚ï¸¸à€€à€€$PINBUSà€€B2[0..7]à€€à€€à€€à€€à€€à “à€€PÈˆè¸€à€€$PINBUSà€€B3[0..7]à€€à€€)à€€à€€{*DEVICE}
+{ACTIVE=DLA,0,DLL}
+{HELP=INSTRUMENTS>POPUP,502}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model",READONLY STRING}
+{PACKAGE="PCB Package",PACKAGE,0}
+{*INDEX}
+{CAT=Virtual Instrument}
+{SUBCAT=}
+{MFR=}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDLL=DLA}
+{PACKAGE=NULL}
+à€€$IOSCILLOSCOPEê€ˆÈª!à€€à€€ï° à€€à€€à€€à€€à€€à€€1à€€à€€kà€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à ‹Èˆê€ˆà€€wCOMPONENTà€€Èª@à ‹à€€à€€à€€Èˆà€€_à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€8cà€€à€€à€€à€€à€€à€€à€€à€€0à€€à€€ê€ˆÈªhCOMPONENTà€€è¶ïˆæ¿€à€€à€€à€€Qà€€Èˆà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÉ€à€€xCOMPONENTà€€è¶ï¼€à€€Èˆà€€0A<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÉ€à€€xCOMPONENTà€€è¶ï €à€€ï¼€à€€`à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è¾ï¸°	à€€è¾ïˆæ¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€É€ï¼€Èˆà€€xCOMPONENTà€€à€€à€€à€€à€€xê€ˆà€€à€€à€€à€€è¶Èªà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Ð…É€Ð…à€€xCOMPONENTà€€@xï¼€@è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÉ€à€€xCOMPONENTà€€0Axï¼€0Aè¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÉ€à€€xCOMPONENTà€€HÉ€à€€xÉ€Hï¼€à€€è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªà ‹à€€xCOMPONENTà€€`à€€xÐ…`à€€è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªà ‹à€€xCOMPONENTà€€xÈˆxê€ˆxÈªè¶ï¨à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Ë€ï¼€Èˆà€€xCOMPONENTà€€è¶ïˆà€€ê€ˆà€€HÈªà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿Ë€ÐŸà€€xCOMPONENTà€€è¶ï˜°à€€ì¿¼à€€@<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è¶ï¸¯î¿ê¿è¾Ë€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¼€Èˆê€ˆà€€xCOMPONENTà€€è¶ïŸÈªË€à¿¸ï¼€à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€xCOMPONENTà€€è¶Èˆê€ˆÈªè«¾à¿¸à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à¿¸Èˆê€ˆà€€xCOMPONENTà€€è¶ï ¿é‹ÈªÐŸì¿¸à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€É€ÐŸì¿ˆà€€xCOMPONENTà€€è«¾ï¸°	à€€è«¾ïˆæ¿¼à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿€ï¿¿ï¿¿à€€xCOMPONENTà€€à¿¸ï¸°	à€€ï¿€ïˆæ¿°à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ï¿¿à¿¸à€€xCOMPONENTà€€à¿¸ï¿€ï¿¿ï¿¿à¿¸Oç’à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€è¶ïˆà€€ï¿€ïˆà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€ÐŸà€€x2D GRAPHICà€€ì¿ˆïˆà€€Ð…ï˜£à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€ÐŸï˜£à€€è«¾ï˜£à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ì¿ˆà€€Ð…à€€ÐŸà€€x2D GRAPHICà€€è«¾ï˜£à€€è«¾ïˆà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ì¿˜à€€ï¿€à€€ï¿¿à€€x2D GRAPHICà€€è«¾ïˆà€€ï¿¿ÐŸì¿˜à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€ï¿€ï¿¿ï¿¿à€€Ð…ï¿€#à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€Ð…à€€x2D GRAPHICà€€ï¿€ï¿¿#à€€è¾ï˜£à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿€à€€ï¿¿à€€x2D GRAPHICà€€è¾ï˜£à€€è¾ïˆà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿¿à€€Ð…à€€ï¿€à€€x2D GRAPHICà€€è¾ïˆà€€à€€à€€à€€à€€Hï¿¿à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿¿à€€Ð…à€€Ð…à€€x2D GRAPHICà€€à€€à€€à€€à€€Hï¿€à€€à€€à€€à€€à€€è¤Œà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€Ð…à€€x2D GRAPHICà€€à€€à€€à€€à€€è¤Œà€€@è¤Œà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€@è¤Œà€€@HÐ…à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€@HÐ…à€€0AHÐ…à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€Ð…à€€ï¿€à€€ï¿¿à€€x2D GRAPHICà€€0AHï¿¿à€€0Aè¤Œà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€Ð…à€€Ð…à€€Ð…à€€x2D GRAPHICà€€0Aè¤Œà€€Hï¿€à€€è¤Œà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€Ð…à€€x2D GRAPHICà€€Hï¿€à€€è¤Œà€€Hï¿¿à€€Hï¿¿à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€É€à€€ï¿€à€€ï¿¿à€€x2D GRAPHICà€€Hï¿¿à€€HÉ€à€€`à€€HÉ€à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€Ð…à€€ï¿€à€€ï¿¿à€€x2D GRAPHICà€€`à€€Hï¿¿à€€`à€€è¤Œà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€É€à€€Ð…à€€à ‹à€€x2D GRAPHICà€€`à€€è¤Œà€€xÐ…è¤Œà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€ì¿ à€€x2D GRAPHICà€€xì¿½è¤Œà€€xï¿¿Hï¿¿à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à¿¸à€€ì¿ à€€ï¿¿à€€x2D GRAPHICà€€xï¿¿Hà¿¸à€€ê¿ à€€Hï¿¿à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€ê¿à€€x2D GRAPHICà€€è¶ïŸì¿½?é‹ï¿¿ï¿¿à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ì¿à€€ì¿à€€x2D GRAPHICà€€ì¿½ïŸï¿¿?è¿ sî¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€ÐŸà€€x2D GRAPHICà€€ì¿ï ³î¿¸/ì¿sî¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ì¿ à€€ï¿¿à€€x2D GRAPHICà€€è«¾ï ³î¿¸/ï¿¿ÐŸì¿ à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€è«¾ïŸì¿½ï¿¿ï¿¿ì¿€ÐŸà€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ì¿½à€€ï¿¿à€€x2D GRAPHICà€€ï¿¿ÐŸì¿€ï¿¿ï¿¿ï¿¿sî¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€ÐŸà€€x2D GRAPHICà€€ì¿½ï¿¿sî¿¨î¿ sî¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€ÐŸà€€x2D GRAPHICà€€è¾ï ³î¿¨î¿ì¿°ÐŸà€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ì¿½à€€ï¿¿à€€x2D GRAPHICà€€è¾ïŸï¿¿à€€à€€à€€ÐŸì¿°à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€à€€à€€à€€à€€Ð…ï¿¿à€€à€€à€€ sî¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€Ð…à€€x2D GRAPHICà€€à€€à€€à€€à€€ sî¿˜@ sî¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€Ð…à€€ÐŸà€€x2D GRAPHICà€€@ sî¿˜@ì¿½ï¿¿à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€Ð…à€€x2D GRAPHICà€€@ÐŸì¿ AÐŸì¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€0AÐŸì¿ A sî¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€0A sî¿ˆÉ€à€€ sî¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€HÉ€à€€ sî¿ˆÉ€à€€ÐŸì¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€HÉ€à€€ÐŸì¿à€€Ë€ÐŸà€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ì¿½à€€ï¿¿à€€x2D GRAPHICà€€`à€€ï¿¿ï¿¿à€€ sî¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€à¿¸à€€x2D GRAPHICà€€`à€€ sî¿¸ï¿¿ sî¿½à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€ï¿¿à€€à¿¸à€€x2D GRAPHICà€€xÌ¹ sî¿¸ï¨©ï¿¿ï¿¿à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€ï€€à€€Ì¹à€€ï¨©à€€x2D GRAPHICà€€xë¿¸ï¿¿ï¿¿ë¿¸ï¿¿ï¿¿à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€2æ¿¨)à€€è¶ï Œà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€2æ¿¨)à€€Ìï¸¼à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€Ìï¸¼à€€ï¿¿ï¿¿à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€à¦„à€€ï¿¿à€€x2D GRAPHICà€€ï¿¿à¦„à€€`Yà³†|à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€`Yà³†|à€€@æ¼¿è©à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€@æ¼¿è©à€€ sî¿¸|à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€ sî¿¸|à€€à€€à€€à€€à€€è©à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ÚŠà€€ï¿¿à€€x2D GRAPHICà€€à€€à€€à€€à€€è©à€€ï¿¿à€€è¼ƒà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ÚŠà€€à ‹à€€x2D GRAPHICà€€Èˆà€€è¼ƒà€€à€€è©à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ê€ˆà€€Èªà€€x2D GRAPHICà€€à€€è©à€€à ‹à€€è¼ƒà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€é¿ˆà€€è¼ƒà€€é¿™à€€è©à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€Ì¹à€€ï¸•à€€x2D GRAPHICà€€Ì¹à€€è©à€€`à€€è¼ƒà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€`à€€è¼ƒà€€@M	à€€è©à€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€é¿—à€€Ì¹à€€x2D GRAPHICà€€@M	à€€è©à€€ é¿¨à€€è¼ƒà€€=à€€à€€à€€4à€€à€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€à€€ï€Ü·à€€é¿à€€x2D GRAPHICà€€ ï¿¿à€€è¼ƒà€€ï¿¿à€€PSà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Ü·é¿¨Ü·à€€xCOMPONENTà€€è¶ï€€à€€à€€é¿¹à€€à€€à€€à€€à€€Mà€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€â¸¿à€€à¿¸à€€x2D GRAPHICà€€è¶ï†ï¿¿Oæ¸šï¿¿æ¶¿Ø¢é¿ ç¿€é¿ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€é¿ˆà€€é¿à€€x2D GRAPHICà€€è•·ï€Œé¿å·¿ï¿¿é–ç¿ï¿¿é¿ï†é¿ˆà€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€é¿à€€é¿™à€€x2D GRAPHICà€€hé¿¸ï†ê¿€Ì¹ï†ï¿¿3è¿ ?é‚„ï¿¿é¿—ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€ïº¿à€€Ì¹à€€x2D GRAPHICà€€ï¨¶è¿ ?è¿·ê¿?é‚ié¿¨é¿iï¿¿ï¿¿à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€é¿¨à€€é¿¹à€€x2D GRAPHICà€€Hië¿ ì»¿ià¿¸ï¿¿9ï€Œï¿¿/ì¿ ã¼¿ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€é¿ˆà€€ã¼¿à€€x2D GRAPHICà€€è«¾ï€Œé¿ï¿¿ï¿¿ã¼¿é¿ˆã¼¿æº¿é¿™à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€Ù¼à€€é¿¸à€€x2D GRAPHICà€€(æº¿í¿€æº¿Ì¹Lï¿¿?é‚„ï¿¿í¿€ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€Ì¹à€€í¿€à€€x2D GRAPHICà€€è¼»ï ¿è¿·,Ì¹?é‚ï¨é¿¨é¿ï¿¿à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€ï¿¿à€€é¿¨à€€x2D GRAPHICà€€é¿¹Ö¾ï¿¿ï¿¿Ö¾ï€Œì¿¿Ié¿ˆì¿¿ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€é¿à€€ï¿¿à€€x2D GRAPHICà€€xIï¿¿Èœï—¹ï¿é¿ˆì¿¿î¿é¿™î¿ã¿¿à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€Ì¹à€€ï¸£à€€x2D GRAPHICà€€è¾ï†Ì¹î¿ï¿¿fî¿ ?é‚„ï¿¿ï ¿è¿à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€Ì¹à€€Ì¹à€€x2D GRAPHICà€€Xï¨©ï ¿è¿·Eï¿ ?é‚é¿¨é¿ï¿¿ï¿¿à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€é¿¨à€€é¿¹à€€x2D GRAPHICà€€à¿¸à¿¸ï¿¿ï¿¿à¿¸ï·Ÿà¿¸é¿ˆà€€à€€é¿ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€ï¿¿à€€ï¿¿à€€x2D GRAPHICà€€8cà€€à€€é¿ˆï—’à€€à€€é¿™Ì¹à€€Ì¹)à€€ï¿¿à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€ï¿¿à€€Ì¹à€€x2D GRAPHICà€€è©à€€Ì¹)à€€é¿¨@é¿ï˜°à€€ï¿¿ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€ï¿¿à€€é¿¨à€€x2D GRAPHICà€€@é¿¹ê„€à€€à¿¸ïˆ¶à€€à¿¸æ‚€ï¿¿à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€ï¿¿à€€Ø‰à€€x2D GRAPHICà€€è¶à€€à¿¸æ‚€ï·¹à€€à¿¸ï¸¼à€€é¿ˆï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€Ð…à€€é¿à€€x2D GRAPHICà€€è¼ƒà€€ï¿¿ï—¬à€€ï¿¿ç³–à€€Ð…Cà€€é¿ˆà€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€Ð…à€€é¿™à€€x2D GRAPHICà€€hCà€€Ì¹Cà€€ï¸–Ì¹ï¿¿ï˜‰à€€ï¿¿ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€Ì¹à€€Ì¹à€€x2D GRAPHICà€€é¿¨à€€é¿ï¿¿à€€ï¿¿ïˆà€€é¿¨é¿¹à€€ã‡€à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€à¿¸à€€à¿¸à€€x2D GRAPHICà€€Hï¿¿à€€ï¿¿à¿¸à€€ï·“'à€€à¿¸é¿ˆà€€êˆ€ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€é¿à€€ï¿¿à€€x2D GRAPHICà€€è–†à€€ï¿¿ï—†à€€êˆ€ç²¾à€€é¿ˆ]à€€êˆ€à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€é¿™à€€Ì¹à€€x2D GRAPHICà€€(]à€€Ì¹]à€€ï¿¿ï¿¿É€ï˜£à€€Ì¹ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€Ì¹à€€ï¨¶à€€x2D GRAPHICà€€è¤Œà€€é¿¨é¿à€€ï¿¿ïˆªà€€ï¿¿é¿¨é¿¹à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€ÍŠà€€à¿¸à€€x2D GRAPHICà€€à¿¸ï¿¿ï¿¿à¿¸@	à€€é¿˜ï¸°	à€€à¿¸ï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€é¿à€€ï¬¿à€€x2D GRAPHICà€€xà ‹ï¬¿ï— 
+à€€ï¬¿ÐŸ
+à€€ì¿€v
+à€€ï¬¿à€€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€Ñ•à€€ã†³à€€x2D GRAPHICà€€è¶Šà€€í–€v
+à€€ì”€Èˆà€€ê€ˆï˜½à€€Èªï€à€€à€€Dà€€à€€à€€#à€€à€€à€€à€€à€€à€€à€€ï€€Ý•à€€ã€à€€x2D GRAPHICà€€X=à€€âª€ï à€€Èˆ=à€€ê€‚ï à€€Ô‘à€€à€€ËšÈˆà€€à€€à€€à€€à€€$PINDEFAULTà€€Aà€€à€€à€€à€€ê€‚0Aà€€à€€à€€à€€$PINDEFAULTà€€Bà€€à€€à€€à€€ìµ¿ï¿¿Èˆà€€à€€à€€$PINDEFAULTà€€Cà€€à€€à€€à€€ê€‚p_ä¿€à€€à€€à€€$PINDEFAULTà€€Dà€€à€€/à€€à€€{*DEVICE}
+{ACTIVE=DSO,0,DLL}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model",READONLY STRING}
+{TRIGAUTO="TRIGAUTO",HIDDEN STRING}
+{TRIGSRC="TRIGSRC",HIDDEN STRING}
+{TRIGEDGE="TRIGEDGE",HIDDEN STRING}
+{TRIGACDC="TRIGACDC",HIDDEN STRING}
+{TRIGLEVEL="TRIGLEVEL",HIDDEN STRING}
+{TRIGDELAY="TRIGDELAY",HIDDEN STRING}
+{HORIZSRC="HORIZSRC",HIDDEN STRING}
+{HORIZVAL="HORIZVAL",HIDDEN STRING}
+{HORIZPOS="HORIZPOS",HIDDEN STRING}
+{CHAINV="CHAINV",HIDDEN STRING}
+{CHASUM="CHASUM",HIDDEN STRING}
+{CHAACDC="CHAACDC",HIDDEN STRING}
+{CHAVAL="CHAVAL",HIDDEN STRING}
+{CHAPOS="CHAPOS",HIDDEN STRING}
+{CHBINV="CHBINV",HIDDEN STRING}
+{CHBACDC="CHBACDC",HIDDEN STRING}
+{CHBVAL="CHBVAL",HIDDEN STRING}
+{CHBPOS="CHBPOS",HIDDEN STRING}
+{CHCINV="CHCINV",HIDDEN STRING}
+{CHCSUM="CHCSUM",HIDDEN STRING}
+{CHCACDC="CHCACDC",HIDDEN STRING}
+{CHCVAL="CHCVAL",HIDDEN STRING}
+{CHCPOS="CHCPOS",HIDDEN STRING}
+{CHDINV="CHDINV",HIDDEN STRING}
+{CHDACDC="CHDACDC",HIDDEN STRING}
+{CHDVAL="CHDVAL",HIDDEN STRING}
+{CHDPOS="CHDPOS",HIDDEN STRING}
+{PACKAGE="PCB Package",PACKAGE,0}
+{*INDEX}
+{CAT=Virtual Instruments}
+{DESC=Digital Storage Oscilloscope}
+{SUBCAT=}
+{MFR=}
+{*COMPONENT}
+{MODDLL=DSO.DLL}
+{PRIMITIVE=ANALOG}
+{TRIGAUTO=TRUE}
+{TRIGSRC=0}
+{TRIGEDGE=0}
+{TRIGACDC=1}
+{TRIGLEVEL=0}
+{TRIGDELAY=0}
+{HORIZSRC=0}
+{HORIZVAL=1.e-003}
+{HORIZPOS=0}
+{CHAINV=FALSE}
+{CHASUM=FALSE}
+{CHAACDC=0}
+{CHAVAL=5.}
+{CHAPOS=120}
+{CHBINV=FALSE}
+{CHBACDC=0}
+{CHBVAL=5.}
+{CHBPOS=40}
+{CHCINV=FALSE}
+{CHCSUM=FALSE}
+{CHCACDC=0}
+{CHCVAL=5.}
+{CHCPOS=-40}
+{CHDINV=FALSE}
+{CHDACDC=0}
+{CHDVAL=5.}
+{CHDPOS=-120}
+{PACKAGE=NULL}
+à€€$IPATTERN GENERATORâ¿€ï¿¿à€€à€€Èˆà€€à€€à€€à€€à€€à€€ê€‚à€€Sà€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à«®ï¿¿Èˆà€€COMPONENTà€€à€€à€€à€€à€€ê€‚ï€€à€€à€€0ê¿€Èˆ0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€î¾¾à€€ê€‚à«¦kCOMPONENTà€€Èˆà€€à€€ê€‚ï€€à€€à€€fà€€_à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ë¢¿ï¿¿kCOMPONENTà€€54à€€PÈˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ëž¿ÈˆkCOMPONENTà€€54à€€ ê€‚à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ëšà€€Èˆê€‚kCOMPONENTà€€54à€€Õ°ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ìµ¿à€€Èˆê€‚kCOMPONENTà€€54à€€Õ°à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€â¿€ï¿¿kCOMPONENTà€€54à€€Èˆï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚Õ°kCOMPONENTà€€54à€€`à«®à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚Õ°kCOMPONENTà€€54à€€0ê¿€à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ÈˆkCOMPONENTà€€54à€€à€€ê€‚ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Õ°à«¦kCOMPONENTà€€Èˆà€€Pê€‚à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Õ°ë¢¿kCOMPONENTà€€ï¿¿à€€ Èˆà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€Õ°ëž¿kCOMPONENTà€€Èˆà€€ê€‚ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Õ°ËškCOMPONENTà€€ï¿¿à€€Èˆà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ìµ¿ÈˆkCOMPONENTà€€ê€‚à€€â¿€ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ÈˆkCOMPONENTà€€ê€‚à€€`à«®à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€Èˆê€‚kCOMPONENTà€€ê¿€à€€0Èˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à«¦kCOMPONENTà€€ï¿¿à€€à€€Èˆï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ë¢¿ï¿¿kCOMPONENTà€€`åª¯PÈˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚ëž¿kCOMPONENTà€€`åª¯ Èˆà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ËšÈˆkCOMPONENTà€€`åª¯ê€‚ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ìµ¿à€€ï¿¿ÈˆkCOMPONENTà€€`åª¯ê€‚à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€â¿€ÈˆkCOMPONENTà€€`åª¯ê€‚ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à«®à€€ï¿¿ÈˆkCOMPONENTà€€`åª¯`ê€‚à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê¿€à€€Èˆê€‚kCOMPONENTà€€`åª¯0à«¦à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ÈˆkCOMPONENTà€€`åª¯à€€ê€‚ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ë¢¿ï¿¿kCOMPONENTà€€0)à€€PÈˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ëž¿ï¿¿kCOMPONENTà€€0)à€€ Èˆà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚ËškCOMPONENTà€€0)à€€Èˆï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ìµ¿ï¿¿kCOMPONENTà€€0)à€€Èˆà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚â¿€kCOMPONENTà€€0)à€€ï¿¿ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚à«®kCOMPONENTà€€0)à€€`ï¿¿à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚ê¿€kCOMPONENTà€€0)à€€0Èˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€à«¦ÈˆkCOMPONENTà€€0)à€€à€€ê€‚ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ë¢¿ï¿¿kCOMPONENTà€€à€€5%à€€PÈˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ëž¿ÈˆkCOMPONENTà€€à€€5%à€€ ê€‚à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ëšà€€ï¿¿ÈˆkCOMPONENTà€€à€€5%à€€ê€‚ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ð”à€€ìµ¿ï¿¿kCOMPONENTà€€à€€5%à€€Èˆà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚Ð”kCOMPONENTà€€à€€5%à€€â¿€ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€‚kCOMPONENTà€€à€€5%à€€`Ð”à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à«®à€€ï¿¿ÈˆkCOMPONENTà€€à€€5%à€€0ê€‚à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Ð”ê¿€kCOMPONENTà€€à€€5%à€€à€€ï¿¿ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚Ð”kCOMPONENTà€€à«¦!à€€PÈˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€Ð”ë¢¿kCOMPONENTà€€ï¿¿!à€€ Èˆà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚Ð”kCOMPONENTà€€ëž¿!à€€Èˆï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€Ð”ËškCOMPONENTà€€ï¿¿!à€€Èˆà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€à´ìµ¿kCOMPONENTà€€Èˆ!à€€ê€‚ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à´â¿€kCOMPONENTà€€ï¿¿!à€€`Èˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€à´à«®kCOMPONENTà€€ï¿¿!à€€0Èˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à´kCOMPONENTà€€ê¿€!à€€à€€ï¿¿ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚à´kCOMPONENTà€€à«¦à€€Pï¿¿à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€‚kCOMPONENTà€€à´à€€ ë¢¿à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€Èˆê€‚kCOMPONENTà€€à´à€€ëž¿ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€Èˆê€‚kCOMPONENTà€€à´à€€Ëšà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚ä™€kCOMPONENTà€€ìµ¿à€€ï¿¿ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚ä™€kCOMPONENTà€€â¿€à€€`ï¿¿à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚ä™€kCOMPONENTà€€à«®à€€0ï¿¿à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚ä™€kCOMPONENTà€€ê¿€à€€à€€Èˆï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚ä™€kCOMPONENTà€€pà«¦Pï¿¿à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚ä™€kCOMPONENTà€€pë¢¿ ï¿¿à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚ä™€kCOMPONENTà€€pëž¿Èˆï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ä™€ËškCOMPONENTà€€pÈˆê€‚à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ä•€ìµ¿kCOMPONENTà€€pï¿¿Èˆï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ä•€â¿€kCOMPONENTà€€pï¿¿`Èˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ä•€à«®kCOMPONENTà€€pÈˆ0ê€‚à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ä•€ê¿€kCOMPONENTà€€pï¿¿à€€Èˆï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚ä•€kCOMPONENTà€€@à«¦PÈˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ä•€ë¢¿kCOMPONENTà€€@ï¿¿ Èˆà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€ä•€ëž¿kCOMPONENTà€€@ï¿¿Èˆï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚ä•€kCOMPONENTà€€@Ëšï¿¿à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚Ô‘kCOMPONENTà€€@ìµ¿ï¿¿ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€‚kCOMPONENTà€€@Ô‘`â¿€à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚Ô‘kCOMPONENTà€€@à«®0ï¿¿à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚Ô‘kCOMPONENTà€€@ê¿€à€€ï¿¿ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€‚Ô‘kCOMPONENTà€€à«¦à€€PÈˆà€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€Ô‘ë¢¿kCOMPONENTà€€ï¿¿à€€ Èˆà€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚Ô‘kCOMPONENTà€€ëž¿à€€Èˆï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€‚à€€Ô‘ËškCOMPONENTà€€à¿€à€€ã€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ÐŸà€€ì¿€ã€kCOMPONENTà€€ã€à€€à¿€ï€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ã€ï¬¿kCOMPONENTà€€ã€à€€`à¾¨à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ã€à€€Þ¤ã€kCOMPONENTà€€à¾ à€€0ã€à€€à€€à€€à€€0A0A@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Ý¿ã€kCOMPONENTà€€Ù¿à€€à€€Ù¿ï€€à€€à€€0A0Aà€€à€€à€€à€€à€€à€€@ÐŸà€€à€€à€€$PINDEFAULTà€€OEà€€à€€à€€à€€0ì¿€à¿¸Ý¿à€€à€€$PINBUSà€€B[0..7]à€€à€€à€€à€€0âƒ€p_ä¿€à€€à€€$PINDEFAULTà€€Q0à€€à€€à€€à€€0Ñ•@ã†°à€€à€€$PINDEFAULTà€€Q1à€€à€€à€€à€€0â‡€Èˆà€€à€€à€€$PINDEFAULTà€€Q2à€€à€€à€€à€€0ê€ˆÈªï€€à€€$PINDEFAULTà€€Q3à€€à€€à€€à€€0à¿°Èˆï€€à€€$PINDEFAULTà€€Q4à€€à€€à€€à€€0ê€‚à¿¸ï€€à€€$PINDEFAULTà€€Q5à€€à€€à€€à€€0Ð…PÈˆà€€à€€à€€$PINDEFAULTà€€Q6à€€à€€à€€à€€0ê€ˆ >Èªà€€à€€à€€$PINDEFAULTà€€Q7à€€à€€à€€à€€à€€à€€à€€à€€ >×ˆà€€à€€à€€à€€$PINDEFAULTà€€CASCADEà€€à€€à€€à€€à€€à€€à€€à€€É‚É€à€€à€€à€€$PINDEFAULTà€€CLKINà€€à€€à€€à€€à€€à€€à€€à€€É€ï€€à€€à€€$PINDEFAULTà€€HOLDà€€à€€à€€à€€à€€à€€à€€à€€p_ä¿€à€€à€€à€€$PINDEFAULTà€€TRIGà€€à€€à€€à€€à€€à€€à€€à€€PÈˆà€€à€€à€€à€€$PINDEFAULTà€€CLKOUTà€€à€€ê€ˆà€€{*DEVICE}
+{ACTIVE=PATTGEN,0,DLL}
+{HELP=INSTRUMENTS>POPUP,504}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDATA="",HIDDEN STRING}
+{MODDLL="VSM Model DLL",READONLY STRING}
+{CLOCKRATE="Clock Rate",STRING}
+{TRIGGERRATE="Reset Rate",STRING}
+{CLOCKMODE="Clock Mode",KWDLIST,3,0="Internal",1="External Pos Edge",2="External Neg Edge"}
+{TRIGGERMODE="Reset Mode",KWDLIST,5,0="Internal",1="Async External Pos Edge",2="Sync External Pos Edge",3="Async External Neg Edge",4="Sync External Neg Edge"}
+{PERIODSEL="Period Selected",HIDDEN INT}
+{CLOCKOUTSEL="Clockout Enabled in Internal Mode",YESNO}
+{OUTPUTMODE="Output Configuration",KWDLIST,3,0="Output to Both Pins and Bus",1="Output to Pins Only",2="Output to Bus Only"}
+{PROGRAM="Pattern Generator Script",FILENAME,FALSE,,Pattern Generator Script/*.PTN}
+{*INDEX}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDATA=1024,0}
+{MODDLL=PATTGEN.DLL}
+{CLOCKRATE=1.200kHz}
+{TRIGGERRATE=500.0mHz}
+{CLOCKOUTSEL=0}
+{TRIGGERMODE=0}
+{CLOCKMODE=0}
+{OUTPUTMODE=0}
+{PACKAGE=NULL}
+à€€$ISIGNAL GENERATORÈªÐ…à€€à€€à€€à€€à€€à€€à€€à€€à€€Ð…à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€×ˆÉ€É€à€€wCOMPONENTà€€@Èˆ_ä¿€à€€à€€à€€_à€€ Aà€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€à€€ï€€à€€ê€ˆÈªaCOMPONENTà€€Ð…ï¸¼à€€HÐ…à€€Là€€à€€à€€Dà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ð…Ð…Èˆà€€COMPONENTà€€@`à€€@nê€ˆà€€"Èªà€€xÉ€0AxÉ€Là€€à€€à€€Dà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€×ˆÐ…Ð…à€€COMPONENTà€€HÈˆà€€`à€€Hê€ˆà€€nÈªà€€=ç„€xÆ€0Axà¦„Là€€à€€à€€Dà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€Hà¦„à€€`à€€HÐ…à€€Sé†€Ré†€HÆ€à€€`à€€HÈˆà€€Là€€à€€à€€Dà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÐ…à€€COMPONENTà€€xÆ€`à€€xÐ…Sé†€mà¦„à€€HÈˆà€€`à€€Hê€ˆà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÐ…à¦„à€€COMPONENTà€€@pÉ€à€€@Æ€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€@Ö¾à€€Hï¼€à€€pÈˆà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªÖ¾à€€COMPONENTà€€HÈˆà€€pê€ˆà€€HÈªà€€É€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€Hï¼€à€€Èˆà€€xê€ˆpÈªà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¼€Èˆê€ˆà€€COMPONENTà€€@@æ¼¿0AXÈªÐ…à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¼€Èˆê€ˆà€€COMPONENTà€€0AXÈªï €à€€(æº¿<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Ð…ï¼€Èˆà€€COMPONENTà€€`à€€(æº¿xê€ˆ@æ¼¿<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÉ€ï¼€à€€COMPONENTà€€@è¶ï˜°à€€è«¾Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªà¿¸à€€COMPONENTà€€@è«¾ïˆà€€è«¾à¿¸à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€‚Òºà€€COMPONENTà€€Hï«¹à€€è«¾ïˆà€€è¶Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ê€ˆÈªë¿€à€€COMPONENTà€€HÒºà€€è¶ï¸°	à€€è¶ï¸€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€‚Òºà€€COMPONENTà€€xï«¹è¶ï¸°	à€€è«¾Èˆà€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€wà€€à€€à€€à€€à€€ê€ˆÈªë¿€à€€xCOMPONENTà€€Òºï€	à€€ï«€ï€™à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆ`COMPONENTà€€à€€é³¿ÈªÈˆà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€wà€€à€€à€€à€€à€€ê€ˆÈªÐŸà€€xCOMPONENTà€€é¤šï˜¼ì¿ˆé³¿Èˆê€ˆà€€à€€0à€€à€€à€€"à€€à€€à€€à€€`Oà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÈˆ`COMPONENTà€€@æ¼¿ê€ˆÈªà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€wà€€à€€à€€à€€à€€à¿¸ÐŸì¿°à€€xCOMPONENTà€€è¾ï˜¼à¿¸æ¼¿Ñ•ã†©à€€à€€cà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€p_åš³Oæ¿€à€€à€€à€€
+à€€à€€à€€@à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€AMà€€kà€€à€€à€€cà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à¾¨ï°Ÿï¿¿à€€COMPONENTà€€Èˆê€‚Oæ¿€à€€à€€à€€
+à€€à€€à€€@à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€FMà€€jà€€à€€à€€bà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¸¯ê¿€à³à€€COMPONENTà€€èà€€`à€€à€€à€€à€€à€€
+à€€à€€à€€à€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€+à€€jà€€à€€à€€bà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€èà€€Ìï€€à€€à€€
+à€€à€€à€€à€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€-à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€
+à€€à€€p_å’Œ_ä¿„à€€à€€$PINSHORTà€€Aà€€à€€
+à€€à€€à¾¨à¾¨_ä¿„à€€à€€$PINSHORTà€€Fà€€à€€
+à€€à€€à€€à€€`à€€è¸€à€€$PINSHORTà€€+à€€à€€
+à€€à€€à€€à€€ï° ï¸¸à€€à€€$PINSHORTà€€-à€€à€€æ‡·à€€{*DEVICE}
+{ACTIVE=SIGGEN,0,DLL}
+{HELP=INSTRUMENTS>POPUP,503}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model",READONLY STRING}
+{*INDEX}
+{*COMPONENT}
+{MODDLL=SIGGEN.DLL}
+{PRIMITIVE=ANALOG}
+{PACKAGE=NULL}
+à€€$ISPI DEBUGGERà¾¨à¾¨à€€à€€@à€€à€€à€€à€€à€€à€€(à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿€à¾¨è¿€à€€COMPONENTà€€Ñ•ì€€ä¿€à€€à€€à€€fà€€ Aà€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€ˆÈªbCOMPONENTà€€è¶Þ¤à¿€à€€à€€à€€è–à€€â®€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€là€€à€€à€€dà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€‚à¿°à€€{COMPONENTà€€Èˆà€€è©à€€à€€à€€à€€à€€
+à€€èà€€à€€Arialà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€SPIà€€à€€à€€ê€‚ï €à€€à€€à€€à€€à€€$PINDEFAULTà€€DINà€€à€€à€€à€€â¿ Þ¤à€€à€€à€€à€€à€€$PINDEFAULTà€€DOUTà€€à€€à€€à€€Þ¤ï€€à€€à€€à€€à€€à€€à€€$PINDEFAULTà€€SCKà€€à€€à€€à€€ì¿€ïŸÞ¤à€€à€€à€€$PINDEFAULTà€€$SS$à€€à€€à€€à€€ï° ï ¿Þ¤à€€à€€à€€$PINDEFAULTà€€TRIGà€€à€€Eà€€à€€{*DEVICE}
+{ACTIVE=SPI_DEBUG,0,DLL}
+{HELP=INSTRUMENTS>POPUP,509}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODE="SPI Mode",KWDLIST,3,Monitor,Master,Slave}
+{CLOCKFREQ="Master clock frequency in Hz",FLOAT,PNZ}
+{IDLESTATE="SCK Idle state is",HILOW}
+{SAMPLEEDGE="Sampling edge",KWDLIST,2,Idle to active,Active to idle}
+{BITORDER="Bit order",KWDLIST,2,MSB first,LSB first}
+{WORDLENGTH="Word length",ADVANCED INT,1,16}
+{STOPONEMPTY="Stop on output buffer empty",BOOL}
+{TIMEPREC="Time display precision",ADVANCED INT,1,12}
+{WRAPLENGTH="New line after",ADVANCED INT,1,64}
+{AUTOLOAD="Queue stored sequences at startup",ADVANCED YESNO}
+{SEQUENCE_FILE="Sequence file",ADVANCED FILENAME,FALSE,,Text file/*.txt}
+{LOOPBACK="Loopback mode",ADVANCED BOOL}
+{*INDEX}
+{CAT=Miscellaneous}
+{SUBCAT=}
+{MFR=}
+{DESC=SPI Protocol Debugger}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDLL=spidebug.dll}
+{AUTOLOAD=0}
+{MODE=Monitor}
+{CLOCKFREQ=1000000}
+{IDLESTATE=0}
+{SAMPLEEDGE=Idle to active}
+{BITORDER=MSB first}
+{WORDLENGTH=8}
+{STOPONEMPTY=1}
+{LOOPBACK=0}
+{PACKAGE=NULL}
+à€€$IVIRTUAL TERMINALï°Ÿç”²à€€à€€@à€€à€€à€€à€€à€€à€€â˜€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€â…€Èˆê€ˆà€€wCOMPONENTà€€Èªï€¿í¿à€€à€€à€€@ã€_à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€8cà€€à€€à€€à€€à€€à€€à€€à€€à€€ÄÄmCOMPONENTà€€@ÐŸ_ä¿€à€€à€€à€€_à€€ Aà€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï€€ì¿€ÄfCOMPONENTà€€XoÄà€€à€€à€€à€€à€€@@à€€à€€à¿¸ï à€€à€€à€€à€€à€€$PINDEFAULTà€€RXDà€€à€€à€€à€€à¾¨ïŸï¬¿à€€à€€à€€$PINDEFAULTà€€RTSà€€à€€à€€à€€à¿€à¿¸à€€à€€à€€à€€à€€$PINDEFAULTà€€TXDà€€à€€à€€à€€ÐŸì¿€ä¿€à€€à€€à€€$PINDEFAULTà€€CTSà€€à€€Eà€€à€€{*DEVICE}
+{HELP=INSTRUMENTS>POPUP,506}
+{*PROPDEFS}
+{PRIMITIVE="Simulator Primitive",HIDDEN STRING}
+{MODDLL="VSM Model",HIDDEN STRING}
+{BAUDRATE="Baud Rate",KWDEDIT,9,110,300,1200,2400,4800,9600,19200,38400,57600}
+{DATABITS="Data Bits",KWDLIST,2,7,8}
+{PARITY="Parity",KWDLIST,3,NONE,EVEN,ODD}
+{STOPBITS="Stop Bits",KWDLIST,2,1,2}
+{XONXOFF="Send XON/XOFF",YESNO}
+{SIGPOL="RX/TX Polarity",ADVANCED KWDLIST,2,0="Normal",1="Inverted"}
+{CTLPOL="RTS/CTS Polarity",ADVANCED KWDLIST,2,0="Normal",1="Inverted"}
+{PACKAGE="PCB Package",PACKAGE}
+{TRACE="Trace Events",ADVANCED TRACEMODE}
+{*INDEX}
+{CAT=Virtual Instruments}
+{SUBCAT=}
+{MFR=}
+{DESC=Virtual RS232 / teletype terminal.}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDLL=VTERM.DLL}
+{BAUDRATE=9600}
+{DATABITS=8}
+{PARITY=NONE}
+{STOPBITS=1}
+{XONXOFF=0}
+{SIGPOL=0}
+{CTLPOL=0}
+{PACKAGE=NULL}
+{TRACE=1}
+à€€
+ATMEGA328PMlJìŠ€à€€í¿à€€à€€à€€à€€à€€à€€|à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Äà¿€Äà€€COMPONENTà€€`à€€à€€ï¬¿à€€à€€à€€à€€ DUà€€0Ä0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Þ¤à€€à€€à€€à€€à€€à€€à€€à€€$PINDEFAULTà€€PB0/ICP1/CLKO/PCINT0à€€2à€€à€€à€€Äà€€à¾¨Äà€€à€€$PINDEFAULTà€€PB1/OC1A/PCINT1à€€3à€€à€€à€€Ý…à€€p_ä¿€à€€à€€$PINDEFAULTà€€PB3/MOSI/OC2A/PCINT3à€€4à€€à€€à€€Äà€€í‰¿ï€€à€€$PINDEFAULTà€€PB2/$SS$/OC1B/PCINT2à€€5à€€à€€à€€`à€€Äï€€à€€à€€$PINDEFAULTà€€PD6/AIN0/OC0A/PCINT22à€€7à€€à€€à€€`à€€Ýà€€à€€à€€à€€$PINDEFAULTà€€PD5/T1/OC0B/PCINT21à€€8à€€à€€à€€`à€€@Äà€€à€€à€€$PINDEFAULTà€€PD4/T0/XCK/PCINT20à€€9à€€à€€à€€`à€€p_ä¿€à€€à€€à€€$PINDEFAULTà€€PD3/INT1/OC2B/PCINT19à€€10à€€à€€à€€à€€`à€€Ñ¿ï€€à€€à€€$PINDEFAULTà€€PD2/INT0/PCINT18à€€11à€€à€€à€€`à€€ÄÝ•à€€à€€à€€$PINDEFAULTà€€PD1/TXD/PCINT17à€€12à€€à€€à€€`à€€à€€à€€à€€à€€à€€à€€à€€à€€$PINDEFAULTà€€PD0/RXD/PCINT16à€€13à€€à€€à€€à€€pb2à€€0AÄà€€$PINDEFAULTà€€VCCà€€1à€€à€€à€€à€€pb2à€€à€€Ù¿tå‚€$PINDEFAULTà€€GNDà€€14à€€à€€à€€Äà€€@Ý¿à€€à€€$PINDEFAULTà€€PB4/MISO/PCINT4à€€2à€€à€€à€€Ù¿à€€Ý¿à€€à€€à€€$PINDEFAULTà€€PB5/SCK/PCINT5à€€3à€€à€€à€€Þ¤à€€á˜ï€€à€€$PINDEFAULTà€€PB7/TOSC2/XTAL2/PCINT7à€€4à€€à€€à€€Èˆà€€ê€ˆï€€à€€$PINDEFAULTà€€PB6/TOSC1/XTAL1/PCINT6à€€5à€€à€€à€€Èªà€€0ÐŸï€€à€€$PINDEFAULTà€€PC6/$RESET$/PCINT14à€€7à€€à€€à€€ì¿¼à€€`Èˆà€€à€€à€€$PINDEFAULTà€€PC5/ADC5/SCL/PCINT13à€€8à€€à€€à€€ê€ˆà€€Èªï€€à€€$PINDEFAULTà€€PC4/ADC4/SDA/PCINT12à€€9à€€à€€à€€Ö¾à€€=ï° à€€à€€à€€$PINDEFAULTà€€PC3/ADC3/PCINT11à€€10à€€à€€à€€à€€Ö¾à€€ì¿¼ï€€à€€$PINDEFAULTà€€PC2/ADC2/PCINT10à€€11à€€à€€à€€Èˆà€€ >ê€ˆà€€à€€à€€$PINDEFAULTà€€PC1/ADC1/PCINT9à€€12à€€à€€à€€Èªà€€PÖ¾à€€à€€à€€$PINDEFAULTà€€PC0/ADC0/PCINT8à€€13à€€à€€à€€`à€€ >ÐŸà€€à€€à€€à€€$PINDEFAULTà€€AVCCà€€1à€€à€€à€€à€€`à€€Pì¿€à€€à€€à€€à€€$PINDEFAULTà€€AREFà€€7à€€à€€à€€`à€€Èˆï€€à€€à€€$PINDEFAULTà€€PD7/AIN1/PCINT23à€€7à€€à€€à€€{*DEVICE}
+{PREFIX=U}
+{DATA=pdfs/avr/atmegax8p.pdf}
+{HELP=AVR>POPUP,1}
+{*PROPDEFS}
+{PACKAGE="PCB Package",PACKAGE,2,QFN45P400X400X100-29,SPDIL28}
+PRIMITIVE=Primitive Type,HIDDEN STRING
+MODDLL=VSM Model DLL,HIDDEN STRING
+ITFMOD=Interface Model,HIDDEN STRING
+PROGRAM=Program File,FILENAME,FALSE,,HEX, UBROF, COFF, ELF or OBJ Files/*.hex;*.d90;*.cof;*.elf;*.obj
+TRACE_DEFAULT=Default Tracemode,HIDDEN TRACEMODE
+TRACE_SETUP=Model Initialization,HIDDEN TRACEMODE
+TRACE_LOAD=Program Loader,HIDDEN TRACEMODE
+TRACE_SLEEP=Sleep/Wake Events,HIDDEN TRACEMODE
+TRACE_INTERRUPT=Interrupt Events,HIDDEN TRACEMODE
+TRACE_CPU=Instruction Execution,HIDDEN TRACEMODE
+TRACE_MEMORY=Memory Access,HIDDEN TRACEMODE
+CODEGEN=Default Build Tool,HIDDEN STRING
+CLKDIV8=CLKDIV8 (Divide clock by 8) ,KWDLIST,2,1=(1) Unprogrammed,0=(0) Programmed
+CKOUT=CKOUT (Clock output) ,KWDLIST,2,1=(1) Unprogrammed,0=(0) Programmed
+RSTDISBL=RSTDISBL (External reset disable) ,KWDLIST,2,1=(1) Unprogrammed,0=(0) Programmed
+WDTON=WDTON (Watchdog Timer Always On) ,KWDLIST,2,1=(1) Unprogrammed,0=(0) Programmed
+BOOTRST=BOOTRST (Select reset vector) ,KWDLIST,2,1=(1) Unprogrammed,0=(0) Programmed
+CKSEL=CKSEL Fuses,KWDLIST,15,0=(0000) Ext. Clock,2=(0010) Int. RC Osc. 8MHz,3=(0011) Int. RC Osc. 128kHz,4=(0100) Ext. Low-Freq. Crystal,5=(0101) Ext. Low-Freq. Crystal,6=(0110) Ext. Full-swing Crystal,7=(0111) Ext. Full-swing Crystal,8=(1000) Ext. Crystal 0.4-0.9MHz,9=(1001) Ext. Crystal 0.4-0.9MHz,10=(1010) Ext. Crystal 0.9-3.0MHz,11=(1011) Ext. Crystal 0.9-3.0MHz,12=(1100) Ext. Crystal 3.0-8.0MHz,13=(1101) Ext. Crystal 3.0-8.0MHz,14=(1110) Ext. Crystal 8.0-MHz,15=(1111) Ext. Crystal 8.0-MHz
+BOOTSZ=Boot Loader Size,KWDLIST,4,0=(00) 1024 words. Starts at 0x1C00,1=(01) 512 words. Starts at 0x1E00,2=(10) 256 words. Starts at 0x1F00,3=(11) 128 words. Starts at 0x1F80
+CLOCK=Clock Frequency,ADVANCED FLOAT,PNZ
+SUT=SUT Fuses,KWDLIST,4,0=(00) ,1=(01) ,2=(10) ,3=(11) 
+TRACE_ADC=ADC Module,HIDDEN TRACEMODE
+TRACE_ACO=Analog Comparator Module,HIDDEN TRACEMODE
+TRACE_EEPROM=EEPROM Module,HIDDEN TRACEMODE
+MODDATA=Persistent Model Data,HIDDEN STRING
+{MODDATAFILE=Initial Contents Of Data EEPROM,ADVANCED FILENAME,FALSE,,Binary Image Files/*.bin}
+TRACE_EXTERNAL_INTERRUPT=External Interrupts Module,HIDDEN TRACEMODE
+TRACE_PORTB=Port B Module,HIDDEN TRACEMODE
+TRACE_PORTC=Port C Module,HIDDEN TRACEMODE
+TRACE_PORTD=Port D Module,HIDDEN TRACEMODE
+TRACE_SPI=SPI Module,HIDDEN TRACEMODE
+TRACE_TIMER0=Timer 0 Module,HIDDEN TRACEMODE
+TRACE_TIMER1=Timer 1 Module,HIDDEN TRACEMODE
+TRACE_TIMER2=Timer 2 Module,HIDDEN TRACEMODE
+TRACE_TWI=TWI Module,HIDDEN TRACEMODE
+TRACE_USART0=USART 0 Module,HIDDEN TRACEMODE
+TRACE_WATCHDOG=Watchdog Timer Module,HIDDEN TRACEMODE
+DISASM_BIN=Disassemble Binary Code, ADVANCED YESNO
+{*INDEX}
+{CAT=Microprocessor ICs}
+{SUBCAT=AVR Family}
+{MFR=Atmel}
+{DESC=32 KBytes Flash, 2272 Bytes SRAM, 1 KByte EEPROM, ADC, Analog Comparator, TWI, SPI, 3 Ports, 3 Timers, 1 USART}
+{*COMPONENT}
+
+{PACKAGE=SPDIL28}
+
+
+
+{MODDLL=AVR2.DLL}
+{ITFMOD=AVR}
+{TRACE_DEFAULT=1}
+{CODEGEN=AVRASM2}
+{DISASM_BIN=0}
+{PRIMITIVE=DIGITAL,ATMEGA328P}
+{MODDATA=1024,255}
+{CLKDIV8=0}
+{CKOUT=1}
+{RSTDISBL=1}
+{WDTON=1}
+{BOOTRST=1}
+{SUT=2}
+{CKSEL=2}
+{BOOTSZ=0}
+*PINOUT QFN45P400X400X100-29
+{ELEMENTS=1}
+{PIN "AREF" = 17}
+{PIN "AVCC" = 16}
+{PIN "GND" = 4/18/29}
+{PIN "PB0/ICP1/CLKO/PCINT0" = 10}
+{PIN "PB1/OC1A/PCINT1" = 11}
+{PIN "PB2/$SS$/OC1B/PCINT2" = 12}
+{PIN "PB3/MOSI/OC2A/PCINT3" = 13}
+{PIN "PB4/MISO/PCINT4" = 14}
+{PIN "PB5/SCK/PCINT5" = 15}
+{PIN "PB6/TOSC1/XTAL1/PCINT6" = 5}
+{PIN "PB7/TOSC2/XTAL2/PCINT7" = 6}
+{PIN "PC0/ADC0/PCINT8" = 19}
+{PIN "PC1/ADC1/PCINT9" = 20}
+{PIN "PC2/ADC2/PCINT10" = 21}
+{PIN "PC3/ADC3/PCINT11" = 22}
+{PIN "PC4/ADC4/SDA/PCINT12" = 23}
+{PIN "PC5/ADC5/SCL/PCINT13" = 24}
+{PIN "PC6/$RESET$/PCINT14" = 25}
+{PIN "PD0/RXD/PCINT16" = 26}
+{PIN "PD1/TXD/PCINT17" = 27}
+{PIN "PD2/INT0/PCINT18" = 28}
+{PIN "PD3/INT1/OC2B/PCINT19" = 1}
+{PIN "PD4/T0/XCK/PCINT20" = 2}
+{PIN "PD5/T1/OC0B/PCINT21" = 7}
+{PIN "PD6/AIN0/OC0A/PCINT22" = 8}
+{PIN "PD7/AIN1/PCINT23" = 9}
+{PIN "VCC" = 3}
+{COMMON=GND,VCC}
+
+*PINOUT SPDIL28
+{ELEMENTS=1}
+{PIN "AREF" = 21}
+{PIN "AVCC" = 20}
+{PIN "GND" = 8/22}
+{PIN "PB0/ICP1/CLKO/PCINT0" = 14}
+{PIN "PB1/OC1A/PCINT1" = 15}
+{PIN "PB2/$SS$/OC1B/PCINT2" = 16}
+{PIN "PB3/MOSI/OC2A/PCINT3" = 17}
+{PIN "PB4/MISO/PCINT4" = 18}
+{PIN "PB5/SCK/PCINT5" = 19}
+{PIN "PB6/TOSC1/XTAL1/PCINT6" = 9}
+{PIN "PB7/TOSC2/XTAL2/PCINT7" = 10}
+{PIN "PC0/ADC0/PCINT8" = 23}
+{PIN "PC1/ADC1/PCINT9" = 24}
+{PIN "PC2/ADC2/PCINT10" = 25}
+{PIN "PC3/ADC3/PCINT11" = 26}
+{PIN "PC4/ADC4/SDA/PCINT12" = 27}
+{PIN "PC5/ADC5/SCL/PCINT13" = 28}
+{PIN "PC6/$RESET$/PCINT14" = 1}
+{PIN "PD0/RXD/PCINT16" = 2}
+{PIN "PD1/TXD/PCINT17" = 3}
+{PIN "PD2/INT0/PCINT18" = 4}
+{PIN "PD3/INT1/OC2B/PCINT19" = 5}
+{PIN "PD4/T0/XCK/PCINT20" = 6}
+{PIN "PD5/T1/OC0B/PCINT21" = 11}
+{PIN "PD6/AIN0/OC0A/PCINT22" = 12}
+{PIN "PD7/AIN1/PCINT23" = 13}
+{PIN "VCC" = 7}
+{COMMON=GND,VCC}
+à€€CAPê€ˆIè„¹à€€và€€à€€à€€à€€à€€à€€à€€,à€€à€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ÈªÐŸì¿€à€€COMPONENTà€€è©à€€0Aè©à€€Ý˜ä€€à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€XÐŸì¿ˆà€€XÐ…ïŸÐŸà€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿¸ê¿¼Èˆà€€COMPONENTà€€Xê€ˆï€€à€€à€€ÈªÐ…à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€COMPONENTà€€è©à€€à€€à€€à€€à€€0Aà€€à€€à€€à€€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€0Aà€€à€€à€€à€€à€€à€€à€€$PINSHORTà€€2à€€à€€à€€à€€à€€ï° à¿¸à€€à€€à€€à€€à€€à€€à€€$PINSHORTà€€1à€€à€€à€€à€€{*DEVICE}
+{PREFIX=C}
+{HELP=MODELS>POPUP,122}
+{*PROPDEFS}
+{PINSWAP="Pin Swap List",HIDDEN STRING}
+{PRIMITIVE="Simulator Primitive Type",HIDDEN STRING}
+{VALUE="Capacitance",FLOAT,PNZ}
+{PACKAGE="PCB Package",PACKAGE,2,CAP10,CAP20}
+{*INDEX}
+{CAT=Capacitors}
+{SUBCAT=Generic}
+{DESC=Generic non-electrolytic capacitor}
+{*COMPONENT}
+{VALUE=1nF}
+{PRIMITIVE=ANALOGUE,CAPACITOR}
+
+{PACKAGE=CAP10}
+*PINOUT CAP10
+{ELEMENTS=1}
+{PIN "1" = 1}
+{PIN "2" = 2}
+{PINSWAP=1,2}
+
+*PINOUT CAP20
+{ELEMENTS=1}
+{PIN "1" = 1}
+{PIN "2" = 2}
+{PINSWAP=1,2}
+à€€CRYSTALï°€IAà€€à€€>à€€à€€à€€à€€à€€à€€à€€ÐŸà€€à€€à€€à€€à€€à€€à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ì¿€Èˆê€‚à€€COMPONENTà€€à¦„Ô”Èˆà€€ê€ˆÈª/ï¨à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ï¿¿ï¿¿à€€COMPONENTà€€0AHï¿¿à€€0Aè«¾ï€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ÐŸì¿ªÔ”à€€COMPONENTà€€è¾Èˆà€€à€€à€€à€€à€€0Aê€‚à¬½à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€
+à€€à€€ï¨ï°¬à€€à€€à€€à€€à€€à€€à€€$PINSHORTà€€1à€€à€€à€€
+à€€à€€0Aà€€à€€à€€à€€à€€à€€à€€$PINSHORTà€€2à€€à€€ï€€à€€{*DEVICE}
+PREFIX=X
+{*PROPDEFS}
+{MODFILE="LISA Model File",HIDDEN STRING}
+{FREQ="Frequency",FLOAT,PNZ}
+PACKAGE=PCB Package,PACKAGE,1,XTAL18
+{*INDEX}
+{CAT=Miscellaneous}
+{DESC=Quartz crystal}
+{*COMPONENT}
+{MODFILE=CRYSTAL.MDF}
+{FREQ=1MHz}
+{PACKAGE=XTAL18}
+à€€LED-BLUE	HHà€€à€€à€€à€€à€€à€€à€€à€€æ€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€í¿¨ìŠ€gCOMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€ÐŸà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ì¿Œà€€à€€à€€à€€à€€Èˆê€‚à¦„à€€}COMPONENTà€€@è¾Ô”î¿¨î¿¶à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€ê€ˆà€€PINà€€à€€à€€à€€à€€0Aà€€à€€à€€à€€è©à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Èªà€€ï¨à€€PINà€€à€€à€€à€€à€€è¾ï€€à€€à€€ìŠ€ï¿¿à€€à€€à€€`à€€à€€à€€"à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€à€€à€€à€€à€€à¦„ï¿¿dCOMPONENTà€€à€€à€€à€€ï¿¿ë¿ªî¿Sà€€è©à€€à€€à€€à€€à€€à€€à€€è¾Ô”Èˆ)à€€PSà€€è©à€€à€€à€€à€€à€€è¾ï€0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€
+à€€à€€à€€à€€à€€à€€0Aê€‚à€€$PINSHORTà€€Aà€€à€€à€€
+à€€à€€à€€à€€à€€à€€à¬½ï¨
+à€€$PINSHORTà€€Kà€€à€€LED_BLUE_0à€€æ€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï°¬í¿¨gCOMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆà€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€‚à€€à€€à€€à€€à€€Ô”Èˆê€ˆà€€}COMPONENTà€€@è¾Èªî¿¨î¿°à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¨à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à€€à€€à€€à€€à¦„à€€à€€à€€à€€à€€è©à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à€€à€€à€€à€€è¾ï€€à€€à€€`Yë¿ªà€€à€€à€€`à€€à€€à€€"à€€à€€à€€à€€Ô”à€€à€€à€€à€€à€€à€€à€€à€€à€€Èˆê€‚dCOMPONENTà€€à€€à€€à€€à¬½ï¨î¿Sà€€è©à€€à€€à€€à€€à€€à€€à€€è¾ï°¬í¿¨)à€€PSà€€è©à€€à€€à€€à€€à€€è¾ï€LED_BLUE_1à€€Và€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€-à€€Èˆê€‚gCOMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€*à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Ô”à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€@è¾ï¨î¿¨î¿¶à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à€€à€€à€€à€€à¦„à€€à€€à€€à€€à€€è©à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à€€à€€à€€à€€è¾ï€€à€€à€€`Yë¿ªà€€à€€à€€`à€€à€€à€€"à€€à€€à€€à€€Ô”à€€à€€à€€à€€à€€à€€à€€/à€€Èˆê€‚dCOMPONENTà€€à€€à€€à€€à¬½ï¨î¿Sà€€è©à€€à€€à€€à€€à€€à€€à€€è¾ï°¬í¿¨)à€€PSà€€è©à€€à€€à€€à€€à€€è¾ï€LED_BLUE_2à€€Và€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Jà€€Èˆê€‚gCOMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€*à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Ô”à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€@è¾ï¨î¿¨î¿¶à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à€€à€€à€€à€€à¦„à€€à€€à€€à€€à€€è©à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à€€à€€à€€à€€è¾ï€€à€€à€€`Yë¿ªà€€à€€à€€`à€€à€€à€€"à€€à€€à€€à€€Ô”à€€à€€à€€à€€à€€à€€à€€jà€€í€ˆÈªdCOMPONENTà€€à€€à€€à€€à¬½ï¨î¿Sà€€è©à€€à€€à€€à€€à€€à€€à€€è¾ï°¬í¿¨)à€€PSà€€è©à€€à€€à€€à€€à€€è¾ï€LED_BLUE_3à€€Và€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€yà€€ç€ˆÈªgCOMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€*à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Ô”à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€@è¾ï¨î¿¨î¿¶à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à€€à€€à€€à€€à¦„à€€à€€à€€à€€à€€è©à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à€€à€€à€€à€€è¾ï€€à€€à€€`Yë¿ªà€€à€€à€€`à€€à€€à€€"à€€à€€à€€à€€Ô”à€€à€€à€€à€€à€€à€€à€€Ì€Èˆà€€dCOMPONENTà€€à€€à€€à€€ê€‚à¬½î¿Sà€€è©à€€à€€à€€à€€à€€à€€à€€è¾ï¨ï°¬)à€€PSà€€è©à€€à€€à€€à€€à€€è¾ï€LED_BLUE_4à€€Và€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€í¿¨Èªà€€gCOMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€*à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Ô”à€€à€€à€€à€€à€€Èˆê€ˆÈªà€€}COMPONENTà€€@è¾ï¨î¿¨î¿¶à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à€€à€€à€€à€€à¦„à€€à€€à€€à€€à€€è©à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ï¿¿à€€PINà€€à€€à€€à€€à€€è¾ï€€à€€à€€`Yë¿ªà€€à€€à€€`à€€à€€à€€"à€€à€€à€€à€€Ô”à€€à€€à€€à€€à€€à€€à€€á€ˆÈªà¬½dCOMPONENTà€€à€€à€€à€€ï¨ï°¬î¿Sà€€è©à€€à€€à€€à€€à€€à€€à€€è¾í¿¨Ì€)à€€PSà€€è©à€€à€€à€€à€€à€€è¾ï€LED_BLUE_5à€€Và€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ã€ˆÈˆà€€gCOMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€*à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€ê€‚à€€à€€à€€à€€à€€Ô”Èˆê€ˆà€€}COMPONENTà€€@è¾Èªî¿¨î¿¶à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¨à€€ï¿¿à€€PINà€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€è©à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à¦„à€€ï¿¿à€€PINà€€à€€à€€à€€à€€è¾ï€€à€€à€€`Yï¿¿à€€à€€à€€`à€€à€€à€€"à€€à€€à€€à€€ë¿ªà€€à€€à€€à€€à€€à€€à€€Ô”Èªà€€dCOMPONENTà€€à€€à€€à€€à¬½ï¨î¿Sà€€è©à€€à€€à€€à€€à€€à€€à€€è¾ï°¬í¿¨)à€€PSà€€è©à€€à€€à€€à€€à€€è¾ï€LED_BLUE_6à€€Và€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€æ€ˆÈªÔ”gCOMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€*à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Èˆà€€à€€à€€à€€à€€ê€ˆÈªï¨à€€}COMPONENTà€€@è¾ï¿¿î¿¨î¿¶à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€à¦„à€€PINà€€à€€à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€è©à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿à€€ë¿ªà€€PINà€€à€€à€€à€€à€€è¾ï€€à€€à€€`YÔ”à€€à€€à€€`à€€à€€à€€"à€€à€€à€€à€€Èªà€€à€€à€€à€€à€€à€€à€€à¬½à€€dCOMPONENTà€€à€€à€€à€€ï¨ï°¬î¿Sà€€è©à€€à€€à€€à€€à€€à€€à€€è¾í¿¨ê¦)à€€PSà€€è©à€€à€€à€€à€€à€€è¾ï€LED_BLUE_7à€€Và€€à€€à€€à€€à€€à€€à€€à€€8à€€à€€à€€0à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ÝÆ€à€€gCOMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€*à€€<à€€à€€à€€4à€€à€€à€€à€€"à€€à€€à€€à€€Èˆà€€à€€à€€à€€à€€ê€ˆÈªÌà€€}COMPONENTà€€@è¾à ‹î¿¨î¿¶à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ã à€€Ð…à€€PINà€€à€€à€€à€€à€€ì¿€à€€à€€à€€à€€à€€è©à€€6à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à³†à€€ï¨¼à€€PINà€€à€€à€€à€€à€€è¾ï€€à€€à€€`Yè¿€à€€à€€à€€`à€€à€€à€€"à€€à€€à€€à€€ï¨¼à€€à€€à€€à€€à€€--ï€ˆè¿€à€€dCOMPONENTà€€à€€à€€à€€ï¸®ê¿€î¿Sà€€è©à€€à€€à€€à€€à€€à€€à€€è¾êƒë‡)à€€PSà€€è©à€€à€€à€€à€€à€€è¾ï€<à€€à€€{*DEVICE}
+{PREFIX=D}
+{ACTIVE=LED_BLUE,8}
+{*PROPDEFS}
+{MODFILE="Model Type",KWDLIST,2,LEDA="Analog",LEDD="Digital"}
+{VF="Forward Voltage",FLOAT,PNZ}
+{IMAX="Full drive current",FLOAT,PNZ}
+{BV="Breakdown Voltage",ADVANCED FLOAT,PNZ}
+{RS="Series Resistance",ADVANCED FLOAT,PNZ}
+{ROFF="Off Resistance",ADVANCED FLOAT}
+{TLITMIN="Minimum on time to light",ADVANCED FLOAT,PNZ}
+{PACKAGE="PCB Package",PACKAGE,0}
+{*INDEX}
+{CAT=Optoelectronics}
+{SUBCAT=LEDs}
+{DESC=Animated LED model (Blue)}
+{*COMPONENT}
+{VF=2V}
+{IMAX=10mA}
+{BV=4V}
+{RS=3}
+{ROFF=100k}
+{MODFILE=LEDA}
+{TLITMIN=0.1m}
+à€€RESISTORÆ‘GÐ…à€€à€€ÓŠà€€à€€à€€à€€à€€à€€à€€|à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à€€8à€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€à³†Û³Ê¿à€€COMPONENTà€€0Aï¢»à€€à€€à€€à€€à€€Û³à€€@æ¼¿0à€€à€€à€€4à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$MKRORIGINà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€
+à€€à€€0Aà€€à€€à€€à€€à€€à€€à€€à€€$PINSHORTà€€1à€€à€€à€€
+à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€$PINSHORTà€€2à€€à€€à€€à€€{*DEVICE}
+PREFIX=R
+HELP="MODELS>POPUP",100
+{*PROPDEFS}
+{PRIMITIVE=Primitive Type,HIDDEN STRING}
+{VALUE="Resistance (Ohms):",FLOAT,PNZ}
+{*INDEX}
+{CAT=Modelling Primitives}
+{SUBCAT=Analog (SPICE)}
+{DESC=Analog resistor primitive}
+{*COMPONENT}
+{VALUE=10k}
+{PRIMITIVE=ANALOGUE}
+à€€à€€qà€€ISIS CIRCUIT FILEà€€
+à€€à€€à€€Ê¿Mà€€à€€OBJECT DATAà€€à€€ï‚•1èœ´ïˆžî¿€à€€à€€à€€à€€à€€2à€€à€€à€€Hé¿€à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT IDà€€à€€à€€à€€à€€ïŠTMEGA328Pèœ´ï˜œí‚€à€€à€€à€€à€€5à€€à€€à€€Èà€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT VALUEà€€à€€à€€à€€à€€ïŠTMEGA328Pèœ´ß¿Ð…à€€à€€à€€à€€1à€€à€€à€€0Aà€€à€€à€€à€€à€€à€€ ï€„efault Fontà€€SUBCKT NAMEà€€à€€à€€à€€à€€è¦‹{PACKAGE=SPDIL28}
+
+
+
+{MODDLL=AVR2.DLL}
+èœ´í‚€à³†à€€à€€à€€à€€0à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€PROPERTIESà€€à€€à€€à€€à€€0à€€à€€{PACKAGE=SPDIL28}
+{PRIMITIVE=DIGITAL,ATMEGA328P}
+{MODDLL=AVR2.DLL}
+{ITFMOD=AVR}
+{PROGRAM=D:\Arduino_Hex\_1_Blinking_LED.cpp.hex}
+{TRACE_DEFAULT=1}
+{CODEGEN=AVRASM2}
+{CLKDIV8=1}
+{CKOUT=1}
+{RSTDISBL=1}
+{WDTON=1}
+{BOOTRST=1}
+{CKSEL=15}
+{BOOTSZ=0}
+{CLOCK=16Mhz}
+{SUT=2}
+{MODDATA=1024,255}
+{DISASM_BIN=0}
+
+
+
+
+à€€
+ATMEGA328På•Ÿí‚€Ó¿à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€ï°»à€€ç¿€à€€fà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€í‚€à€€à€€à€€à€€à€€à€€à€€ï‚˜1è“®à€€Ó¿ï€€à€€à€€à€€2à€€à€€à€€Hí†€à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT IDà€€à€€à€€à€€à€€ï‡ƒRYSTALP~,à€€0Û¿ï€€à€€à€€à€€5à€€à€€à€€Ú€à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT VALUEà€€à€€à€€à€€à€€ï‡ƒRYSTALxÐ…à€€í‚€à€€à€€à€€à€€à€€1à€€à€€à€€0Aà€€à€€à€€à€€à€€à€€ ï€„efault Fontà€€SUBCKT NAMEà€€à€€à€€à€€à€€à³†MODFILE=CRYSTAL.MDF}
+{FREQ=1MHz}
+xí‚€à€€Ý»à€€à€€à€€à€€à€€0à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€PROPERTIESà€€à€€à€€à€€à€€4à€€à€€à€€{MODFILE=CRYSTAL.MDF}
+{FREQ=16MHz}
+{PACKAGE=XTAL18}
+à€€CRYSTALè‹«à€€èï¼¼à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€è€à€€ï°»à€€à€€ï‚ƒ1xí‚€Ý»í†€à€€à€€à€€à€€à€€à€€2à€€à€€à€€Híƒ¿à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT IDà€€à€€à€€à€€à€€ï„²2pFxíƒ¿è½„ï€€à€€à€€à€€5à€€à€€à€€é¿€à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT VALUEà€€à€€à€€à€€à€€ïƒƒAPxï¿¿xï¿¿à€€à€€à€€à€€à€€1à€€à€€à€€0Aà€€à€€à€€à€€à€€à€€ ï€„efault Fontà€€SUBCKT NAMEà€€à€€à€€à€€à€€Ø°PRIMITIVE=ANALOGUE,CAPACITOR}
+{PACKAGE=CAP10}
+
+xíƒ¿xíƒ¿à€€à€€à€€à€€à€€0à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€PROPERTIESà€€à€€à€€à€€à€€0à€€à€€à€€à€€CAPï¿¿8.ï¿¿è¸€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Í‡à€€çà€€à€€ï‚ƒ2à€€tEà€€èœˆï€€à€€à€€à€€à€€2à€€à€€à€€Hï¸‹à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT IDà€€à€€à€€à€€à€€ï„²2pFxíƒ¿è½Žï€€à€€à€€à€€5à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT VALUEà€€à€€à€€à€€à€€ïƒƒAPxï¿¿Xíƒ¿ï€€à€€à€€à€€1à€€à€€à€€0Aà€€à€€à€€à€€à€€à€€ ï€„efault Fontà€€SUBCKT NAMEà€€à€€à€€à€€à€€íƒ¿PRIMITIVE=ANALOGUE,CAPACITOR}
+{PACKAGE=CAP10}
+
+xÛ¿XÚ€ï€€à€€à€€à€€0à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€PROPERTIESà€€à€€à€€à€€à€€0à€€à€€à€€à€€CAPï¿¿ï¿¿à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€Aà€€à€€à€€è‹«à€€Ø°ç¿€à€€Ø­à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€Ó¿à€€Ø­à€€WIREà€€à€€à€€à€€Ó¿à€€èé£¼ à€€èé£¼ à€€Û¿è‹«à€€Û¿à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€ï¿¿à€€WIREà€€à€€à€€à€€è‹«à€€H×¿Û¿+à€€ï¿¿à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€Û¿à€€WIREà€€à€€à€€à€€å˜²à€€Û¿è‹«à€€íŽ€è‹«à€€8.ãfà€€à€€è€à€€íƒ¿à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€ãà€€ï¿¿à€€WIREà€€à€€à€€à€€ï¿¿à€€íŽ€Û¿(+ à€€Û¿íƒ¿(+ à€€8.ï¿¿è‹«à€€8.ï¿¿à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€íŽ€à€€íƒ¿à€€WIREà€€à€€à€€à€€è‹«à€€Níƒ¿è‹«à€€8.ï¿¿à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€ì°¿à€€WIREà€€à€€à€€à€€å˜²à€€8.íƒ¿è‹«à€€8.Ð”è’à€€å•Ÿï€€à€€à€€
+$TERGROUNDà€€ï€¨Ö¿è«¤ï€€à€€à€€à€€4à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€TERMINAL LABELà€€à€€à€€à€€à€€Ð…à€€è’à€€Ï¿çà€€Aà€€à³†à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€Ð”à€€ï¯»à€€WIREà€€à€€à€€à€€hÐ”8.ê¿è’à€€8.Ø­è’à€€Ó¿à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€êƒà€€ï¿¿à€€WIREà€€à€€à€€à€€hï¿¿Ä“è’à€€í—¿à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€à³†à€€Ø°à€€WIREà€€à€€à€€à€€è’à€€(×¿è’à€€×¿ï‚„1à¿¸ïˆï¸ªà€€à€€à€€à€€à€€2à€€à€€à€€Hí¿ à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT IDà€€à€€à€€à€€à€€ïˆŒED-BLUEHï˜–ê¿à€€à€€à€€à€€à€€5à€€à€€à€€Û¿à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT VALUEà€€à€€à€€à€€à€€ïˆŒED-BLUEÐ¶ï ³Î¿à€€à€€à€€à€€à€€1à€€à€€à€€0Aà€€à€€à€€à€€à€€à€€ ï€„efault Fontà€€SUBCKT NAMEà€€à€€à€€à€€à€€á¿ˆVF=2V}
+{IMAX=10mA}
+{BV=4V}
+{RS=3}
+{ROFF=100k}
+Ð…ï ³Î¿à€€à€€à€€à€€à€€0à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€PROPERTIESà€€à€€à€€à€€à€€Mà€€à€€à€€{MODFILE=LEDA}
+{VF=2V}
+{IMAX=10mA}
+{BV=4V}
+{RS=3}
+{ROFF=100k}
+{TLITMIN=0.1m}
+à€€LED-BLUExÐ¶á¿€ìº¿à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à³†à€€Ï…à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€Ð¶à€€á¿à€€WIREà€€à€€ï‚±3(ë¶¿à€€hÐ¶à€€à€€à€€à€€à€€à€€0à€€à€€à€€á¿à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€WIRE LABELà€€à€€à€€à€€à€€à€€ë¶¿à€€Nê¿hà€€Nì°¿hà€€äƒ€ï¿¿ï¿¿?è¿¸ê¿8.í‹¿à€€ï‚’1ê¿íƒ¿\?à€€à€€à€€à€€à€€2à€€à€€à€€Hê¿à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT IDà€€à€€à€€à€€à€€ïƒ±00à»ªÊ‰â¿€à€€à€€à€€à€€à€€5à€€à€€à€€ï¿¿à€€à€€à€€à€€à€€à€€ ï„efault Fontà€€COMPONENT VALUEà€€à€€à€€à€€à€€ïˆ’ESISTORï¿¿ê¿ì°¿à€€à€€à€€à€€à€€1à€€à€€à€€0Aà€€à€€à€€à€€à€€à€€ ï€„efault Fontà€€SUBCKT NAMEà€€à€€à€€à€€à€€ï•»PRIMITIVE=ANALOGUE}
+ê¿ì®¿á¿˜à€€à€€à€€à€€à€€0à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€PROPERTIESà€€à€€à€€à€€à€€à€€à€€à€€à€€RESISTORxí¿¸(ì¿€È‹à€€	à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€cà€€Ï…à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€íƒ¿à€€ë‡à€€WIREà€€à€€à€€à€€xï¿¿xï¿¿xÇ¿È‹xÍ‡íƒ¿ï€€à€€à€€
+$TERGROUNDà€€ï€ˆï¿¿ï€»ï¿¿à€€à€€à€€à€€4à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€TERMINAL LABELà€€à€€à€€à€€à€€cà€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€á¿¨à€€ì°¿à€€WIREà€€à€€à€€à€€xá¿¸(ë¬¿xÈ‹ë¬¿hÈ‹lä¿€à€€à€€à€€	$TERPOWERà€€ï€¸+íƒ¿,ï¿¿à€€à€€à€€à€€4à€€à€€à€€0Aà€€à€€à€€à€€à€€ ï„efault Fontà€€TERMINAL LABELà€€à€€à€€à€€à€€Ià€€ï¿¿é‚„È‹à€€Ià€€íƒ¿à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€í‹¿à€€â¿€à€€WIREà€€à€€à€€à€€å•ŸïˆÈˆê€ˆé‚Èªïˆ‹é‚„ì»ºà€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€ã à€€â·€à€€WIREà€€à€€à€€à€€hï¿¿ï¿¿hï¿¿ï¿¿ï¿¿è¿¸ï¿¿ï¿¿é‚„ï¿¿à€€à€€à€€à€€à€€à€€à€€à€€@à€€à€€ï¿¿à€€ï¿¿à€€WIREà€€à€€à€€à€€å•Ÿï˜­yï¿¿é‚„ï¿¿ xï¿¿Xoï¿¿à€€à€€à€€và€€à€€à€€nà€€à€€à€€"à€€à€€à€€à€€à€€à€€à€€à€€à€€ï¿¿ï¿¿ï¿¿à€€COMPONENTà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€
+à€€mà€€à€€Default Fontà€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€nà€€Arduinoå·¨ï¿¿à€€ï‰“IS CIRCUIT FILEà€€à€€à€€à€€ï¿¿Mà€€à€€OBJECT DATAà€€ï‚€CCT000à€€à€€ï¿¿à€€__DEFAULT__à€€à€€Aà€€à€€ROOT10à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€U1à€€à€€PB0/ICP1/CLKO/PCINT014PB1/OC1A/PCINT115PB3/MOSI/OC2A/PCINT317PB2/$SS$/OC1B/PCINT216PD6/AIN0/OC0A/PCINT2212PD5/T1/OC0B/PCINT2111PD4/T0/XCK/PCINT206PD3/INT1/OC2B/PCINT195PD2/INT0/PCINT184PD1/TXD/PCINT173PD0/RXD/PCINT162VCC7GND8/22PB4/MISO/PCINT418PB5/SCK/PCINT519PB7/TOSC2/XTAL2/PCINT710PB6/TOSC1/XTAL1/PCINT69PC6/$RESET$/PCINT141PC5/ADC5/SCL/PCINT1328PC4/ADC4/SDA/PCINT1227PC3/ADC3/PCINT1126PC2/ADC2/PCINT1025PC1/ADC1/PCINT924PC0/ADC0/PCINT823AVCC20AREF21PD7/AIN1/PCINT2313à€€à€€à€€ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿ï¿¿Ï‚ê™™é™™é¿šé™™ê™™é™™é¿„à·†à¾±à­€à¶¾ï°™à¦‡Ä§ë¿¤ï¿¿ï®€ï®€ï®€ï…€à€€à€€à€€X1à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€C1à€€à€€2211à€€à€€à€€à€€à€€à€€à€€à€€C2à€€à€€2211à€€à€€à€€à€€à€€à€€à€€à€€D1à€€à€€à€€à€€à€€à€€	à€€à€€à€€à€€R1à€€à€€à€€à€€à€€à€€à€€à€€CCT000__DEFAULT__à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€à€€__DEFAULT__à€€à€€à€€Qà€€à€€CRYSTAL.MDFà€€LISA MODEL DESCRIPTION FORMAT 6.1
+=================================
+Design:   K:\PROLIBS\DEVICE\CRYSTAL.DSN
+Doc. no.: <NONE>
+Revision: <NONE>
+Author:   <NONE>
+Created:  21-Mar-94
+Modified: 10/11/08
+
+*PROPERTIES,2    
+CS=0.05p
+RS=1
+
+*MODELDEFS,0    
+
+*PARTLIST,4    
+CP,CAPACITOR,140*<CS>,PRIMITIVE=ANALOGUE
+CS,CAPACITOR,<CS>,PRIMITIVE=ANALOGUE
+L,INDUCTOR,1/(39.48*<CS>*<FREQ>*<FREQ>),PRIMITIVE=ANALOGUE
+R,RES,<RS>,PRIMITIVE=PASSIVE,PRIMTYPE=RESISTOR
+
+*NETLIST,4    
+#00002,2
+CS,PS,2
+L,PS,1
+
+#00003,2
+L,PS,2
+R,PS,1
+
+1,3
+1,GT
+CS,PS,1
+CP,PS,1
+
+2,3
+2,GT
+R,PS,2
+CP,PS,2
+
+*GATES,0    
+
+à€€{à€€à€€ITFMOD.MDFà€€LISA MODEL DESCRIPTION FORMAT 5.0
+=================================
+Design:   K:\Prodev\Spice\ITFMOD.DSN
+Doc. no.: <NONE>
+Revision: <NONE>
+Author:   <NONE>
+Created:  18/03/98
+Modified: 23/06/05
+
+
+*MODELDEFS,18
+CMOS   : RHI=100,RLO=100,TRISE=1u,TFALL=1u,V+=VDD,V-=VSS
+NMOS   : RHI=100,RLO=10,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VCC,V-=GND
+TTL    : RHI=50, RLO=5,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,RPOS=5k,RNEG=20k,V+=VCC,V-=GND,FLOAT=HIGH
+TTLHC  : RHI=5,RLO=5, V+=VCC,V-=GND
+TTLHCT : RHI=5,RLO=5, V+=VCC,V-=GND
+TTLLS  : RHI=100, RLO=10,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,RPOS=12k,RNEG=50k, V+=VCC,V-=GND,FLOAT=HIGH
+TTLS   : RHI=25, RLO=2.5,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,RPOS=5k,RNEG=20k,TRISE=0.5n,TFALL=0.5n, V+=VCC,V-=GND,FLOAT=HIGH
+PLD    : RHI=20,RLO=20, V+=VCC,V-=GND,FLOAT=HIGH
+PIC    : RSHI=20, RSLO=20,RWHI=20k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VDD,V-=VSS,TRISE=10n,TFALL=10n
+PIC3V3 : RSHI=20, RSLO=20,RWHI=20k,VUD=2,VTL=0.8,VHL=0.1,VTH=1.5,VHH=0.1,V+=VDD,V-=VSS,TRISE=10n,TFALL=10n
+8051   : RHI=20, RLO=20,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,RPOS=5k,RNEG=20k,V+=VCC,V-=GND,FLOAT=HIGH,TRISE=10n,TFALL=10n
+AT89   : RHI=20, RLO=20,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,RPOS=5k,RNEG=20k,V+=VCC,V-=GND,FLOAT=HIGH,TRISE=10n,TFALL=10n
+HC11   : RHI=20, RLO=20,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VDD,V-=VSS,TRISE=10n,TFALL=10n
+AVR    : RSHI=20, RSLO=20,RWHI=100k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VCC,V-=GND,TRISE=10n,TFALL=10n
+MSP430 : RSHI=20, RSLO=20,RWHI=100k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VCC,V-=GND,TRISE=10n,TFALL=10n
+LPC2100: RSHI=20, RSLO=20,RWHI=100k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=V3,V-=VSS
+BSTAMP : RSHI=20, RSLO=20,RWHI=20k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VDD,V-=VSS,TRISE=10n,TFALL=10n
+RS232  : VLO=-8.5,VHI=8.5,RHI=300,RLO=300,VTL=1.2,VHL=0.5,VTH=1.7,VHH=0.5,RPOS=5k,RNEG=5k,V+=VCC,V-=GND,FLOAT=HIGH,TRISE=1u,TFALL=1u
+à€€ï®€à€€à€€LEDA.MDFà€€LISA MODEL DESCRIPTION FORMAT 6.1
+=================================
+Design:   K:\PROLIBS\ACTIVE\LEDA.DSN
+Doc. no.: <NONE>
+Revision: <NONE>
+Author:   <NONE>
+Created:  07/02/02
+Modified: 22/12/04
+
+*PROPERTIES,5    
+BV=3
+IMAX=10mA
+ROFF=100k
+RS=1
+VF=1.5
+
+*MODELDEFS,0    
+
+*PARTLIST,4    
+IP1,RTIPROBE,ACTIVE_IPROBE,MAX=<IMAX>,MIN=0,PRIMITIVE=ANALOG
+R1,RESISTOR,<RS>,PRIMITIVE=PASSIVE
+S1,VSWITCH,VSWITCH,PRIMITIVE=ANALOGUE,ROFF=<ROFF>*2,RON=<RS>/10,VOFF=0,VON=<VF>
+S2,VSWITCH,VSWITCH,PRIMITIVE=ANALOGUE,ROFF=<ROFF>*2,RON=<RS>/10,VOFF=0,VON=<BV>
+
+*NETLIST,4    
+#00002,5
+S1,PS,+
+S2,PS,N
+S2,PS,-
+S1,PS,P
+IP1,PS,-
+
+#00003,5
+S1,PS,-
+S2,PS,P
+S2,PS,+
+S1,PS,N
+R1,PS,2
+
+A,2
+A,GT
+IP1,PS,+
+
+K,2
+K,GT
+R1,PS,1
+
+*GATES,0    
+
+à€€à€€à€€à€€ï®€ï®€ï®€ï®€éšª?ï®€ï®€ï®€à€€à€€à€€à€€à€€à€€à€€à€€à€€@î­µï®€ï®€à€€à€€ï®€à€€à€€à€€à€€à€€ABSTOLà€€1e-12à€€à€€à€€à€€BADMOS3à€€Noà€€à€€à€€à€€BYPASSà€€Yesà€€à€€à€€à€€CHGTOLà€€1e-14à€€à€€à€€à€€DEFADà€€0à€€à€€à€€à€€DEFASà€€0à€€à€€à€€à€€DEFAULTSà€€0à€€à€€à€€à€€DEFLà€€0.0001à€€à€€à€€à€€DEFWà€€0.0001à€€à€€à€€à€€GMINà€€1e-12à€€à€€à€€à€€GMINSTEPSà€€120à€€	à€€à€€à€€ITL1à€€100à€€à€€à€€à€€ITL2à€€50à€€à€€à€€à€€ITL4à€€10à€€à€€à€€à€€LOGSTARTà€€0à€€à€€à€€à€€LOGTIMEà€€60à€€	à€€à€€à€€MAXORDà€€2à€€à€€à€€à€€METHODà€€GEARà€€à€€à€€à€€NOOPITERà€€Noà€€à€€à€€à€€NUMSTEPSà€€50à€€à€€à€€à€€OLDLIMITà€€Noà€€à€€à€€à€€PIVRELà€€0.001à€€à€€à€€à€€PIVTOLà€€1e-13à€€à€€à€€à€€RELTOLà€€0.001à€€à€€à€€à€€RSHUNTà€€1e+12à€€à€€à€€à€€SRCSTEPSà€€120à€€à€€à€€à€€TDLOWERà€€0.9à€€
+à€€à€€à€€TDSCALEà€€1à€€à€€à€€à€€TDUPPERà€€1.1à€€à€€à€€à€€TEMPà€€27à€€à€€à€€à€€TMINà€€1e-18à€€à€€à€€à€€TNOMà€€27à€€à€€à€€à€€TRACE_CONTENTIONSà€€1,0à€€à€€à€€à€€TRACE_CONVERGENCEà€€1,1à€€à€€à€€à€€TRACE_DCPATHSà€€1,2à€€à€€à€€à€€TRACE_ITFMODSà€€1,3à€€à€€à€€à€€TRACE_NETTYPESà€€1,4à€€à€€à€€à€€TRACE_OPTIONSà€€1,5à€€à€€à€€à€€TRACE_PERFORMANCEà€€1,6à€€à€€à€€à€€TRACE_SPICELINKà€€1,7à€€à€€à€€à€€TRANGMINà€€1e-09à€€à€€à€€à€€TRTOLà€€7à€€à€€à€€à€€TRYTOCOMPACTà€€Noà€€à€€à€€à€€TTOLà€€1e-09à€€à€€à€€à€€VNTOLà€€1e-06à€€à€€à€€à€€à€€à€€@à€€à€€à€€và€€ï®€ï®€xï ‰@ï®€à€€ï®€ï®€è¼—à€€à€€à€€à€€à€€à€€à€€à€€ï®€ï®€à€€à€€à€€à€€fà€€@à€€à€€à€€@à€€

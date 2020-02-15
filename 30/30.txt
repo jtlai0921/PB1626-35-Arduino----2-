@@ -1,0 +1,48 @@
+#include <Servo.h>   //伺服庫檔
+Servo myservo;//定義伺服名稱
+void setup(){
+    pinMode(4,OUTPUT);
+    pinMode(5,OUTPUT);
+    pinMode(6,OUTPUT);
+    pinMode(7,OUTPUT);//控制水幫浦的數位通信埠
+   
+    digitalWrite(6,LOW);
+    digitalWrite(4,LOW);
+    digitalWrite(5,LOW);
+    digitalWrite(7,LOW); 
+myservo.attach(10);//伺服連線到數位通信埠10
+    myservo.write(90);// 設定伺服的起始位置
+}
+
+void loop(){ 
+  int val1=analogRead(2);//第一個位置的土壤濕度值
+  int val2=analogRead(3);//第二個位置的土壤濕度值
+  int v_max=analogRead(4);//濕度閥值讀取  
+  if(val1<v_max){                      
+    myservo.write(180);             
+    delay(500);
+    digitalWrite(5,HIGH);
+    digitalWrite(6,HIGH);//當第一個位置的土壤濕度低於閥值時，設定伺服轉到該位置，進行澆水
+  }
+  else if(val2<v_max){
+    myservo.write(0);
+    delay(500);
+    digitalWrite(5,HIGH);
+digitalWrite(6,HIGH);//當第二個位置的土壤濕度低於閥值時，設定伺服轉到對應位置，進行澆水
+  }   
+  else {
+    myservo.write(90);
+    digitalWrite(5,LOW);
+    digitalWrite(6,LOW);//當土壤濕度滿足植物生長所需時，伺服回到初值，停止澆水
+  }}
+
+我們可以變更程式，來達到不同的澆水效果。例如澆水的時候可以設定成澆3s、停2s的迴圈，這樣可以避免一下子澆灌過多的水分。而程式只需做一個小小的改動。(val1<v_max){                      
+    myservo.write(180);             
+    delay(500);
+    digitalWrite(5,HIGH);
+digitalWrite(6,HIGH);           
+delay(3000);//當第一個位置的土壤濕度低於閥值時，設定伺服轉到該位置，進行澆水,持續3s
+digitalWrite(5,LOW);            
+digitalWrite(6,LOW);
+delay(2000);//停止澆水，2s之後繼續澆水
+  }

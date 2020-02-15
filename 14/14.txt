@@ -1,0 +1,53 @@
+Arduino Leonardo程式清單：
+#include <OneWire.h>
+#include <DallasTemperature.h>
+#define ONE_WIRE_BUS 2     //DS18B20接至Arduino數位介面2
+
+OneWire oneWire(ONE_WIRE_BUS);
+DallasTemperature sensors(&oneWire);
+
+byte comdata[3]={0};      //定義陣列資料，儲存序列埠指令資料
+void receive_data(void);    //接收序列埠資料
+void test_do_data(void);    //測試序列埠資料是否正確並執行指令
+
+void setup()
+{
+  Serial.begin(9600);      
+  // Start up the library
+  sensors.begin();
+}
+ 
+void loop()
+{
+  while (Serial.available() > 0)        //不斷檢驗序列埠是否有資料
+   {
+        receive_data();             //接受序列埠資料
+        test_do_data();             //測試資料是否正確並執行指令
+   }
+}
+
+void receive_data(void)       
+{
+   int i ;
+   for(i=0;i<3;i++)
+   {
+      comdata[i] =Serial.read();
+ //延遲時間一會，讓序列埠快取準備好下一個位元群組，不延遲時間可能會導致資料遺失
+      delay(2);
+   }
+}
+
+void test_do_data(void)      //測試並執行指令
+{
+  if(comdata[0] == 0x55)    //0x55和0xAA均為判斷是否為有效指令
+   {
+     if(comdata[1] == 0xAA)
+     {
+        if(comdata[2] == 0xff)
+          {   
+              sensors.requestTemperatures();               //讀取溫度資料
+              Serial.println(sensors.getTempCByIndex(0));    //序列埠傳送資料
+          }
+      }
+   }
+}

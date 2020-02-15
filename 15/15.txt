@@ -1,0 +1,66 @@
+#include <OneWire.h>
+#include <DallasTemperature.h>
+#define temperature_COMMAND  0x10//溫度擷取指令
+#define Ultrasonic_COMMAND  0x11//超音波測距指令           
+#define ONE_WIRE_BUS 4//DS18B20單匯流排的接腳
+OneWire oneWire(ONE_WIRE_BUS);
+DallasTemperature sensors(&oneWire);
+byte comdata[3]={0};//定義陣列資料，儲存序列埠指令資料
+const int Trig_Pin = 2; //超音波感應器觸發接腳
+const int Echo_Pin = 3; //超音波感應器輸出接腳
+float Ultrasonic_time; //超音波往返時間
+void receive_data(void); //接收序列埠資料
+void test_do_data(void); //測試序列埠資料是否正確，並更新資料
+void setup()
+{
+  Serial.begin(9600);      
+  sensors.begin();
+  pinMode(Trig_Pin, OUTPUT);
+  //要檢驗接腳上輸入的脈衝寬度，需要先設定為輸入狀態
+  pinMode(Echo_Pin, INPUT);
+} 
+void loop()
+{
+  while (Serial.available() > 0) //不斷檢驗序列埠是否有資料
+   {
+        receive_data();//接收序列埠資料
+        test_do_data();//測試資料是否正確並更新資料
+   }
+}
+void receive_data(void)       
+{
+   int i ;
+   for(i=0;i<3;i++)
+   {
+      comdata[i] =Serial.read();
+      //延遲時間一會，讓序列埠快取準備好下一個位元群組，不延遲時間可能會導致資料遺失，
+       delay(2);
+   }
+}
+void test_do_data(void)
+{
+  if(comdata[0] == 0x55) //0x55和0xAA均為判斷是否為有效指令
+   {
+     if(comdata[1] == 0xAA)
+     {
+          switch (comdata[2])
+          {
+            case temperature_COMMAND: //擷取溫度
+            sensors.requestTemperatures(); 
+            Serial.print(sensors.getTempCByIndex(0));  
+            break;
+            case Ultrasonic_COMMAND://超音波測距
+            digitalWrite(Trig_Pin, LOW);
+            delayMicroseconds(2);
+            digitalWrite(Trig_Pin, HIGH);
+            delayMicroseconds(10);
+            digitalWrite(Trig_Pin, LOW);
+            // 檢驗脈衝寬度，平行送至上位機
+            Ultrasonic_time = pulseIn(Echo_Pin, HIGH); 
+            Serial.println(Ultrasonic_time);  
+            break ;
+          }
+      }
+   }
+}
+

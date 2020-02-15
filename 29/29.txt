@@ -1,0 +1,77 @@
+程式：
+功能定義：實現從上位機軟體選取濕度感應器(濕度感應器或碳棒)和澆水形式(潛水幫浦或電池閥)，同時傳回土壤濕度、室內溫度、濕度到上位機上顯示。#include <sunflower.h>  //我們提供的庫函數
+#define MoistureSensor 3 //濕度感應器埠3-7
+sunflower flower;
+
+void setup(){
+  Serial.begin(115200);//串列傳輸速率115200
+  flower.Initialization();//起始化主控制器，預設選取濕度感應器和水幫浦
+}
+void loop(){
+  flower.SerialSet(MoistureSensor);//檢驗上位機修改參數指令,讀取土壤濕度值
+  flower.process();//室內溫度、濕度檢驗
+  flower.Potentiometer();澆水設定值讀取
+  flower.print();//輸出室內溫度、土壤濕度、室內濕度、土壤濕度閥值、感應器和磁碟機參數
+  delay(500);}
+
+
+程式設計原理：讓控制器迴圈採集每個濕度傳感的值和預置閥值比較，若果某個感應器低於閥值，那麼就控制伺服轉到相對的角度，然後在開啟水幫浦進行澆水。
+程式：#include <Servo.h> 
+#include <sunflower.h>
+#include <avr/wdt.h>
+sunflower flower;
+Servo myservo;
+int val1,val2;
+  float pig1,pig2,pig3,pig4,pig5;
+void setup(){
+  Serial.begin(115200);
+  wdt_enable(WDTO_4S);
+ flower.Initialization(); 
+   myservo.attach(9); 
+   myservo.write(36);
+   delay(100);}
+void loop(){
+  val1=0,val2=0;
+  pig1=0,pig2=0,pig3=0,pig4=0,pig5=0;
+  delay(100);
+  val2=flower.process();//室溫值
+   pig1=flower.moisture(3);//濕度1
+   pig2=flower.moisture(4);//濕度1
+   pig3=flower.moisture(5);//濕度1
+   pig4=flower.moisture(6);//濕度1
+   pig5=flower.moisture(7);//濕度1
+   val1=flower.Potentiometer();//澆水設定值
+  // val2=flower.process();(val2<35){(pig1<val1){
+       myservo.write(36);//伺服角度，使用者根據實際情況設定10-170     
+       delay(500);
+       flower.pump();//開啟水幫浦澆水
+   }
+   else if(pig2<val1){
+       myservo.write(72);//伺服角度，使用者根據實際情況設定10-170  
+       delay(500);
+       flower.pump();}
+   else if(pig3<val1){
+       myservo.write(108);//伺服角度，使用者根據實際情況設定10-170  
+       delay(500);
+       flower.pump();}
+   else if(pig4<val1){
+       myservo.write(144);//伺服角度，使用者根據實際情況設定10-170  
+       delay(500);
+       flower.pump();}
+   else if(pig5<val1){
+       myservo.write(170);//伺服角度，使用者根據實際情況設定10-170  
+       delay(500);
+       flower.pump();}(pig1>50&&pig2>50&&pig3>50&&pig4>50&&pig5>50) flower.offpump();//關閉水幫浦
+      flower.print();  
+      Serial.print(pig1);
+      Serial.print(","); 
+      Serial.print(pig2);
+      Serial.print(","); 
+      Serial.print(pig3);
+      Serial.print(","); 
+      Serial.print(pig4);
+      Serial.print(","); 
+      Serial.println(pig5);
+   delay(500);}
+   wdt_reset();//看門狗重定，防止意外當機
+}
